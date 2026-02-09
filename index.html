@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Finder</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <h1>Select a Recipe</h1>
+
+  <!-- Main Category -->
+  <select id="mainCategory">
+    <option value="">Select Category</option>
+  </select>
+
+  <!-- Sub Category -->
+  <select id="subCategory" disabled>
+    <option value="">Select Sub-Category</option>
+  </select>
+
+  <!-- Recipe -->
+  <select id="recipe" disabled>
+    <option value="">Select Recipe</option>
+  </select>
+
+  <script>
+    fetch("recipes.json")
+      .then(res => res.json())
+      .then(data => init(data));
+
+    function init(data) {
+      const main = document.getElementById("mainCategory");
+      const sub = document.getElementById("subCategory");
+      const recipe = document.getElementById("recipe");
+
+      Object.keys(data).forEach(cat => {
+        main.add(new Option(cat, cat));
+      });
+
+      main.addEventListener("change", () => {
+        sub.innerHTML = "<option value=''>Select Sub-Category</option>";
+        recipe.innerHTML = "<option value=''>Select Recipe</option>";
+        recipe.disabled = true;
+
+        if (!main.value) {
+          sub.disabled = true;
+          return;
+        }
+
+        Object.keys(data[main.value]).forEach(subCat => {
+          sub.add(new Option(subCat, subCat));
+        });
+
+        sub.disabled = false;
+      });
+
+      sub.addEventListener("change", () => {
+        recipe.innerHTML = "<option value=''>Select Recipe</option>";
+
+        if (!sub.value) {
+          recipe.disabled = true;
+          return;
+        }
+
+        data[main.value][sub.value].forEach(r => {
+          recipe.add(new Option(r.name, r.url));
+        });
+
+        recipe.disabled = false;
+      });
+
+      recipe.addEventListener("change", () => {
+        if (recipe.value) {
+          window.location.href = recipe.value;
+        }
+      });
+    }
+  </script>
+
+</body>
+</html>

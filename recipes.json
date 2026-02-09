@@ -1,0 +1,16 @@
+{
+  "Dinner": {
+    "Pasta": [
+      { "name": "Chicken Alfredo", "url": "/recipes/chicken-alfredo.html" },
+      { "name": "Spaghetti Bolognese", "url": "/recipes/spaghetti-bolognese.html" }
+    ],
+    "Beef": [
+      { "name": "Beef Stew", "url": "/recipes/beef-stew.html" }
+    ]
+  },
+  "Breakfast": {
+    "Griddle": [
+      { "name": "Pancakes", "url": "/recipes/pancakes.html" }
+    ]
+  }
+}
