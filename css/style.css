@@ -1,0 +1,19 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+  padding: 40px;
+  background: #f7f7f7;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  font-size: 22px;
+  padding: 14px;
+  margin-bottom: 20px;
+}
