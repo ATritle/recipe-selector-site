@@ -1,19 +1,20 @@
 {
   "Dinner": {
     "Pasta": [
-      { "name": "Chicken Alfredo", "url": "recipe-selector-site/recipes/chicken-alfredo.html" },
-      { "name": "Spaghetti Bolognese", "url": "recipe-selector-site/recipes/spaghetti-bolognese.html" }
+      { "name": "Chicken Alfredo", "url": "/recipe-selector-site/recipes/chicken-alfredo.html" },
+      { "name": "Spaghetti Bolognese", "url": "/recipe-selector-site/recipes/spaghetti-bolognese.html" }
     ],
     "Beef": [
-      { "name": "Beef Stew", "url": "/recipes/beef-stew.html" },
-      { "name": "Bacon Cheeseburger Tatortot Casserole", "url": "recipe-selector-site/pdfs/bacon-cheeseburger-tator-tot-casserole.pdf" }
+      { "name": "Beef Stew", "url": "/recipe-selector-site/beef-stew.html" },
+      { "name": "Bacon Cheeseburger Tatortot Casserole", "url": "/recipe-selector-site/pdfs/bacon-cheeseburger-tator-tot-casserole.pdf" }
     ]
   },
   "Breakfast": {
     "Griddle": [
-      { "name": "Pancakes", "url": "recipe-selector-site/recipes/pancakes.html" }
+      { "name": "Pancakes", "url": "/recipe-selector-site/recipes/pancakes.html" }
     ]
   }
 }
+
 
 
