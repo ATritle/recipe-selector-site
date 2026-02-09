@@ -6,6 +6,7 @@
     ],
     "Beef": [
       { "name": "Beef Stew", "url": "/recipes/beef-stew.html" }
+      { "name": "Bacon Cheeseburger Tatortot Casserole", "url": "/recipes/bacon-cheeseburger-tator-tot-casserole.pdf" }
     ]
   },
   "Breakfast": {
@@ -14,3 +15,4 @@
     ]
   }
 }
+
