@@ -58,7 +58,6 @@ select,
     0 2px 6px rgba(0, 0, 0, 0.6);
 }
 
-
 /* ===== Dropdowns ===== */
 select {
   display: block;
@@ -114,6 +113,16 @@ select:focus {
   color: #9a9a9a;
 }
 
+.app-description {
+  max-width: 600px;
+  margin: 20px auto 10px;
+
+  font-size: 18px;
+  line-height: 1.6;
+
+  color: #bdbdbd; /* softer than pure white */
+  text-align: center;
+}
 
 /* Search focus */
 #recipeSearch:focus {
@@ -144,6 +153,7 @@ select:focus {
   background: #2a2a2a;
   cursor: pointer;
 }
+
 
 
 
