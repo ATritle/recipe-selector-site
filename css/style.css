@@ -52,6 +52,8 @@ select,
   font-size: 34px;
   margin-bottom: 30px;
 
+  text-align: center;
+  
   color: #e8f1ff; /* soft off-white */
 
   text-shadow:
@@ -163,6 +165,7 @@ select:focus {
   background: #2a2a2a;
   cursor: pointer;
 }
+
 
 
 
