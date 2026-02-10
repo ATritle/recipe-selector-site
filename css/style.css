@@ -116,13 +116,23 @@ select:focus {
 .app-description {
   max-width: 600px;
   margin: 20px auto 10px;
-
-  font-size: 18px;
-  line-height: 1.6;
-
-  color: #bdbdbd; /* softer than pure white */
   text-align: center;
 }
+
+.app-description p {
+  font-size: 18px;
+  line-height: 1.6;
+  font-style: italic;
+
+  color: #cfcfcf;
+  margin: 6px 0;
+}
+
+.app-description {
+  border-top: 1px solid #2a2a2a;
+  padding-top: 15px;
+}
+
 
 /* Search focus */
 #recipeSearch:focus {
@@ -153,6 +163,7 @@ select:focus {
   background: #2a2a2a;
   cursor: pointer;
 }
+
 
 
 
