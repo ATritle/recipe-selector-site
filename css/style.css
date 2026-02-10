@@ -11,6 +11,7 @@ body {
   padding-top: 30px;
   padding-bottom: 20px;
   min-height: 260px;
+
   background-image: url("/recipe-selector-site/images/recipes-home.png");
   background-size: cover;
   background-position: center top;
@@ -18,8 +19,6 @@ body {
 
   border-radius: 20px;
   margin-bottom: 15px;
-
-  /* Dark overlay for readability */
   position: relative;
 }
 
@@ -31,7 +30,6 @@ body {
   border-radius: 20px;
   z-index: 0;
 } */
-
 
 /* Ensure content sits above overlay */
 .hero > * {
@@ -123,6 +121,7 @@ select:focus {
   background: #2a2a2a;
   cursor: pointer;
 }
+
 
 
 
