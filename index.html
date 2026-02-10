@@ -42,15 +42,13 @@
     placeholder="Search recipes..."
     autocomplete="off"
   />
+  <ul id="searchResults"></ul>
   
 <div class="app-description">
   <p>Choose a category, select a recipe, or use search to quickly find what you want to cook.</p>
   <p>Built for tablet use in the kitchen, with simple navigation and easy-to-read layouts.</p>
   <p>Soon to come: Weekly Meal Planning template!</p>
 </div>
-
-  <ul id="searchResults"></ul>
-
 
   <script>
     fetch("recipes.json")
@@ -158,6 +156,7 @@ recipe.addEventListener("change", () => {
 
 </body>
 </html>
+
 
 
 
