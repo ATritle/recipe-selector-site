@@ -104,11 +104,11 @@ document.getElementById("recipeSearch").value = "";
         recipe.disabled = false;
       });
 
-      recipe.addEventListener("change", () => {
-        if (recipe.value) {
-          window.open(recipe.value, "_blank");
-        }
-      });
+recipe.addEventListener("change", () => {
+  if (recipe.value) {
+    window.location.href = recipe.value;
+  }
+});
 
             setupSearch(data);
 
@@ -147,6 +147,7 @@ document.getElementById("recipeSearch").value = "";
 
 </body>
 </html>
+
 
 
 
