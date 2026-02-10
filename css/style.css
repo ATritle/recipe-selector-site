@@ -47,12 +47,17 @@ select,
   z-index: 1;
 }
 
-/* Headings */
-h1 {
-  font-size: 32px;
+/* Hero title styling */
+.hero h1 {
+  font-size: 34px;
   margin-bottom: 30px;
-  color: #ffffff;
+
+  color: #e8f1ff; /* soft off-white */
+
+  text-shadow:
+    0 2px 6px rgba(0, 0, 0, 0.6);
 }
+
 
 /* ===== Dropdowns ===== */
 select {
@@ -131,6 +136,7 @@ select:focus {
   background: #2a2a2a;
   cursor: pointer;
 }
+
 
 
 
