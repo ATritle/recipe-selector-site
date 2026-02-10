@@ -150,9 +150,15 @@ recipe.addEventListener("change", () => {
     }
 
   </script>
+<script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("/recipe-selector-site/service-worker.js");
+  }
+</script>
 
 </body>
 </html>
+
 
 
 
