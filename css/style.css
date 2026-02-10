@@ -5,12 +5,21 @@ body {
   background: #0f0f0f;          /* Dark background */
   color: #f2f2f2;               /* Light text */
 }
+.hero,
+select,
+#recipeSearch,
+#searchResults {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Hero background image section */
 .hero {
   max-width: 700px;
   padding-top: 30px;
   padding-bottom: 20px;
   min-height: 260px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
 
   background-image: url("/recipe-selector-site/images/recipes-home.png");
   background-size: cover;
@@ -22,14 +31,15 @@ body {
   position: relative;
 }
 
-/* .hero::before {
+
+.hero::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.55);
   border-radius: 20px;
   z-index: 0;
-} */
+}
 
 /* Ensure content sits above overlay */
 .hero > * {
@@ -121,6 +131,7 @@ select:focus {
   background: #2a2a2a;
   cursor: pointer;
 }
+
 
 
 
