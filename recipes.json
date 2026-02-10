@@ -22,25 +22,28 @@
    ]
   },
   "Dinner": {
-      "American": [
+      "American Meals": [
       { "name": "Bacon Cheeseburger Tatortot Casserole", "url": "/recipe-selector-site/recipes/bacon-cheeseburger-tatortot-casserole.html" },
-      { "name": "French Onion Soup", "url": "/recipe-selector-site/recipes/french-onion-soup.html" },
-      { "name": "Potato Soup", "url": "/recipe-selector-site/recipes/potato-soup.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
-      "Asian": [
+      "Asian Meals": [
       { "name": "Korean Beef", "url": "/recipe-selector-site/recipes/korean-beef.html" },
       { "name": "Thai Chicken Lettuce Wrap", "url": "/recipe-selector-site/recipes/thai-chicken-lettuce-wrap.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
-      "Italian": [
+      "Italian Meals": [
       { "name": "Lasagna", "url": "/recipe-selector-site/recipes/lasagna.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+    ],
+      "Soups": [
       { "name": "Lasagna Soup", "url": "/recipe-selector-site/recipes/lasagna-soup.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "French Onion Soup", "url": "/recipe-selector-site/recipes/french-onion-soup.html" },
+      { "name": "Potato Soup", "url": "/recipe-selector-site/recipes/potato-soup.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
       "Mediterranean": [
@@ -63,7 +66,6 @@
     ]
   }
 }
-
 
 
 
