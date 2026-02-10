@@ -14,57 +14,56 @@
   "Drinks": {
       "Alcoholic": [
       { "name": "Apple Cider Honey Whiskey", "url": "/recipe-selector-site/recipes/apple-cider-honey-whiskey.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" }
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
       "Non-Alcoholic": [
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" }
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
    ]
   },
   "Dinner": {
       "American": [
-      { "name": "Bacon Cheeseburger Tatortot Casserole", "url": "/recipe-selector-site/pdfs/bacon-cheeseburger-tator-tot-casserole.pdf" },
+      { "name": "Bacon Cheeseburger Tatortot Casserole", "url": "/recipe-selector-site/recipes/bacon-cheeseburger-tator-tot-casserole.html" },
       { "name": "French Onion Soup", "url": "/recipe-selector-site/recipes/french-onion-soup.html" },
       { "name": "Potato Soup", "url": "/recipe-selector-site/recipes/potato-soup.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" }
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
       "Asian": [
       { "name": "Korean Beef", "url": "/recipe-selector-site/recipes/korean-beef.html" },
       { "name": "Thai Chicken Lettuce Wrap", "url": "/recipe-selector-site/recipes/thai-chicken-lettuce-wrap.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" }
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
       "Italian": [
-      { "name": "Lasagna", "url": "/recipe-selector-site/pdfs/lasagna.pdf" },
-      { "name": "Lasagna Soup", "url": "/recipe-selector-site/pdfs/lasagna-soup.pdf" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" }
+      { "name": "Lasagna", "url": "/recipe-selector-site/recipes/lasagna.html" },
+      { "name": "Lasagna Soup", "url": "/recipe-selector-site/recipes/lasagna-soup.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
       "Mediterranean": [
-      { "name": "Chicken Gyro Bowl", "url": "/recipe-selector-site/pdfs/chicken-gyro-bowl.pdf" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" }
+      { "name": "Chicken Gyro Bowl", "url": "/recipe-selector-site/recipes/chicken-gyro-bowl.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ]
   },
   "Breakfast": {
       "Skillet": [
       { "name": "Dutch Baby", "url": "/recipe-selector-site/recipes/dutch-baby-regular.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" }
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
       "Casserole": [
-      { "name": "Sausage Egg Bake", "url": "/recipe-selector-site/pdfs/sausage-egg-bake.pdf" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" }
+      { "name": "Sausage Egg Bake", "url": "/recipe-selector-site/recipes/sausage-egg-bake.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ]
   }
 }
+
 
 
 
