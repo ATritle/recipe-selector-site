@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Name</title>
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #0f0f0f;
+      color: #f2f2f2;
+
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    /* Title */
+    .recipe-title {
+      text-align: center;
+      font-size: 28px;
+      letter-spacing: 6px;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      color: #e8f1ff;
+
+      text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+    }
+
+    /* Horizontal rule under title */
+    .title-rule {
+      border: none;
+      border-top: 2px solid #444;
+      margin: 10px 0 30px;
+    }
+
+    /* Two-column layout */
+    .recipe-content {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      column-gap: 40px;
+      position: relative;
+    }
+
+    /* Vertical divider */
+    .recipe-content::before {
+      content: "";
+      position: absolute;
+      left: calc(33.33% + 20px);
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      background: #444;
+    }
+
+    /* Section headers */
+    h2 {
+      font-style: italic;
+      font-size: 18px;
+      margin-bottom: 12px;
+      color: #cfcfcf;
+    }
+
+    /* Ingredients list */
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      font-size: 16px;
+      line-height: 1.6;
+      color: #e0e0e0;
+    }
+
+    ul li {
+      margin-bottom: 6px;
+    }
+
+    /* Directions list */
+    ol {
+      padding-left: 22px;
+      margin: 0;
+
+      font-size: 16px;
+      line-height: 1.6;
+      color: #e0e0e0;
+    }
+
+    ol li {
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="recipe-title">
+    Buffalo Chicken Dip
+  </div>
+
+  <hr class="title-rule">
+
+  <div class="recipe-content">
+
+    <!-- Ingredients -->
+    <section>
+      <h2>Ingredients:</h2>
+      <ul>
+        <li>2 large Cans of Chicken</li>
+        <li>1 cup Ranch</li>
+        <li>3/4 cup Buffalo Sauce</li>
+        <li>2 8 oz Cream Cheese</li>
+        <li>8 oz Shredded Cheddar Cheese</li>
+      </ul>
+    </section>
+
+    <!-- Directions -->
+    <section>
+      <h2>Directions:</h2>
+      <ol>
+        <li>Drain juice out of cans of chicken.</li>
+        <li>Dump all ingredients into a crockpot on high stirring occasionally until cream cheese is melted.</li>
+        <li>Reduce heat to warm and serve with tortilla chips.</li>
+      </ol>
+    </section>
+
+  </div>
+
+</body>
+</html>
