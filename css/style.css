@@ -10,7 +10,8 @@ body {
   max-width: 700px;
   padding-top: 30px;
   padding-bottom: 20px;
-  background-image: url("/images/recipes-home.png");
+  min-height: 260px;
+  background-image: url("/recipe-selector-site/images/recipes-home.png");
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
