@@ -54,38 +54,50 @@
       const sub = document.getElementById("subCategory");
       const recipe = document.getElementById("recipe");
 
-      Object.keys(data).forEach(cat => {
-        main.add(new Option(cat, cat));
-      });
+Object.keys(data)
+  .sort((a, b) => a.localeCompare(b))
+  .forEach(cat => {
+    main.add(new Option(cat, cat));
+  });
+
 
       main.addEventListener("change", () => {
+        document.getElementById("searchResults").innerHTML = "";
+document.getElementById("recipeSearch").value = "";
         sub.innerHTML = "<option value=''>Select Sub-Category</option>";
         recipe.innerHTML = "<option value=''>Select Recipe</option>";
         recipe.disabled = true;
-
         if (!main.value) {
           sub.disabled = true;
           return;
         }
 
-        Object.keys(data[main.value]).forEach(subCat => {
-          sub.add(new Option(subCat, subCat));
-        });
+        Object.keys(data[main.value])
+  .sort((a, b) => a.localeCompare(b))
+  .forEach(subCat => {
+    sub.add(new Option(subCat, subCat));
+  });
+
 
         sub.disabled = false;
       });
 
       sub.addEventListener("change", () => {
+        document.getElementById("searchResults").innerHTML = "";
+document.getElementById("recipeSearch").value = "";
         recipe.innerHTML = "<option value=''>Select Recipe</option>";
-
         if (!sub.value) {
           recipe.disabled = true;
           return;
         }
 
-        data[main.value][sub.value].forEach(r => {
-          recipe.add(new Option(r.name, r.url));
-        });
+       data[main.value][sub.value]
+  .slice()
+  .sort((a, b) => a.name.localeCompare(b.name))
+  .forEach(r => {
+    recipe.add(new Option(r.name, r.url));
+  });
+
 
         recipe.disabled = false;
       });
@@ -133,6 +145,7 @@
 
 </body>
 </html>
+
 
 
 
