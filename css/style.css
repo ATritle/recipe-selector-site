@@ -167,10 +167,21 @@ select:focus {
   cursor: pointer;
 }
 
+/* Fade description text when searching */
+#recipeSearch:not(:placeholder-shown) ~ .app-description {
+  opacity: 0.4;
+}
+
+.app-description {
+  transition: opacity 0.2s ease;
+}
+
+
 /* Recipe Image */
 .recipe-image {
   max-width: 50px;
 }
+
 
 
 
