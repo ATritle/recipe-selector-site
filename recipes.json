@@ -12,13 +12,13 @@
   "Dinner": {
       "American": [
       { "name": "Bacon Cheeseburger Tatortot Casserole", "url": "/recipe-selector-site/pdfs/bacon-cheeseburger-tator-tot-casserole.pdf" },
-      { "name": "French Onion Soup", "url": "/recipe-selector-site/pdfs/french-onion-soup.pdf" },
+      { "name": "French Onion Soup", "url": "/recipe-selector-site/recipes/french-onion-soup.html" },
       { "name": "Potato Soup", "url": "/recipe-selector-site/pdfs/potato-soup.pdf" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" }
     ],
       "Asian": [
-      { "name": "Korean Beef", "url": "/recipe-selector-site/pdfs/korean-beef.pdf" },
+      { "name": "Korean Beef", "url": "/recipe-selector-site/recipes/korean-beef.html" },
       { "name": "Thai Chicken Lettuce Wrap", "url": "/recipe-selector-site/pdfs/thai-chicken-lettuce-wrap.pdf" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" },
@@ -53,6 +53,7 @@
     ]
   }
 }
+
 
 
 
