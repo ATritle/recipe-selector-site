@@ -17,3 +17,6 @@ select {
   padding: 14px;
   margin-bottom: 20px;
 }
+#searchResults {
+  margin-top: 10px;
+}
