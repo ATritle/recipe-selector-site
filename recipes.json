@@ -36,15 +36,11 @@
     "Griddle": [
       { "name": "Dutch Baby", "url": "/recipe-selector-site/pdfs/dutch-baby.pdf" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" }
     ],
     "Casserole": [
       { "name": "Sausage Egg Bake", "url": "/recipe-selector-site/pdfs/sausage-egg-bake.pdf" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/pdfs/RECIPE-GOES-HERE.pdf" }
     ]
-  },
+  }
 }
-
-
-
-
