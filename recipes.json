@@ -23,7 +23,7 @@
   },
   "Dinner": {
       "American": [
-      { "name": "Bacon Cheeseburger Tatortot Casserole", "url": "/recipe-selector-site/recipes/bacon-cheeseburger-tator-tot-casserole.html" },
+      { "name": "Bacon Cheeseburger Tatortot Casserole", "url": "/recipe-selector-site/recipes/bacon-cheeseburger-tatortot-casserole.html" },
       { "name": "French Onion Soup", "url": "/recipe-selector-site/recipes/french-onion-soup.html" },
       { "name": "Potato Soup", "url": "/recipe-selector-site/recipes/potato-soup.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
@@ -63,6 +63,7 @@
     ]
   }
 }
+
 
 
 
