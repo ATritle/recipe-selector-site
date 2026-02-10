@@ -10,13 +10,13 @@ body {
   max-width: 700px;
   padding-top: 30px;
   padding-bottom: 20px;
-  background-image: url("/images/recipe-hero.jpg");
+  background-image: url("/images/recipe-home.jpg");
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
 
   border-radius: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 
   /* Dark overlay for readability */
   position: relative;
@@ -121,4 +121,5 @@ select:focus {
   background: #2a2a2a;
   cursor: pointer;
 }
+
 
