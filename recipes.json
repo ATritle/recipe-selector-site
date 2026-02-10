@@ -1,4 +1,16 @@
 {
+    "Dips/Sauces": {
+      "Dips": [
+      { "name": "Bagel Dip", "url": "/recipe-selector-site/recipes/bagel-dip.html" },
+      { "name": "Bacon Dip", "url": "/recipe-selector-site/recipes/bacon-dip.html" },
+      { "name": "Buffalo Chicken Dip", "url": "/recipe-selector-site/recipes/buffalo-chicken-dip.html" },
+      { "name": "White Queso", "url": "/recipe-selector-site/recipes/white-queso.html" }
+    ],
+      "Sauces": [
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+   ]
+  },
   "Drinks": {
       "Alcoholic": [
       { "name": "Apple Cider Honey Whiskey", "url": "/recipe-selector-site/recipes/apple-cider-honey-whiskey.html" },
@@ -53,6 +65,7 @@
     ]
   }
 }
+
 
 
 
