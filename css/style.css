@@ -167,6 +167,11 @@ select:focus {
   cursor: pointer;
 }
 
+/* Recipe Image */
+.recipe-image {
+  max-width: 600px;
+}
+
 
 
 
