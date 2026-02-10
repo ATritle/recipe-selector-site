@@ -4,25 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Recipe Name</title>
-  <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
 
-  <h1>Chicken Alfredo</h1>
+  <style>
+    body {
+      font-family: Georgia, "Times New Roman", serif;
+      background: #ffffff;
+      color: #000000;
 
-  <h2>Ingredients</h2>
-  <ul>
-    <li>Chicken breast</li>
-    <li>Heavy cream</li>
-    <li>Parmesan</li>
-  </ul>
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
 
-  <h2>Instructions</h2>
-  <ol>
-    <li>Cook chicken.</li>
-    <li>Make sauce.</li>
-    <li>Combine and serve.</li>
-  </ol>
+    /* Title */
+    .recipe-title {
+      text-align: center;
+      font-size: 28px;
+      letter-spacing: 6px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
 
-</body>
-</html>
+    /* Horizontal line under title */
+    .title-rule {
+      border: none;
+      border-top: 2px solid #000;
+      margin: 10px 0 30px;
+    }
+
+    /* Two-column layout */
+    .recipe-content {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      column-gap: 40px;
+      position: relative;
+    }
+
+    /* Vertical div*
