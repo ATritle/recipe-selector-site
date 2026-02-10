@@ -10,7 +10,7 @@ body {
   max-width: 700px;
   padding-top: 30px;
   padding-bottom: 20px;
-  background-image: url("/images/recipes-home.jpg");
+  background-image: url("/images/recipes-home.png");
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -121,6 +121,7 @@ select:focus {
   background: #2a2a2a;
   cursor: pointer;
 }
+
 
 
 
