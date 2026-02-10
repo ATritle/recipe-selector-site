@@ -1,46 +1,73 @@
+/* ===== Base Dark Theme ===== */
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont;
   padding: 40px;
-  background: #f7f7f7;
+  background: #0f0f0f;          /* Dark background */
+  color: #f2f2f2;               /* Light text */
 }
 
+/* Headings */
 h1 {
   font-size: 32px;
   margin-bottom: 30px;
+  color: #ffffff;
 }
 
+/* ===== Dropdowns ===== */
 select {
   display: block;
   width: 100%;
   max-width: 600px;
+
   font-size: 22px;
-  padding: 14px;
+  padding: 16px;
   margin-bottom: 20px;
+
+  background: #1e1e1e;
+  color: #ffffff;
+
+  border: 2px solid #333;
+  border-radius: 12px;
+
+  outline: none;
 }
 
-/* iPad-friendly Recipe Search */
+/* iOS focus style */
+select:focus {
+  border-color: #0a84ff;
+  box-shadow: 0 0 0 4px rgba(10, 132, 255, 0.35);
+}
+
+/* ===== Search Bar ===== */
 #recipeSearch {
   width: 100%;
   max-width: 600px;
 
-  font-size: 26px;          /* Bigger text */
-  padding: 18px 20px;       /* Taller tap area */
+  font-size: 26px;
+  padding: 20px;
   margin-top: 30px;
 
-  border: 2px solid #bbb;
-  border-radius: 14px;
+  background: #1e1e1e;
+  color: #ffffff;
+
+  border: 2px solid #333;
+  border-radius: 16px;
 
   outline: none;
   box-sizing: border-box;
 }
 
-/* Strong focus state (very helpful on iPad) */
-#recipeSearch:focus {
-  border-color: #007aff;    /* iOS blue */
-  box-shadow: 0 0 0 4px rgba(0, 122, 255, 0.2);
+#recipeSearch::placeholder {
+  color: #9a9a9a;
 }
 
-/* Search results spacing */
+/* Search focus */
+#recipeSearch:focus {
+  border-color: #0a84ff;
+  box-shadow: 0 0 0 4px rgba(10, 132, 255, 0.35);
+}
+
+/* ===== Search Results ===== */
 #searchResults {
   list-style: none;
   padding: 0;
@@ -48,23 +75,18 @@ select {
   max-width: 600px;
 }
 
-/* Each result = big tap target */
 #searchResults li {
-  padding: 18px;
+  padding: 20px;
   font-size: 22px;
 
-  border-bottom: 1px solid #ddd;
+  background: #1a1a1a;
+  color: #ffffff;
+
+  border-bottom: 1px solid #2a2a2a;
 }
 
-/* Tap feedback */
+/* Hover / tap feedback */
 #searchResults li:hover {
-  background: #f2f2f2;
+  background: #2a2a2a;
   cursor: pointer;
-}
-
-@media (hover: hover) {
-  #searchResults li:hover {
-    background: #f2f2f2;
-    cursor: pointer;
-  }
 }
