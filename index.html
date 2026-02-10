@@ -32,6 +32,17 @@
   <select id="recipe" disabled>
     <option value="">Select Recipe</option>
   </select>
+  
+    <!-- Recipe Search -->
+  <input
+    type="search"
+    id="recipeSearch"
+    placeholder="Search recipes..."
+    autocomplete="off"
+  />
+
+  <ul id="searchResults"></ul>
+
 
   <script>
     fetch("recipes.json")
@@ -81,14 +92,48 @@
 
       recipe.addEventListener("change", () => {
         if (recipe.value) {
-          window.location.href = recipe.value;
+          window.open(recipe.value, "_blank");
         }
       });
+
+            setupSearch(data);
+
     }
+        function setupSearch(data) {
+      const searchInput = document.getElementById("recipeSearch");
+      const results = document.getElementById("searchResults");
+
+      const allRecipes = [];
+
+      Object.values(data).forEach(category =>
+        Object.values(category).forEach(subCat =>
+          subCat.forEach(recipe => allRecipes.push(recipe))
+        )
+      );
+
+      searchInput.addEventListener("input", () => {
+        const term = searchInput.value.toLowerCase();
+        results.innerHTML = "";
+
+        if (term.length < 2) return;
+
+        allRecipes
+          .filter(r => r.name.toLowerCase().includes(term))
+          .sort((a, b) => a.name.localeCompare(b.name))
+          .forEach(r => {
+            const li = document.createElement("li");
+            li.textContent = r.name;
+            li.onclick = () => window.open(r.url, "_blank");
+            results.appendChild(li);
+          });
+      });
+    }
+
   </script>
 
 </body>
 </html>
+
 
 
 
