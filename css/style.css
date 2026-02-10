@@ -5,6 +5,37 @@ body {
   background: #0f0f0f;          /* Dark background */
   color: #f2f2f2;               /* Light text */
 }
+/* Hero background image section */
+.hero {
+  max-width: 700px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-image: url("/images/recipe-hero.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+
+  border-radius: 20px;
+  margin-bottom: 30px;
+
+  /* Dark overlay for readability */
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  border-radius: 20px;
+  z-index: 0;
+}
+
+/* Ensure content sits above overlay */
+.hero > * {
+  position: relative;
+  z-index: 1;
+}
 
 /* Headings */
 h1 {
@@ -90,3 +121,4 @@ select:focus {
   background: #2a2a2a;
   cursor: pointer;
 }
+
