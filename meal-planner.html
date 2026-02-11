@@ -2,154 +2,226 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bi-Weekly Meal Planner</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weekly Meal Planner</title>
 
+  <!-- Use SAME CSS as main site -->
   <link rel="stylesheet" href="css/style.css">
 
- <style>
+  <style>
 
-/* Let the page inherit your main site theme */
-body {
-  background: inherit;
-  color: inherit;
-  font-family: inherit;
-  margin: 0;
-  padding: 20px;
-}
-
-h1 {
-  text-align: center;
-  margin-bottom: 25px;
-}
-
-/* Planner layout */
-.planner-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 18px;
-}
-
-/* iPad portrait */
-@media (min-width: 600px) {
-  .planner-container {
-    grid-template-columns: repeat(2, 1fr);
+  /* Planner Layout */
+  #planner {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 18px;
+    margin-top: 25px;
   }
-}
 
-/* Desktop */
-@media (min-width: 1000px) {
-  .planner-container {
-    grid-template-columns: repeat(7, 1fr);
+  /* iPad/Desktop: show full week row */
+  @media (min-width: 600px) {
+    #planner {
+      grid-template-columns: repeat(7, 1fr);
+    }
   }
-}
 
-.planner-day {
-  padding: 16px;
-  border-radius: 12px;
-  background: rgba(255, 255, 255, 0.05); /* subtle dark card */
-  backdrop-filter: blur(4px);
-}
+  .planner-day {
+    min-height: 130px;
+    padding: 15px;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.05);
+  }
 
-.planner-day h3 {
-  margin-bottom: 10px;
-  font-size: 15px;
-  font-weight: 600;
-}
+  .planner-day h3 {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
 
-select {
-  width: 100%;
-  padding: 12px;
-  font-size: 16px; /* prevents iOS zoom */
-  border-radius: 8px;
-  background-color: #1e1e1e;
-  color: #ffffff;
-  border: 1px solid rgba(255,255,255,0.2);
-}
+  .planner-controls {
+    margin-top: 20px;
+  }
 
-select:focus {
-  outline: none;
-  border-color: #ff4c4c; /* optional accent color */
-}
+  #recipePool {
+    margin-top: 15px;
+  }
 
-.nav-link {
-  display: block;
-  text-align: center;
-  margin-top: 30px;
-  opacity: 0.7;
-  text-decoration: none;
-}
+  .recipe-chip {
+    padding: 8px 10px;
+    margin: 6px 0;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.12);
+    cursor: grab;
+    font-size: 14px;
+  }
 
-.nav-link:hover {
-  opacity: 1;
-}
+  .recipe-chip:active {
+    cursor: grabbing;
+  }
 
-</style>
+  input[type="search"],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px; /* prevents iOS zoom */
+    border-radius: 8px;
+  }
 
+  .nav-link {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    opacity: 0.7;
+    text-decoration: none;
+  }
+
+  .nav-link:hover {
+    opacity: 1;
+  }
+
+  </style>
 </head>
 
 <body>
 
 <div class="hero">
 
-  <h1>Bi-Weekly Meal Planner</h1>
+  <h1>Weekly Meal Planner</h1>
 
-  <div class="planner-container" id="planner"></div>
+  <!-- Recipe Controls -->
+  <div class="planner-controls">
 
-  <div class="app-description">
-    <p>Plan your meals for the next two weeks.</p>
+    <select id="recipeSelect">
+      <option value="">Select Recipe</option>
+    </select>
+
+    <input
+      type="search"
+      id="plannerSearch"
+      placeholder="Search recipes..."
+      autocomplete="off"
+    />
+
+    <div id="recipePool"></div>
+
   </div>
 
-  <a class="nav-link" href="index.html">← Back to Recipe Selector</a>
+  <!-- Planner Grid -->
+  <div id="planner"></div>
+
+  <a class="nav-link" href="index.html">← Back to Recipe Finder</a>
 
 </div>
 
-  <script>
-    const basePath = "/recipe-selector-site";
+<script>
 
-    const recipes = [
-      { name: "Select a Meal", url: "#" },
-      { name: "Chicken Alfredo", url: basePath + "/recipes/chicken-alfredo.html" },
-      { name: "Beef Tacos", url: basePath + "/recipes/tacos.html" },
-      { name: "Meatloaf", url: basePath + "/recipes/meatloaf.html" }
-      // Add more recipes here
-    ];
+const planner = document.getElementById("planner");
+const recipeSelect = document.getElementById("recipeSelect");
+const recipePool = document.getElementById("recipePool");
+const plannerSearch = document.getElementById("plannerSearch");
 
-    const planner = document.getElementById("planner");
+const daysOfWeek = [
+  "Sunday","Monday","Tuesday","Wednesday",
+  "Thursday","Friday","Saturday"
+];
 
-    const daysOfWeek = [
-      "Sunday","Monday","Tuesday","Wednesday",
-      "Thursday","Friday","Saturday"
-    ];
+/* ---------- BUILD 7 DAY WEEK ---------- */
+for (let i = 0; i < 7; i++) {
 
-    for (let i = 0; i < 14; i++) {
+  const day = document.createElement("div");
+  day.className = "planner-day";
 
-      const dayCard = document.createElement("div");
-      dayCard.className = "planner-day";
+  const title = document.createElement("h3");
+  title.textContent = daysOfWeek[i];
 
-      const dayTitle = document.createElement("h3");
-      dayTitle.textContent = daysOfWeek[i % 7] + " (Week " + (i < 7 ? "1" : "2") + ")";
+  day.appendChild(title);
 
-      const select = document.createElement("select");
+  // Allow dropping
+  day.addEventListener("dragover", e => e.preventDefault());
 
-      recipes.forEach(recipe => {
-        const option = document.createElement("option");
-        option.value = recipe.url;
-        option.textContent = recipe.name;
-        select.appendChild(option);
-      });
+  day.addEventListener("drop", e => {
+    e.preventDefault();
+    const data = JSON.parse(e.dataTransfer.getData("text/plain"));
+    addRecipeToDay(day, data);
+  });
 
-      select.addEventListener("change", function() {
-        if (this.value !== "#") {
-          window.open(this.value, "_blank");
-        }
-      });
+  planner.appendChild(day);
+}
 
-      dayCard.appendChild(dayTitle);
-      dayCard.appendChild(select);
-      planner.appendChild(dayCard);
-    }
-  </script>
+/* ---------- LOAD RECIPES FROM recipes.json ---------- */
+fetch("recipes.json")
+  .then(res => res.json())
+  .then(data => {
+
+    const allRecipes = [];
+
+    Object.values(data).forEach(category =>
+      Object.values(category).forEach(subCat =>
+        subCat.forEach(recipe => allRecipes.push(recipe))
+      )
+    );
+
+    allRecipes.sort((a,b)=>a.name.localeCompare(b.name));
+
+    // Populate dropdown
+    allRecipes.forEach(r=>{
+      recipeSelect.add(new Option(r.name, r.url));
+    });
+
+    // Dropdown selection adds draggable chip
+    recipeSelect.addEventListener("change",()=>{
+      const selected = allRecipes.find(r=>r.url===recipeSelect.value);
+      if (selected) createDraggableChip(selected);
+      recipeSelect.value = "";
+    });
+
+    // Search functionality
+    plannerSearch.addEventListener("input",()=>{
+      const term = plannerSearch.value.toLowerCase();
+      recipePool.innerHTML = "";
+
+      if (term.length < 2) return;
+
+      allRecipes
+        .filter(r=>r.name.toLowerCase().includes(term))
+        .forEach(r=>createDraggableChip(r));
+    });
+
+  });
+
+/* ---------- CREATE DRAGGABLE CHIP ---------- */
+function createDraggableChip(recipe){
+
+  const chip = document.createElement("div");
+  chip.className = "recipe-chip";
+  chip.textContent = recipe.name;
+  chip.draggable = true;
+
+  chip.addEventListener("dragstart", e=>{
+    e.dataTransfer.setData(
+      "text/plain",
+      JSON.stringify(recipe)
+    );
+  });
+
+  recipePool.appendChild(chip);
+}
+
+/* ---------- ADD RECIPE TO DAY ---------- */
+function addRecipeToDay(day, recipe){
+
+  const chip = document.createElement("div");
+  chip.className = "recipe-chip";
+  chip.textContent = recipe.name;
+
+  chip.addEventListener("click",()=>{
+    window.location.href = recipe.url;
+  });
+
+  day.appendChild(chip);
+}
+
+</script>
 
 </body>
 </html>
