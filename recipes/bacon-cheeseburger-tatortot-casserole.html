@@ -105,7 +105,41 @@
   padding: 10px 16px;
   border-radius: 12px;
 }
-    
+/* ===== Print styles (PDF / Printer) ===== */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .recipe-title {
+    color: #000000 !important;
+    text-shadow: none !important;
+  }
+
+  h2 {
+    color: #000000 !important;
+  }
+
+  ul,
+  ol {
+    color: #000000 !important;
+  }
+
+  .title-rule {
+    border-color: #000000 !important;
+  }
+
+  .recipe-content::before {
+    background: #000000 !important;
+  }
+
+  .download-recipe {
+    display: none;
+  }
+}
   </style>
 </head>
 <body>
@@ -147,14 +181,20 @@
     </section>
 
   </div>
-  
 <div class="download-recipe">
-  <a
-    href="/recipe-selector-site/pdfs/bacon-cheeseburger-tatortot-casserole.pdf"
-    download
-  >
+  <a id="downloadLink" href="#">
     ⬇️ Download this recipe (PDF)
   </a>
 </div>
+
+<script>
+  const pageName = window.location.pathname
+    .split("/")
+    .pop()
+    .replace(".html", ".pdf");
+
+  document.getElementById("downloadLink").href =
+    "/recipe-selector-site/pdfs/" + pageName;
+</script>
 </body>
 </html>
