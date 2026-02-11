@@ -176,10 +176,18 @@ select:focus {
   transition: opacity 0.2s ease;
 }
 
-
 /* Recipe Image */
 .recipe-image {
   max-width: 50px;
+}
+
+.planner-link {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.planner-link:hover {
+  text-decoration: underline;
 }
 
 
