@@ -1,15 +1,12 @@
 {
   "Drinks": {
       "Alcoholic": [
-      { "name": "Apple Cider Honey Whiskey", "url": "/recipe-selector-site/recipes/apple-cider-honey-whiskey.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+      { "name": "Apple Cider Honey Whiskey", "url": "/recipe-selector-site/recipes/apple-cider-honey-whiskey.html" }
     ],
       "Non-Alcoholic": [
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
       "Shots": [
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
    ]
   },
@@ -21,21 +18,18 @@
       { "name": "White Queso", "url": "/recipe-selector-site/recipes/white-queso.html" }
     ],
      "Sauces": [
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
      "Dressings": [
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
      "Breads": [
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+      { "name": "Banana Bread Grandma Peggy", "url": "/recipe-selector-site/recipes/banana-bread-grandma-peggy.html" },
+      { "name": "Banana Bread Bites", "url": "/recipe-selector-site/recipes/banana-bread-bites.html" }
     ],
      "Sides": [
       { "name": "Applesauce Grandma Peggy", "url": "/recipe-selector-site/recipes/applesauce-grandma-peggy.html" },
-      { "name": "Avocado Chips Keto", "url": "/recipe-selector-site/recipes/avocado-chips-keto.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+      { "name": "Avocado Chips Keto", "url": "/recipe-selector-site/recipes/avocado-chips-keto.html" }
     ],
      "Misc.": [
       { "name": "Almond Flour", "url": "/recipe-selector-site/recipes/almond-flour.html" },
@@ -44,92 +38,59 @@
   },
   "Dinner": {
       "American Meals": [
-      { "name": "Bacon Cheeseburger Tatortot Casserole", "url": "/recipe-selector-site/recipes/bacon-cheeseburger-tatortot-casserole.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+      { "name": "Bacon Cheeseburger Tatortot Casserole", "url": "/recipe-selector-site/recipes/bacon-cheeseburger-tatortot-casserole.html" }
     ],
       "Asian Meals": [
       { "name": "Korean Beef", "url": "/recipe-selector-site/recipes/korean-beef.html" },
-      { "name": "Thai Chicken Lettuce Wrap", "url": "/recipe-selector-site/recipes/thai-chicken-lettuce-wrap.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+      { "name": "Thai Chicken Lettuce Wrap", "url": "/recipe-selector-site/recipes/thai-chicken-lettuce-wrap.html" }
     ],
       "Italian Meals": [
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+      { "name": "Balls of Meat", "url": "/recipe-selector-site/recipes/balls-of-meat.html" }
     ],
       "Soups": [
       { "name": "French Onion Soup", "url": "/recipe-selector-site/recipes/french-onion-soup.html" },
-      { "name": "Potato Soup", "url": "/recipe-selector-site/recipes/potato-soup.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+      { "name": "Potato Soup", "url": "/recipe-selector-site/recipes/potato-soup.html" }
     ],
       "Mexican Meals": [
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
       "Mediterranean Meals": [
-      { "name": "Chicken Gyro Bowl", "url": "/recipe-selector-site/recipes/chicken-gyro-bowl.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+      { "name": "Chicken Gyro Bowl", "url": "/recipe-selector-site/recipes/chicken-gyro-bowl.html" }
     ]
   },
   "Desserts": {
       "Cake": [
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+      { "name": "Banana Greek Yogurt Muffins", "url": "/recipe-selector-site/recipes/banana-greek-yogurt-muffins.html" }
     ],
       "Cookies": [
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
       "Bars": [
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+      { "name": "Avocado Fudge", "url": "/recipe-selector-site/recipes/avocado-fudge.html" }
     ],
       "Brownies": [
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
       "Pie": [
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ]
   },
   "Breakfast": {
       "Skillet": [
-      { "name": "Dutch Baby", "url": "/recipe-selector-site/recipes/dutch-baby-regular.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+      { "name": "Dutch Baby", "url": "/recipe-selector-site/recipes/dutch-baby-regular.html" }
     ],
       "Baking": [
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
       "Overnight Oats": [
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
       "Casserole": [
-      { "name": "Sausage Egg Bake", "url": "/recipe-selector-site/recipes/sausage-egg-bake.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+      { "name": "Sausage Egg Bake", "url": "/recipe-selector-site/recipes/sausage-egg-bake.html" }
     ]
   }
 }
+
 
 
 
