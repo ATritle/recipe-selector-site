@@ -21,6 +21,12 @@
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
    ]
   },
+  "Miscellaneous": {
+      "Misc.": [
+      { "name": "Almond Flour", "url": "/recipe-selector-site/recipes/almond-flour.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+    ]
+  },
   "Dinner": {
       "American Meals": [
       { "name": "Bacon Cheeseburger Tatortot Casserole", "url": "/recipe-selector-site/recipes/bacon-cheeseburger-tatortot-casserole.html" },
@@ -66,6 +72,7 @@
     ]
   }
 }
+
 
 
 
