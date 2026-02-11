@@ -34,6 +34,7 @@
     ],
      "Sides": [
       { "name": "Applesauce Grandma Peggy", "url": "/recipe-selector-site/recipes/applesauce-grandma-peggy.html" },
+      { "name": "Avocado Chips Keto", "url": "/recipe-selector-site/recipes/avocado-chips-keto.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
      "Misc.": [
@@ -129,6 +130,7 @@
     ]
   }
 }
+
 
 
 
