@@ -1,16 +1,4 @@
 {
-    "Dips/Sauces": {
-      "Dips": [
-      { "name": "Bagel Dip", "url": "/recipe-selector-site/recipes/bagel-dip.html" },
-      { "name": "Bacon Dip", "url": "/recipe-selector-site/recipes/bacon-dip.html" },
-      { "name": "Buffalo Chicken Dip", "url": "/recipe-selector-site/recipes/buffalo-chicken-dip.html" },
-      { "name": "White Queso", "url": "/recipe-selector-site/recipes/white-queso.html" }
-    ],
-      "Sauces": [
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
-   ]
-  },
   "Drinks": {
       "Alcoholic": [
       { "name": "Apple Cider Honey Whiskey", "url": "/recipe-selector-site/recipes/apple-cider-honey-whiskey.html" },
@@ -19,10 +7,36 @@
       "Non-Alcoholic": [
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+    ],
+      "Shots": [
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
    ]
   },
   "Miscellaneous": {
-      "Misc.": [
+      "Dips": [
+      { "name": "Bagel Dip", "url": "/recipe-selector-site/recipes/bagel-dip.html" },
+      { "name": "Bacon Dip", "url": "/recipe-selector-site/recipes/bacon-dip.html" },
+      { "name": "Buffalo Chicken Dip", "url": "/recipe-selector-site/recipes/buffalo-chicken-dip.html" },
+      { "name": "White Queso", "url": "/recipe-selector-site/recipes/white-queso.html" }
+    ],
+     "Sauces": [
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+    ],
+     "Dressings": [
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+    ],
+     "Breads": [
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+    ],
+     "Sides": [
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+    ],
+     "Misc.": [
       { "name": "Almond Flour", "url": "/recipe-selector-site/recipes/almond-flour.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ]
@@ -40,20 +54,53 @@
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
       "Italian Meals": [
-      { "name": "Lasagna", "url": "/recipe-selector-site/recipes/lasagna.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
       "Soups": [
-      { "name": "Lasagna Soup", "url": "/recipe-selector-site/recipes/lasagna-soup.html" },
       { "name": "French Onion Soup", "url": "/recipe-selector-site/recipes/french-onion-soup.html" },
       { "name": "Potato Soup", "url": "/recipe-selector-site/recipes/potato-soup.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
-      "Mediterranean": [
+      "Mexican Meals": [
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+    ],
+      "Mediterranean Meals": [
       { "name": "Chicken Gyro Bowl", "url": "/recipe-selector-site/recipes/chicken-gyro-bowl.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+    ]
+  },
+  "Desserts": {
+      "Cake": [
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+    ],
+      "Cookies": [
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+    ],
+      "Bars": [
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+    ],
+      "Brownies": [
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+    ],
+      "Pie": [
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
@@ -66,12 +113,23 @@
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
+      "Baking": [
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+    ],
+      "Overnight Oats": [
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+    ],
       "Casserole": [
       { "name": "Sausage Egg Bake", "url": "/recipe-selector-site/recipes/sausage-egg-bake.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ]
   }
 }
+
 
 
 
