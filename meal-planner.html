@@ -1,147 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weekly Meal Planner</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weekly Meal Planner</title>
 
-  <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css">
 
-  <style>
+<style>
 
-  /* Center planner container */
-  #planner {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 18px;
-    margin: 30px auto;
-    max-width: 1200px;
-  }
+/* Layout */
+#planner {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+  margin: 30px auto;
+  max-width: 1200px;
+}
 
-  /* iPad/Desktop full week row */
-  @media (min-width: 600px) {
-    #planner {
-      grid-template-columns: repeat(7, 1fr);
-    }
-  }
+@media (min-width: 600px) {
+  #planner { grid-template-columns: repeat(7, 1fr); }
+}
 
-  .planner-day {
-    min-height: 150px;
-    padding: 15px;
-    border-radius: 12px;
-    background: #000000; /* Solid black for readability */
-    border: 1px solid rgba(255,255,255,0.15);
-    display: flex;
-    flex-direction: column;
-  }
+.planner-day {
+  min-height: 160px;
+  padding: 15px;
+  border-radius: 12px;
+  background: #000;
+  border: 1px solid rgba(255,255,255,0.15);
+  display: flex;
+  flex-direction: column;
+}
 
-  .planner-day h3 {
-    text-align: center;
-    margin-bottom: 12px;
-    font-size: 14px;
-    color: #ffffff;
-  }
+.planner-day h3 {
+  text-align: center;
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #fff;
+}
 
-  .planner-controls {
-    margin-top: 20px;
-  }
+.recipe-chip {
+  padding: 8px 10px;
+  margin: 6px 0;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.15);
+  cursor: grab;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  #recipePool {
-    margin-top: 15px;
-  }
+.remove-btn {
+  color: #ff4c4c;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 8px;
+}
 
-  .recipe-chip {
-    padding: 8px 10px;
-    margin: 6px 0;
-    border-radius: 8px;
-    background: rgba(255,255,255,0.15);
-    cursor: grab;
-    font-size: 14px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+input[type="search"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+}
 
-  .recipe-chip:active {
-    cursor: grabbing;
-  }
+.nav-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
 
-  .remove-btn {
-    margin-left: 8px;
-    cursor: pointer;
-    font-weight: bold;
-    color: #ff4c4c;
-  }
+.nav-btn, .clear-btn {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  background: #ff4c4c;
+  color: white;
+  cursor: pointer;
+}
 
-  input[type="search"],
-  select {
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    font-size: 16px;
-    border-radius: 8px;
-  }
+.nav-btn:hover, .clear-btn:hover {
+  opacity: 0.85;
+}
 
-  .clear-btn {
-    margin-top: 20px;
-    padding: 10px 15px;
-    border-radius: 8px;
-    border: none;
-    background-color: #ff4c4c;
-    color: white;
-    cursor: pointer;
-    font-size: 14px;
-  }
+.week-label {
+  font-weight: bold;
+}
 
-  .clear-btn:hover {
-    opacity: 0.85;
-  }
-
-  .nav-link {
-    display: block;
-    text-align: center;
-    margin-top: 30px;
-    opacity: 0.7;
-    text-decoration: none;
-  }
-
-  .nav-link:hover {
-    opacity: 1;
-  }
-
-  </style>
+</style>
 </head>
 
 <body>
 
 <div class="hero">
 
-  <h1 style="text-align:center;">Weekly Meal Planner</h1>
+<h1 style="text-align:center;">Weekly Meal Planner</h1>
 
-  <!-- Recipe Controls -->
-  <div class="planner-controls">
+<div class="nav-controls">
+  <button class="nav-btn" id="prevWeek">← Previous</button>
+  <div class="week-label" id="weekLabel"></div>
+  <button class="nav-btn" id="nextWeek">Next →</button>
+</div>
 
-    <select id="recipeSelect">
-      <option value="">Select Recipe</option>
-    </select>
+<select id="recipeSelect">
+  <option value="">Select Recipe</option>
+</select>
 
-    <input
-      type="search"
-      id="plannerSearch"
-      placeholder="Search recipes..."
-      autocomplete="off"
-    />
+<input type="search" id="plannerSearch" placeholder="Search recipes..." autocomplete="off" />
 
-    <div id="recipePool"></div>
+<div id="recipePool"></div>
 
-    <button class="clear-btn" id="clearWeek">Clear Week</button>
+<button class="clear-btn" id="clearWeek">Clear Week</button>
 
-  </div>
+<div id="planner"></div>
 
-  <!-- Planner Grid -->
-  <div id="planner"></div>
-
-  <a class="nav-link" href="index.html">← Back to Recipe Finder</a>
+<a class="nav-link" href="index.html">← Back to Recipe Finder</a>
 
 </div>
 
@@ -152,41 +129,153 @@ const recipeSelect = document.getElementById("recipeSelect");
 const recipePool = document.getElementById("recipePool");
 const plannerSearch = document.getElementById("plannerSearch");
 const clearWeekBtn = document.getElementById("clearWeek");
+const prevWeekBtn = document.getElementById("prevWeek");
+const nextWeekBtn = document.getElementById("nextWeek");
+const weekLabel = document.getElementById("weekLabel");
 
-const daysOfWeek = [
-  "Sunday","Monday","Tuesday","Wednesday",
-  "Thursday","Friday","Saturday"
-];
+const daysOfWeek = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
-/* ---------- BUILD 7 DAY WEEK ---------- */
-for (let i = 0; i < 7; i++) {
+let currentDate = new Date();
+let weekOffset = 0;
+let allRecipes = [];
 
-  const day = document.createElement("div");
-  day.className = "planner-day";
-
-  const title = document.createElement("h3");
-  title.textContent = daysOfWeek[i];
-
-  day.appendChild(title);
-
-  day.addEventListener("dragover", e => e.preventDefault());
-
-  day.addEventListener("drop", e => {
-    e.preventDefault();
-    const data = JSON.parse(e.dataTransfer.getData("text/plain"));
-    addRecipeToDay(day, data);
-  });
-
-  planner.appendChild(day);
+function getWeekKey() {
+  const d = new Date();
+  d.setDate(d.getDate() + (weekOffset * 7));
+  const year = d.getFullYear();
+  const week = getWeekNumber(d);
+  return `week-${year}-${week}`;
 }
 
-/* ---------- LOAD RECIPES ---------- */
+function getWeekNumber(date) {
+  const temp = new Date(date.getTime());
+  temp.setHours(0,0,0,0);
+  temp.setDate(temp.getDate() + 4 - (temp.getDay()||7));
+  const yearStart = new Date(temp.getFullYear(),0,1);
+  return Math.ceil((((temp - yearStart)/86400000) + 1)/7);
+}
+
+function updateWeekLabel() {
+  const d = new Date();
+  d.setDate(d.getDate() + (weekOffset * 7));
+  weekLabel.textContent = "Week of " + d.toLocaleDateString();
+}
+
+function saveWeek() {
+  const weekData = [];
+  document.querySelectorAll(".planner-day").forEach(day=>{
+    const recipes = [];
+    day.querySelectorAll(".recipe-chip").forEach(chip=>{
+      recipes.push({
+        name: chip.dataset.name,
+        url: chip.dataset.url
+      });
+    });
+    weekData.push(recipes);
+  });
+  localStorage.setItem(getWeekKey(), JSON.stringify(weekData));
+}
+
+function loadWeek() {
+  planner.innerHTML = "";
+  updateWeekLabel();
+
+  const saved = JSON.parse(localStorage.getItem(getWeekKey())) || [];
+
+  for (let i = 0; i < 7; i++) {
+
+    const day = document.createElement("div");
+    day.className = "planner-day";
+
+    const title = document.createElement("h3");
+    title.textContent = daysOfWeek[i];
+
+    day.appendChild(title);
+
+    day.addEventListener("dragover", e => e.preventDefault());
+
+    day.addEventListener("drop", e => {
+      e.preventDefault();
+      const data = JSON.parse(e.dataTransfer.getData("text/plain"));
+      moveRecipe(day, data);
+    });
+
+    if (saved[i]) {
+      saved[i].forEach(r=>{
+        createRecipeChip(day, r);
+      });
+    }
+
+    planner.appendChild(day);
+  }
+}
+
+function createDraggableChip(recipe) {
+  const chip = document.createElement("div");
+  chip.className = "recipe-chip";
+  chip.textContent = recipe.name;
+  chip.draggable = true;
+
+  chip.addEventListener("dragstart", e=>{
+    e.dataTransfer.setData("text/plain", JSON.stringify(recipe));
+  });
+
+  recipePool.appendChild(chip);
+}
+
+function createRecipeChip(day, recipe) {
+  const chip = document.createElement("div");
+  chip.className = "recipe-chip";
+  chip.dataset.name = recipe.name;
+  chip.dataset.url = recipe.url;
+  chip.draggable = true;
+
+  const nameSpan = document.createElement("span");
+  nameSpan.textContent = recipe.name;
+  nameSpan.onclick = ()=> window.location.href = recipe.url;
+
+  const removeBtn = document.createElement("span");
+  removeBtn.textContent = "✕";
+  removeBtn.className = "remove-btn";
+  removeBtn.onclick = ()=> {
+    chip.remove();
+    saveWeek();
+  };
+
+  chip.appendChild(nameSpan);
+  chip.appendChild(removeBtn);
+
+  chip.addEventListener("dragstart", e=>{
+    e.dataTransfer.setData("text/plain", JSON.stringify(recipe));
+    chip.remove(); // remove from original when moving
+  });
+
+  day.appendChild(chip);
+}
+
+function moveRecipe(day, recipe) {
+  createRecipeChip(day, recipe);
+  saveWeek();
+}
+
+clearWeekBtn.addEventListener("click",()=>{
+  localStorage.removeItem(getWeekKey());
+  loadWeek();
+});
+
+prevWeekBtn.onclick = ()=>{
+  weekOffset--;
+  loadWeek();
+};
+
+nextWeekBtn.onclick = ()=>{
+  weekOffset++;
+  loadWeek();
+};
+
 fetch("recipes.json")
-  .then(res => res.json())
-  .then(data => {
-
-    const allRecipes = [];
-
+  .then(res=>res.json())
+  .then(data=>{
     Object.values(data).forEach(category =>
       Object.values(category).forEach(subCat =>
         subCat.forEach(recipe => allRecipes.push(recipe))
@@ -208,73 +297,14 @@ fetch("recipes.json")
     plannerSearch.addEventListener("input",()=>{
       const term = plannerSearch.value.toLowerCase();
       recipePool.innerHTML = "";
-
       if (term.length < 2) return;
-
       allRecipes
         .filter(r=>r.name.toLowerCase().includes(term))
         .forEach(r=>createDraggableChip(r));
     });
 
+    loadWeek();
   });
-
-/* ---------- CREATE DRAGGABLE CHIP ---------- */
-function createDraggableChip(recipe){
-
-  const chip = document.createElement("div");
-  chip.className = "recipe-chip";
-  chip.draggable = true;
-
-  const nameSpan = document.createElement("span");
-  nameSpan.textContent = recipe.name;
-
-  chip.appendChild(nameSpan);
-
-  chip.addEventListener("dragstart", e=>{
-    e.dataTransfer.setData(
-      "text/plain",
-      JSON.stringify(recipe)
-    );
-  });
-
-  recipePool.appendChild(chip);
-}
-
-/* ---------- ADD RECIPE TO DAY ---------- */
-function addRecipeToDay(day, recipe){
-
-  const chip = document.createElement("div");
-  chip.className = "recipe-chip";
-
-  const nameSpan = document.createElement("span");
-  nameSpan.textContent = recipe.name;
-
-  nameSpan.addEventListener("click",()=>{
-    window.location.href = recipe.url;
-  });
-
-  const removeBtn = document.createElement("span");
-  removeBtn.textContent = "✕";
-  removeBtn.className = "remove-btn";
-
-  removeBtn.addEventListener("click",()=>{
-    chip.remove();
-  });
-
-  chip.appendChild(nameSpan);
-  chip.appendChild(removeBtn);
-
-  day.appendChild(chip);
-}
-
-/* ---------- CLEAR WEEK ---------- */
-clearWeekBtn.addEventListener("click",()=>{
-  document.querySelectorAll(".planner-day").forEach(day=>{
-    day.querySelectorAll(".recipe-chip").forEach(chip=>{
-      chip.remove();
-    });
-  });
-});
 
 </script>
 
