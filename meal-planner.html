@@ -4,19 +4,121 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Bi-Weekly Meal Planner</title>
-  <link rel="stylesheet" href="styles.css"> <!-- reuse your existing styling -->
+
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    body {
+      padding: 15px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .planner-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
+
+    /* iPad portrait */
+    @media (min-width: 600px) {
+      .planner-container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    /* Desktop */
+    @media (min-width: 1000px) {
+      .planner-container {
+        grid-template-columns: repeat(7, 1fr);
+      }
+    }
+
+    .planner-day {
+      padding: 15px;
+      border-radius: 10px;
+      background: rgba(255,255,255,0.06);
+    }
+
+    .planner-day h3 {
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+
+    select {
+      width: 100%;
+      padding: 12px;
+      font-size: 16px; /* Prevents iOS zoom-in */
+      border-radius: 8px;
+    }
+
+    .nav-link {
+      display: block;
+      text-align: center;
+      margin-top: 25px;
+      font-size: 14px;
+    }
+
+  </style>
 </head>
+
 <body>
 
-<header>
-  <a href="index.html">← Back to Recipe Selector</a>
   <h1>Bi-Weekly Meal Planner</h1>
-</header>
 
-<div id="planner"></div>
+  <div class="planner-container" id="planner"></div>
 
-<script src="data/recipes.js"></script>
-<script src="planner.js"></script>
+  <a class="nav-link" href="index.html">← Back to Recipe Selector</a>
+
+  <script>
+    const basePath = "/recipe-selector-site";
+
+    const recipes = [
+      { name: "Select a Meal", url: "#" },
+      { name: "Chicken Alfredo", url: basePath + "/recipes/chicken-alfredo.html" },
+      { name: "Beef Tacos", url: basePath + "/recipes/tacos.html" },
+      { name: "Meatloaf", url: basePath + "/recipes/meatloaf.html" }
+      // Add more recipes here
+    ];
+
+    const planner = document.getElementById("planner");
+
+    const daysOfWeek = [
+      "Sunday","Monday","Tuesday","Wednesday",
+      "Thursday","Friday","Saturday"
+    ];
+
+    for (let i = 0; i < 14; i++) {
+
+      const dayCard = document.createElement("div");
+      dayCard.className = "planner-day";
+
+      const dayTitle = document.createElement("h3");
+      dayTitle.textContent = daysOfWeek[i % 7] + " (Week " + (i < 7 ? "1" : "2") + ")";
+
+      const select = document.createElement("select");
+
+      recipes.forEach(recipe => {
+        const option = document.createElement("option");
+        option.value = recipe.url;
+        option.textContent = recipe.name;
+        select.appendChild(option);
+      });
+
+      select.addEventListener("change", function() {
+        if (this.value !== "#") {
+          window.open(this.value, "_blank");
+        }
+      });
+
+      dayCard.appendChild(dayTitle);
+      dayCard.appendChild(select);
+      planner.appendChild(dayCard);
+    }
+  </script>
 
 </body>
 </html>
