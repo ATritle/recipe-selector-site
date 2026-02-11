@@ -33,7 +33,7 @@
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
      "Sides": [
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" },
+      { "name": "Applesauce Grandma Peggy", "url": "/recipe-selector-site/recipes/applesauce-grandma-peggy.html" },
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
      "Misc.": [
@@ -129,6 +129,7 @@
     ]
   }
 }
+
 
 
 
