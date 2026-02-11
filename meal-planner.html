@@ -9,17 +9,22 @@
 
 <style>
 
-/* Layout */
-#planner {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 18px;
-  margin: 30px auto;
-  max-width: 1200px;
+/* 📱 Small screens (iPhone) */
+@media (max-width: 700px) {
+  #planner {
+    grid-template-columns: 1fr;
+    max-width: 350px;
+    margin: 30px auto;
+  }
 }
 
-@media (min-width: 600px) {
-  #planner { grid-template-columns: repeat(7, 1fr); }
+/* 🖥 iPad & Desktop */
+#planner {
+  display: grid;
+  grid-template-columns: repeat(7, 150px);
+  gap: 18px;
+  justify-content: center; /* Centers the week */
+  margin: 30px auto;
 }
 
 .planner-day {
