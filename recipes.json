@@ -38,7 +38,7 @@
     ],
      "Misc.": [
       { "name": "Almond Flour", "url": "/recipe-selector-site/recipes/almond-flour.html" },
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+      { "name": "Almond Milk", "url": "/recipe-selector-site/recipes/almond-milk.html" }
     ]
   },
   "Dinner": {
@@ -129,6 +129,7 @@
     ]
   }
 }
+
 
 
 
