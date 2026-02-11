@@ -194,16 +194,20 @@ function loadWeek() {
 
     day.addEventListener("dragover", e => e.preventDefault());
 
-    day.addEventListener("drop", e => {
-      e.preventDefault();
-      const data = JSON.parse(e.dataTransfer.getData("text/plain"));
-      moveRecipe(day, data);
-    });
+   day.addEventListener("drop", e => {
+  e.preventDefault();
 
-    if (saved[i]) {
-      saved[i].forEach(r=>{
-        createRecipeChip(day, r);
-      });
+  const data = JSON.parse(e.dataTransfer.getData("text/plain"));
+
+  // If dragging from another day
+  if (window.currentDraggedChip) {
+    window.currentDraggedChip.remove();
+    window.currentDraggedChip = null;
+  }
+
+  createRecipeChip(day, data);
+  saveWeek();
+});
     }
 
     planner.appendChild(day);
@@ -224,6 +228,7 @@ function createDraggableChip(recipe) {
 }
 
 function createRecipeChip(day, recipe) {
+
   const chip = document.createElement("div");
   chip.className = "recipe-chip";
   chip.dataset.name = recipe.name;
@@ -232,12 +237,12 @@ function createRecipeChip(day, recipe) {
 
   const nameSpan = document.createElement("span");
   nameSpan.textContent = recipe.name;
-  nameSpan.onclick = ()=> window.location.href = recipe.url;
+  nameSpan.onclick = () => window.location.href = recipe.url;
 
   const removeBtn = document.createElement("span");
   removeBtn.textContent = "✕";
   removeBtn.className = "remove-btn";
-  removeBtn.onclick = ()=> {
+  removeBtn.onclick = () => {
     chip.remove();
     saveWeek();
   };
@@ -245,18 +250,14 @@ function createRecipeChip(day, recipe) {
   chip.appendChild(nameSpan);
   chip.appendChild(removeBtn);
 
-  chip.addEventListener("dragstart", e=>{
+  chip.addEventListener("dragstart", e => {
     e.dataTransfer.setData("text/plain", JSON.stringify(recipe));
-    chip.remove(); // remove from original when moving
+    window.currentDraggedChip = chip; // store reference
   });
 
   day.appendChild(chip);
 }
 
-function moveRecipe(day, recipe) {
-  createRecipeChip(day, recipe);
-  saveWeek();
-}
 
 clearWeekBtn.addEventListener("click",()=>{
   localStorage.removeItem(getWeekKey());
