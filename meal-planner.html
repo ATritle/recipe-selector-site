@@ -177,6 +177,7 @@ function saveWeek() {
 }
 
 function loadWeek() {
+
   planner.innerHTML = "";
   updateWeekLabel();
 
@@ -194,20 +195,25 @@ function loadWeek() {
 
     day.addEventListener("dragover", e => e.preventDefault());
 
-   day.addEventListener("drop", e => {
-  e.preventDefault();
+    day.addEventListener("drop", e => {
+      e.preventDefault();
 
-  const data = JSON.parse(e.dataTransfer.getData("text/plain"));
+      const data = JSON.parse(e.dataTransfer.getData("text/plain"));
 
-  // If dragging from another day
-  if (window.currentDraggedChip) {
-    window.currentDraggedChip.remove();
-    window.currentDraggedChip = null;
-  }
+      if (window.currentDraggedChip) {
+        window.currentDraggedChip.remove();
+        window.currentDraggedChip = null;
+      }
 
-  createRecipeChip(day, data);
-  saveWeek();
-});
+      createRecipeChip(day, data);
+      saveWeek();
+    });
+
+    // Restore saved recipes for that day
+    if (saved[i]) {
+      saved[i].forEach(recipe => {
+        createRecipeChip(day, recipe);
+      });
     }
 
     planner.appendChild(day);
