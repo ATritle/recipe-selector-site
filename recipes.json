@@ -64,7 +64,9 @@
     ],
      "Misc.": [
       { "name": "Almond Flour", "url": "/recipe-selector-site/recipes/almond-flour.html" },
-      { "name": "Almond Milk", "url": "/recipe-selector-site/recipes/almond-milk.html" }
+      { "name": "Almond Milk", "url": "/recipe-selector-site/recipes/almond-milk.html" },
+      { "name": "Restaurant", "url": "/recipe-selector-site/recipes/restaurant.html" },
+      { "name": "Leftovers", "url": "/recipe-selector-site/recipes/leftovers.html" }
     ]
   },
   "Dinner": {
@@ -121,6 +123,7 @@
     ]
   }
 }
+
 
 
 
