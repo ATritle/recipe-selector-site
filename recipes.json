@@ -15,28 +15,28 @@
   { 
     "name": "Bagel Dip", 
     "url": "/recipe-selector-site/recipes/bagel-dip.html",
-    "ingredients": [
-      "3 Slices Dried Beef - Chopped",
-      "2 cup Mayo",
-      "16 oz Sour Cream",
-      "2 tsp Dried Dill",
-      "2 tsp Dried Parsley",
-      "4 Green Onions - Chopped"
-    ]
+"ingredients": [
+  { "amount": 3, "unit": "slices", "item": "dried beef" },
+  { "amount": 2, "unit": "cup", "item": "mayo" },
+  { "amount": 16, "unit": "oz", "item": "sour cream" },
+  { "amount": 2, "unit": "tsp", "item": "dried dill" },
+  { "amount": 2, "unit": "tsp", "item": "dried parsley" },
+  { "amount": 4, "unit": "each", "item": "green onion" }
+]
   },
   { 
     "name": "Bacon Dip", 
     "url": "/recipe-selector-site/recipes/bacon-dip.html",
     "ingredients": [
-      "8 Slices Bacon - Cooked crispy & crumbled",
-      "1 cup Mayo",
-      "1 cup Sour Cream",
-      "4 dashes Hot Sauce",
-      "4 Green Onions - Chopped",
-      "4 TSBP Fresh Parsley - finely chopped",
-      "1/2 tsp Mustard Powder",
-      "1/2 tsp Garlic Powder",
-      "2 cup Shredded Cheddar Cheese"
+  { "amount": 8, "unit": "slices", "item": "bacon" },
+  { "amount": 1, "unit": "cup", "item": "mayo" },
+  { "amount": 1, "unit": "cup", "item": "sour cream" },
+  { "amount": 4, "unit": "dashes", "item": "hot sauce" },
+  { "amount": 4, "unit": "each", "item": "green onion" },
+  { "amount": 4, "unit": "TBSP", "item": "fresh parsley" },
+  { "amount": 0.5, "unit": "tsp", "item": "mustard powder" },
+  { "amount": 0.5, "unit": "tsp", "item": "garlic powder" },
+  { "amount": 2, "unit": "cup", "item": "shredded cheddar cheese" }
     ]
   },
   { 
@@ -123,6 +123,7 @@
     ]
   }
 }
+
 
 
 
