@@ -28,21 +28,26 @@
     "name": "Bacon Dip", 
     "url": "/recipe-selector-site/recipes/bacon-dip.html",
     "ingredients": [
-        "8 Slices Bacon - Cooked crispy & crumbled",
-        "1 cup Mayo",
-        "1 cup Sour Cream",
-        "4 dashes Hot Sauce",
-        "4 Green Onions - Chopped",
-        "4 TSBP Fresh Parsley - finely chopped",
-        "1/2 tsp Mustard Powder",
-        "1/2 tsp Garlic Powder",
-        "2 cup Shredded Cheddar Cheese"
+      "8 Slices Bacon - Cooked crispy & crumbled",
+      "1 cup Mayo",
+      "1 cup Sour Cream",
+      "4 dashes Hot Sauce",
+      "4 Green Onions - Chopped",
+      "4 TSBP Fresh Parsley - finely chopped",
+      "1/2 tsp Mustard Powder",
+      "1/2 tsp Garlic Powder",
+      "2 cup Shredded Cheddar Cheese"
     ]
+  },
+  { 
+    "name": "Buffalo Chicken Dip", 
+    "url": "/recipe-selector-site/recipes/buffalo-chicken-dip.html"
+  },
+  { 
+    "name": "White Queso", 
+    "url": "/recipe-selector-site/recipes/white-queso.html"
   }
-]
-      { "name": "Buffalo Chicken Dip", "url": "/recipe-selector-site/recipes/buffalo-chicken-dip.html" },
-      { "name": "White Queso", "url": "/recipe-selector-site/recipes/white-queso.html" }
-    ],
+],
      "Sauces": [
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
@@ -116,6 +121,7 @@
     ]
   }
 }
+
 
 
 
