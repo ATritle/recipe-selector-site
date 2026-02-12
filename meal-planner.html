@@ -316,22 +316,45 @@ generateBtn.addEventListener("click", generateGroceryList);
 function generateGroceryList() {
 
   const weekData = JSON.parse(localStorage.getItem(getWeekKey())) || [];
-  const ingredientSet = new Set();
+  const combined = {};
 
   weekData.forEach(day => {
     day.forEach(recipe => {
+
       const fullRecipe = allRecipes.find(r => r.url === recipe.url);
+
       if (fullRecipe && fullRecipe.ingredients) {
-        fullRecipe.ingredients.forEach(ingredient => {
-          ingredientSet.add(ingredient);
+
+        fullRecipe.ingredients.forEach(ing => {
+
+          // Normalize for combining only
+          const normalizedUnit = ing.unit.toLowerCase();
+          const normalizedItem = ing.item.toLowerCase();
+
+          const key = `${normalizedUnit}|${normalizedItem}`;
+
+          if (!combined[key]) {
+            combined[key] = {
+              amount: ing.amount,
+              unit: ing.unit,     // preserve original casing
+              item: ing.item
+            };
+          } else {
+            combined[key].amount += ing.amount;
+          }
+
         });
+
       }
+
     });
   });
 
-  const ingredients = Array.from(ingredientSet).sort();
+  const list = Object.values(combined).sort((a,b)=>
+    a.item.localeCompare(b.item)
+  );
 
-  if (ingredients.length === 0) {
+  if (list.length === 0) {
     groceryListDiv.innerHTML = "<p>No recipes selected this week.</p>";
     return;
   }
@@ -339,10 +362,17 @@ function generateGroceryList() {
   groceryListDiv.innerHTML = `
     <h2>Grocery List</h2>
     <ul>
-      ${ingredients.map(item => `<li>${item}</li>`).join("")}
+      ${list.map(i =>
+        `<li>${formatAmount(i.amount)} ${i.unit} ${i.item}</li>`
+      ).join("")}
     </ul>
   `;
 }
+
+  function formatAmount(amount) {
+  return Number.isInteger(amount) ? amount : amount.toFixed(2);
+}
+
 
 fetch("recipes.json")
   .then(res=>res.json())
