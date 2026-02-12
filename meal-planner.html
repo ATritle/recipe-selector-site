@@ -164,11 +164,12 @@ function getWeekNumber(date) {
   return Math.ceil((((temp - yearStart)/86400000) + 1)/7);
 }
 
-function updateWeekLabel() {
-  const d = new Date();
-  d.setDate(d.getDate() + (weekOffset * 7));
-  weekLabel.textContent = "Week of " + d.toLocaleDateString();
+function updateWeekLabel(startOfWeek) {
+  const month = startOfWeek.toLocaleString('default', { month: 'long' });
+  const year = startOfWeek.getFullYear();
+  weekLabel.textContent = `${month} ${year}`;
 }
+
 
 function saveWeek() {
   const weekData = [];
@@ -188,17 +189,36 @@ function saveWeek() {
 function loadWeek() {
 
   planner.innerHTML = "";
-  updateWeekLabel();
+
+  // Get today adjusted by weekOffset
+  const today = new Date();
+  today.setDate(today.getDate() + (weekOffset * 7));
+
+  // Find Sunday of that week
+  const startOfWeek = new Date(today);
+  startOfWeek.setDate(today.getDate() - today.getDay());
+
+  updateWeekLabel(startOfWeek);
 
   const saved = JSON.parse(localStorage.getItem(getWeekKey())) || [];
 
   for (let i = 0; i < 7; i++) {
 
+    const currentDay = new Date(startOfWeek);
+    currentDay.setDate(startOfWeek.getDate() + i);
+
     const day = document.createElement("div");
     day.className = "planner-day";
 
     const title = document.createElement("h3");
-    title.textContent = daysOfWeek[i];
+
+    const weekday = currentDay.toLocaleString('default', { weekday: 'short' });
+    const dateNum = currentDay.getDate();
+
+    title.innerHTML = `
+  <div style="font-size:12px;">${weekday}</div>
+  <div style="font-size:18px; font-weight:bold;">${dateNum}</div>
+`;
 
     day.appendChild(title);
 
@@ -206,7 +226,6 @@ function loadWeek() {
 
     day.addEventListener("drop", e => {
       e.preventDefault();
-
       const data = JSON.parse(e.dataTransfer.getData("text/plain"));
 
       if (window.currentDraggedChip) {
@@ -218,7 +237,6 @@ function loadWeek() {
       saveWeek();
     });
 
-    // Restore saved recipes for that day
     if (saved[i]) {
       saved[i].forEach(recipe => {
         createRecipeChip(day, recipe);
@@ -228,6 +246,7 @@ function loadWeek() {
     planner.appendChild(day);
   }
 }
+
 
 function createDraggableChip(recipe) {
   const chip = document.createElement("div");
