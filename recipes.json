@@ -12,8 +12,29 @@
   },
   "Miscellaneous": {
       "Dips": [
-      { "name": "Bagel Dip", "url": "/recipe-selector-site/recipes/bagel-dip.html" },
-      { "name": "Bacon Dip", "url": "/recipe-selector-site/recipes/bacon-dip.html" },
+  { 
+    "name": "Bagel Dip", 
+    "url": "/recipe-selector-site/recipes/bagel-dip.html",
+    "ingredients": [
+      "16 oz cream cheese",
+      "1 cup sour cream",
+      "2 tbsp green onions",
+      "1 tsp garlic powder",
+      "Salt",
+      "Pepper"
+    ]
+  },
+  { 
+    "name": "Bacon Dip", 
+    "url": "/recipe-selector-site/recipes/bacon-dip.html",
+    "ingredients": [
+      "8 oz cream cheese",
+      "1 cup shredded cheddar",
+      "6 slices bacon",
+      "1/2 cup sour cream"
+    ]
+  }
+]
       { "name": "Buffalo Chicken Dip", "url": "/recipe-selector-site/recipes/buffalo-chicken-dip.html" },
       { "name": "White Queso", "url": "/recipe-selector-site/recipes/white-queso.html" }
     ],
@@ -90,6 +111,7 @@
     ]
   }
 }
+
 
 
 
