@@ -9,7 +9,7 @@
 
 <style>
 
-/* Default: Mobile (vertical stack) */
+/* Mobile First */
 #planner {
   display: grid;
   grid-template-columns: 1fr;
@@ -18,7 +18,7 @@
   max-width: 350px;
 }
 
-/* iPad & Desktop */
+/* iPad/Desktop */
 @media (min-width: 700px) {
   #planner {
     grid-template-columns: repeat(7, 150px);
@@ -26,7 +26,6 @@
     max-width: none;
   }
 }
-
 
 .planner-day {
   min-height: 160px;
@@ -41,7 +40,6 @@
 .planner-day h3 {
   text-align: center;
   margin-bottom: 12px;
-  font-size: 14px;
   color: #fff;
 }
 
@@ -97,6 +95,10 @@ select {
   font-weight: bold;
 }
 
+.grocery-section {
+  margin-top: 30px;
+}
+
 </style>
 </head>
 
@@ -126,6 +128,11 @@ select {
   <button class="clear-btn" id="clearWeek">Clear Week</button>
 </div>
 
+<div style="text-align:center; margin-top:20px;">
+  <button class="nav-btn" id="generateList">Generate Grocery List</button>
+</div>
+
+<div id="groceryList" class="grocery-section"></div>
 
 <a class="nav-link" href="index.html">← Back to Recipe Finder</a>
 
@@ -141,18 +148,19 @@ const clearWeekBtn = document.getElementById("clearWeek");
 const prevWeekBtn = document.getElementById("prevWeek");
 const nextWeekBtn = document.getElementById("nextWeek");
 const weekLabel = document.getElementById("weekLabel");
+const generateBtn = document.getElementById("generateList");
+const groceryListDiv = document.getElementById("groceryList");
 
 const daysOfWeek = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 
-let currentDate = new Date();
 let weekOffset = 0;
 let allRecipes = [];
 
 function getWeekKey() {
-  const d = new Date();
-  d.setDate(d.getDate() + (weekOffset * 7));
-  const year = d.getFullYear();
-  const week = getWeekNumber(d);
+  const today = new Date();
+  today.setDate(today.getDate() + (weekOffset * 7));
+  const year = today.getFullYear();
+  const week = getWeekNumber(today);
   return `week-${year}-${week}`;
 }
 
@@ -169,7 +177,6 @@ function updateWeekLabel(startOfWeek) {
   const year = startOfWeek.getFullYear();
   weekLabel.textContent = `${month} ${year}`;
 }
-
 
 function saveWeek() {
   const weekData = [];
@@ -190,11 +197,9 @@ function loadWeek() {
 
   planner.innerHTML = "";
 
-  // Get today adjusted by weekOffset
   const today = new Date();
   today.setDate(today.getDate() + (weekOffset * 7));
 
-  // Find Sunday of that week
   const startOfWeek = new Date(today);
   startOfWeek.setDate(today.getDate() - today.getDay());
 
@@ -216,9 +221,9 @@ function loadWeek() {
     const dateNum = currentDay.getDate();
 
     title.innerHTML = `
-  <div style="font-size:12px;">${weekday}</div>
-  <div style="font-size:18px; font-weight:bold;">${dateNum}</div>
-`;
+      <div style="font-size:12px;">${weekday}</div>
+      <div style="font-size:18px; font-weight:bold;">${dateNum}</div>
+    `;
 
     day.appendChild(title);
 
@@ -246,7 +251,6 @@ function loadWeek() {
     planner.appendChild(day);
   }
 }
-
 
 function createDraggableChip(recipe) {
   const chip = document.createElement("div");
@@ -286,12 +290,11 @@ function createRecipeChip(day, recipe) {
 
   chip.addEventListener("dragstart", e => {
     e.dataTransfer.setData("text/plain", JSON.stringify(recipe));
-    window.currentDraggedChip = chip; // store reference
+    window.currentDraggedChip = chip;
   });
 
   day.appendChild(chip);
 }
-
 
 clearWeekBtn.addEventListener("click",()=>{
   localStorage.removeItem(getWeekKey());
@@ -307,6 +310,39 @@ nextWeekBtn.onclick = ()=>{
   weekOffset++;
   loadWeek();
 };
+
+generateBtn.addEventListener("click", generateGroceryList);
+
+function generateGroceryList() {
+
+  const weekData = JSON.parse(localStorage.getItem(getWeekKey())) || [];
+  const ingredientSet = new Set();
+
+  weekData.forEach(day => {
+    day.forEach(recipe => {
+      const fullRecipe = allRecipes.find(r => r.url === recipe.url);
+      if (fullRecipe && fullRecipe.ingredients) {
+        fullRecipe.ingredients.forEach(ingredient => {
+          ingredientSet.add(ingredient);
+        });
+      }
+    });
+  });
+
+  const ingredients = Array.from(ingredientSet).sort();
+
+  if (ingredients.length === 0) {
+    groceryListDiv.innerHTML = "<p>No recipes selected this week.</p>";
+    return;
+  }
+
+  groceryListDiv.innerHTML = `
+    <h2>Grocery List</h2>
+    <ul>
+      ${ingredients.map(item => `<li>${item}</li>`).join("")}
+    </ul>
+  `;
+}
 
 fetch("recipes.json")
   .then(res=>res.json())
