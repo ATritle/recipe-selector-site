@@ -447,41 +447,39 @@ function generateGroceryList() {
     grouped[category].push(ing);
   });
 
-  groceryListDiv.innerHTML = "<h2>Grocery List</h2>";
+  groceryListDiv.innerHTML = "";
+const title = document.createElement("h2");
+title.textContent = "Grocery List";
+groceryListDiv.appendChild(title);
 
   Object.keys(grouped).sort().forEach(category => {
 
-    groceryListDiv.innerHTML += `
-  <div class="grocery-category">
-    <div class="grocery-header">${category}</div>
-    <ul class="grocery-items collapsed">
-`;
+  const categoryDiv = document.createElement("div");
+  categoryDiv.className = "grocery-category";
 
-    grouped[category]
-      .sort((a,b)=>a.item.localeCompare(b.item))
-      .forEach(ing => {
-        groceryListDiv.innerHTML += `
-          <li>${formatAmount(ing.amount)} ${ing.unit} ${ing.item}</li>
-        `;
-      });
+  const header = document.createElement("div");
+  header.className = "grocery-header";
+  header.textContent = category;
 
-    groceryListDiv.innerHTML += `
-    </ul>
-  </div>
-`;
-  });
-document.querySelectorAll(".grocery-header").forEach(header => {
+  const ul = document.createElement("ul");
+  ul.className = "grocery-items collapsed";
+
+  grouped[category]
+    .sort((a,b)=>a.item.localeCompare(b.item))
+    .forEach(ing => {
+      const li = document.createElement("li");
+      li.textContent = `${formatAmount(ing.amount)} ${ing.unit} ${ing.item}`;
+      ul.appendChild(li);
+    });
+
   header.addEventListener("click", () => {
-    const items = header.nextElementSibling;
-
-    if (items.classList.contains("collapsed")) {
-      items.classList.remove("collapsed");
-    } else {
-      items.classList.add("collapsed");
-    }
+    ul.classList.toggle("collapsed");
   });
+
+  categoryDiv.appendChild(header);
+  categoryDiv.appendChild(ul);
+  groceryListDiv.appendChild(categoryDiv);
 });
-}
   
 function formatAmount(amount) {
   return Number.isInteger(amount) ? amount : amount.toFixed(2);
