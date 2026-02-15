@@ -99,6 +99,25 @@ select {
   margin-top: 30px;
 }
 
+#groceryList {
+  text-align: center;
+  margin: 30px auto;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #000;
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+#groceryList ul {
+  list-style-position: inside;
+  padding: 0;
+}
+
+#groceryList li {
+  margin: 6px 0;
+}
+
 </style>
 </head>
 
@@ -316,58 +335,54 @@ generateBtn.addEventListener("click", generateGroceryList);
 function generateGroceryList() {
 
   const weekData = JSON.parse(localStorage.getItem(getWeekKey())) || [];
-  const combined = {};
+  const ingredientMap = {};
 
   weekData.forEach(day => {
     day.forEach(recipe => {
-
       const fullRecipe = allRecipes.find(r => r.url === recipe.url);
 
       if (fullRecipe && fullRecipe.ingredients) {
-
         fullRecipe.ingredients.forEach(ing => {
 
-          // Normalize for combining only
-          const normalizedUnit = ing.unit.toLowerCase();
-          const normalizedItem = ing.item.toLowerCase();
+          const key = `${ing.item.toLowerCase()}-${ing.unit}`;
 
-          const key = `${normalizedUnit}|${normalizedItem}`;
-
-          if (!combined[key]) {
-            combined[key] = {
-              amount: ing.amount,
-              unit: ing.unit,     // preserve original casing
-              item: ing.item
-            };
+          if (!ingredientMap[key]) {
+            ingredientMap[key] = { ...ing };
           } else {
-            combined[key].amount += ing.amount;
+            ingredientMap[key].amount += ing.amount;
           }
 
         });
-
       }
-
     });
   });
 
-  const list = Object.values(combined).sort((a,b)=>
-    a.item.localeCompare(b.item)
-  );
+  const grouped = {};
 
-  if (list.length === 0) {
-    groceryListDiv.innerHTML = "<p>No recipes selected this week.</p>";
-    return;
-  }
+  Object.values(ingredientMap).forEach(ing => {
+    const category = getCategory(ing.item);
+    if (!grouped[category]) grouped[category] = [];
+    grouped[category].push(ing);
+  });
 
-  groceryListDiv.innerHTML = `
-    <h2>Grocery List</h2>
-    <ul>
-      ${list.map(i =>
-        `<li>${formatAmount(i.amount)} ${i.unit} ${i.item}</li>`
-      ).join("")}
-    </ul>
-  `;
+  groceryListDiv.innerHTML = "<h2>Grocery List</h2>";
+
+  Object.keys(grouped).sort().forEach(category => {
+
+    groceryListDiv.innerHTML += `<h3 style="margin-top:20px;">${category}</h3><ul>`;
+
+    grouped[category]
+      .sort((a,b)=>a.item.localeCompare(b.item))
+      .forEach(ing => {
+        groceryListDiv.innerHTML += `
+          <li>${ing.amount} ${ing.unit} ${ing.item}</li>
+        `;
+      });
+
+    groceryListDiv.innerHTML += "</ul>";
+  });
 }
+
 
   function formatAmount(amount) {
   return Number.isInteger(amount) ? amount : amount.toFixed(2);
