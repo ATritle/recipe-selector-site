@@ -191,7 +191,16 @@ select {
 .grocery-items.collapsed {
   display: none !important;
 }
+  
+.grocery-items li {
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
 
+.grocery-items li.checked {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
   
 </style>
 </head>
@@ -226,6 +235,10 @@ select {
   <button class="nav-btn" id="generateList">Generate Grocery List</button>
 </div>
 
+<div style="text-align:center; margin-top:10px;">
+  <button id="clearChecks">Clear Checks</button>
+</div>
+  
 <div id="groceryList" class="grocery-section"></div>
 
 <a class="nav-link" href="index.html">← Back to Recipe Finder</a>
@@ -233,7 +246,13 @@ select {
 </div>
 
 <script>
+const clearChecksBtn = document.getElementById("clearChecks");
 
+clearChecksBtn.addEventListener("click", () => {
+  document.querySelectorAll(".grocery-items li.checked")
+    .forEach(item => item.classList.remove("checked"));
+});
+  
 const planner = document.getElementById("planner");
 const recipeSelect = document.getElementById("recipeSelect");
 const recipePool = document.getElementById("recipePool");
@@ -468,8 +487,14 @@ groceryListDiv.appendChild(title);
     .sort((a,b)=>a.item.localeCompare(b.item))
     .forEach(ing => {
       const li = document.createElement("li");
-      li.textContent = `${formatAmount(ing.amount)} ${ing.unit} ${ing.item}`;
-      ul.appendChild(li);
+li.textContent = `${formatAmount(ing.amount)} ${ing.unit} ${ing.item}`;
+
+// CLICK TO CHECK OFF
+li.addEventListener("click", () => {
+  li.classList.toggle("checked");
+});
+
+ul.appendChild(li);
     });
 
   header.addEventListener("click", () => {
