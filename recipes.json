@@ -150,7 +150,7 @@
           { "amount": 1.5, "unit": "LBS", "item": "flank steak" },
           { "amount": 0.25, "unit": "cup", "item": "cornstarch" },
           { "amount": 1.5, "unit": "TBSP", "item": "sesame oil" },
-          { "amount": 2, "unit": "tsp", "item": "garlic" },
+          { "amount": 2, "unit": "cloves", "item": "garlic" },
           { "amount": 0.5, "unit": "tsp", "item": "fresh ginger" },
           { "amount": 2, "unit": "tsp", "item": "rice vinegar" },
           { "amount": 0.5, "unit": "cup", "item": "liquid aminos" },
@@ -232,4 +232,5 @@
       { "name": "Sausage Egg Bake", "url": "/recipe-selector-site/recipes/sausage-egg-bake.html" }
     ]
   }
+
 }
