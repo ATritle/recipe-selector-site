@@ -333,8 +333,7 @@ nextWeekBtn.onclick = ()=>{
 generateBtn.addEventListener("click", generateGroceryList);
 
 function generateGroceryList() {
-  groceryListDiv.innerHTML = "<h2>Test Worked</h2>";
-}
+
   const weekData = JSON.parse(localStorage.getItem(getWeekKey())) || [];
   const ingredientMap = {};
 
@@ -376,7 +375,7 @@ function generateGroceryList() {
       .sort((a,b)=>a.item.localeCompare(b.item))
       .forEach(ing => {
         groceryListDiv.innerHTML += `
-          <li>${ing.amount} ${ing.unit} ${ing.item}</li>
+          <li>${formatAmount(ing.amount)} ${ing.unit} ${ing.item}</li>
         `;
       });
 
@@ -384,11 +383,27 @@ function generateGroceryList() {
   });
 }
 
-
-  function formatAmount(amount) {
+function formatAmount(amount) {
   return Number.isInteger(amount) ? amount : amount.toFixed(2);
 }
 
+function getCategory(item) {
+  const name = item.toLowerCase();
+
+  if (name.includes("chicken") || name.includes("beef") || name.includes("bacon"))
+    return "Meat";
+
+  if (name.includes("milk") || name.includes("cheese") || name.includes("cream") || name.includes("butter") || name.includes("yogurt"))
+    return "Dairy";
+
+  if (name.includes("onion") || name.includes("lemon") || name.includes("apple") || name.includes("tomato") || name.includes("cucumber"))
+    return "Produce";
+
+  if (name.includes("flour") || name.includes("sugar") || name.includes("oats"))
+    return "Baking";
+
+  return "Other";
+}
 
 fetch("recipes.json")
   .then(res=>res.json())
