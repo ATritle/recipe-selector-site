@@ -154,7 +154,7 @@ select {
 <div id="groceryList" class="grocery-section"></div>
 
 <a class="nav-link" href="index.html">← Back to Recipe Finder</a>
-
+  
 </div>
 
 <script>
@@ -333,7 +333,8 @@ nextWeekBtn.onclick = ()=>{
 generateBtn.addEventListener("click", generateGroceryList);
 
 function generateGroceryList() {
-
+  groceryListDiv.innerHTML = "<h2>Test Worked</h2>";
+}
   const weekData = JSON.parse(localStorage.getItem(getWeekKey())) || [];
   const ingredientMap = {};
 
