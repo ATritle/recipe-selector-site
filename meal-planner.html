@@ -489,16 +489,16 @@ function formatAmount(amount) {
 function getCategory(item) {
   const name = item.toLowerCase();
 
-  if (name.includes("chicken") || name.includes("beef") || name.includes("bacon"))
+  if (name.includes("chicken") || name.includes("beef") || name.includes("pork") || name.includes("steak") || name.includes("brats") || name.includes("bacon"))
     return "Meat";
 
   if (name.includes("milk") || name.includes("cheese") || name.includes("cream") || name.includes("butter") || name.includes("yogurt"))
     return "Dairy";
 
-  if (name.includes("onion") || name.includes("lemon") || name.includes("apple") || name.includes("tomato") || name.includes("cucumber"))
+  if (name.includes("onion") || name.includes("lemon") || name.includes("avocado") || name.includes("fresh") || name.includes("apple") || name.includes("tomato") || name.includes("cucumber"))
     return "Produce";
 
-  if (name.includes("flour") || name.includes("sugar") || name.includes("oats"))
+  if (name.includes("flour") || name.includes("sugar") || name.includes("starch") || name.includes("baking") || name.includes("oats"))
     return "Baking";
 
   return "Other";
