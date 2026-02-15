@@ -153,6 +153,43 @@ select {
   font-weight: 800;
   color: #ff4c4c;
 }
+
+/* Highlight current day */
+.planner-day.today {
+  border: 2px solid #ff4c4c;
+  box-shadow: 0 0 15px rgba(255,76,76,0.4);
+}
+
+.planner-day.today .day-number {
+  color: #ff4c4c;
+}
+
+.grocery-category {
+  margin-top: 20px;
+}
+
+.grocery-header {
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 8px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 8px;
+  transition: 0.2s ease;
+}
+
+.grocery-header:hover {
+  background: rgba(255,255,255,0.15);
+}
+
+.grocery-items {
+  list-style-position: inside;
+  margin-top: 8px;
+}
+
+.grocery-items.collapsed {
+  display: none;
+}
   
 </style>
 </head>
@@ -269,6 +306,13 @@ function loadWeek() {
 
     const day = document.createElement("div");
     day.className = "planner-day";
+
+    const realToday = new Date();
+realToday.setHours(0,0,0,0);
+
+if (currentDay.toDateString() === realToday.toDateString()) {
+  day.classList.add("today");
+}
 
     const title = document.createElement("h3");
 
@@ -405,7 +449,11 @@ function generateGroceryList() {
 
   Object.keys(grouped).sort().forEach(category => {
 
-    groceryListDiv.innerHTML += `<h3 style="margin-top:20px;">${category}</h3><ul>`;
+    groceryListDiv.innerHTML += `
+  <div class="grocery-category">
+    <div class="grocery-header">${category}</div>
+    <ul class="grocery-items">
+`;
 
     grouped[category]
       .sort((a,b)=>a.item.localeCompare(b.item))
@@ -415,8 +463,17 @@ function generateGroceryList() {
         `;
       });
 
-    groceryListDiv.innerHTML += "</ul>";
+    groceryListDiv.innerHTML += `
+    </ul>
+  </div>
+`;
   });
+document.querySelectorAll(".grocery-header").forEach(header => {
+  header.addEventListener("click", () => {
+    const items = header.nextElementSibling;
+    items.classList.toggle("collapsed");
+  });
+});
 }
 
 function formatAmount(amount) {
