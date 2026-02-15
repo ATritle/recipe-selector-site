@@ -118,6 +118,42 @@ select {
   margin: 6px 0;
 }
 
+.planner-day h3 {
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+/* Day of week (Sun, Mon, etc.) */
+.day-name {
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+/* Calendar date number */
+.day-number {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 4px;
+}
+
+/* Optional: subtle divider under header */
+.planner-day h3::after {
+  content: "";
+  display: block;
+  margin: 8px auto 0;
+  width: 40%;
+  height: 1px;
+  background: rgba(255,255,255,0.2);
+}
+
+.day-number {
+  font-size: 30px;
+  font-weight: 800;
+  color: #ff4c4c;
+}
+  
 </style>
 </head>
 
@@ -239,10 +275,10 @@ function loadWeek() {
     const weekday = currentDay.toLocaleString('default', { weekday: 'short' });
     const dateNum = currentDay.getDate();
 
-    title.innerHTML = `
-      <div style="font-size:12px;">${weekday}</div>
-      <div style="font-size:18px; font-weight:bold;">${dateNum}</div>
-    `;
+title.innerHTML = `
+  <div class="day-name">${weekday}</div>
+  <div class="day-number">${dateNum}</div>
+`;
 
     day.appendChild(title);
 
