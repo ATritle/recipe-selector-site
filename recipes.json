@@ -1,302 +1,235 @@
 {
-"Drinks": {
-  "Alcoholic": [
-    {
-      "name": "Apple Cider Honey Whiskey",
-      "url": "/recipe-selector-site/recipes/apple-cider-honey-whiskey.html",
-      "ingredients": [
-        { "amount": 6, "unit": "cup", "item": "apple cider" },
-        { "amount": 2, "unit": "cup", "item": "honey whiskey" },
-        { "amount": 3, "unit": "each", "item": "cinnamon stick" },
-        { "amount": 2, "unit": "each", "item": "lemons" },
-        { "amount": 0.5, "unit": "TBSP", "item": "honey" },
-        { "amount": 2, "unit": "each", "item": "apples" }
-      ]
-    }
-  ],
-  "Non-Alcoholic": [
-    {
-      "name": "RECIPE GOES HERE",
-      "url": "/recipe-selector-site/recipes/template.html"
-    }
-  ],
-  "Shots": [
-    {
-      "name": "RECIPE GOES HERE",
-      "url": "/recipe-selector-site/recipes/template.html"
-    }
-  ]
-},
-  "Miscellaneous": {
-      "Dips": [
-  {"name": "Bagel Dip", 
-    "url": "/recipe-selector-site/recipes/bagel-dip.html",
-"ingredients": [
-  { "amount": 3, "unit": "slices", "item": "dried beef" },
-  { "amount": 2, "unit": "cup", "item": "mayo" },
-  { "amount": 2, "unit": "cup", "item": "sour cream" },
-  { "amount": 2, "unit": "tsp", "item": "dried dill" },
-  { "amount": 2, "unit": "tsp", "item": "dried parsley" },
-  { "amount": 4, "unit": "each", "item": "green onion" }
-]
-  },
-  { 
-    "name": "Bacon Dip", 
-    "url": "/recipe-selector-site/recipes/bacon-dip.html",
-    "ingredients": [
-  { "amount": 8, "unit": "slices", "item": "bacon" },
-  { "amount": 1, "unit": "cup", "item": "mayo" },
-  { "amount": 1, "unit": "cup", "item": "sour cream" },
-  { "amount": 4, "unit": "dashes", "item": "hot sauce" },
-  { "amount": 4, "unit": "each", "item": "green onion" },
-  { "amount": 4, "unit": "TBSP", "item": "fresh parsley" },
-  { "amount": 0.5, "unit": "tsp", "item": "mustard powder" },
-  { "amount": 0.5, "unit": "tsp", "item": "garlic powder" },
-  { "amount": 2, "unit": "cup", "item": "shredded cheddar cheese" }
+  "Drinks": {
+    "Alcoholic": [
+      {
+        "name": "Apple Cider Honey Whiskey",
+        "url": "/recipe-selector-site/recipes/apple-cider-honey-whiskey.html",
+        "ingredients": [
+          { "amount": 6, "unit": "cup", "item": "apple cider" },
+          { "amount": 2, "unit": "cup", "item": "honey whiskey" },
+          { "amount": 3, "unit": "each", "item": "cinnamon stick" },
+          { "amount": 2, "unit": "each", "item": "lemons" },
+          { "amount": 0.5, "unit": "TBSP", "item": "honey" },
+          { "amount": 2, "unit": "each", "item": "apples" }
+        ]
+      }
+    ],
+    "Non-Alcoholic": [
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+    ],
+    "Shots": [
+      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ]
   },
-  {
-  "name": "Buffalo Chicken Dip", 
-  "url": "/recipe-selector-site/recipes/buffalo-chicken-dip.html",
-  "ingredients": [
-    { "amount": 25, "unit": "oz", "item": "canned chicken" },
-    { "amount": 1, "unit": "cup", "item": "ranch" },
-    { "amount": 0.75, "unit": "cup", "item": "buffalo sauce" },
-    { "amount": 16, "unit": "oz", "item": "cream cheese" },
-    { "amount": 8, "unit": "oz", "item": "cheddar cheese" }
-  ]
-},
-{
-  "name": "White Queso", 
-  "url": "/recipe-selector-site/recipes/white-queso.html",
-  "ingredients": [
-    { "amount": 1, "unit": "LBS", "item": "white american cheese" },
-    { "amount": 5, "unit": "oz", "item": "evaporated milk" },
-    { "amount": 1, "unit": "TBSP", "item": "unsalted butter" },
-    { "amount": 4, "unit": "oz", "item": "green chilis" },
-    { "amount": 0.25, "unit": "tsp", "item": "cumin" },
-    { "amount": 0.25, "unit": "tsp", "item": "garlic powder" },
-    { "amount": 0.125, "unit": "tsp", "item": "paprika" },
-    { "amount": 0.125, "unit": "tsp", "item": "cayenne powder" }
-  ]
-}
-      ],
-     "Sauces": [
+
+  "Miscellaneous": {
+    "Dips": [
+      {
+        "name": "Bagel Dip",
+        "url": "/recipe-selector-site/recipes/bagel-dip.html",
+        "ingredients": [
+          { "amount": 3, "unit": "slices", "item": "dried beef" },
+          { "amount": 2, "unit": "cup", "item": "mayo" },
+          { "amount": 2, "unit": "cup", "item": "sour cream" },
+          { "amount": 2, "unit": "tsp", "item": "dried dill" },
+          { "amount": 2, "unit": "tsp", "item": "dried parsley" },
+          { "amount": 4, "unit": "each", "item": "green onion" }
+        ]
+      },
+      {
+        "name": "Bacon Dip",
+        "url": "/recipe-selector-site/recipes/bacon-dip.html",
+        "ingredients": [
+          { "amount": 8, "unit": "slices", "item": "bacon" },
+          { "amount": 1, "unit": "cup", "item": "mayo" },
+          { "amount": 1, "unit": "cup", "item": "sour cream" },
+          { "amount": 4, "unit": "dashes", "item": "hot sauce" },
+          { "amount": 4, "unit": "each", "item": "green onion" },
+          { "amount": 4, "unit": "TBSP", "item": "fresh parsley" },
+          { "amount": 0.5, "unit": "tsp", "item": "mustard powder" },
+          { "amount": 0.5, "unit": "tsp", "item": "garlic powder" },
+          { "amount": 2, "unit": "cup", "item": "shredded cheddar cheese" }
+        ]
+      },
+      {
+        "name": "Buffalo Chicken Dip",
+        "url": "/recipe-selector-site/recipes/buffalo-chicken-dip.html",
+        "ingredients": [
+          { "amount": 25, "unit": "oz", "item": "canned chicken" },
+          { "amount": 1, "unit": "cup", "item": "ranch" },
+          { "amount": 0.75, "unit": "cup", "item": "buffalo sauce" },
+          { "amount": 16, "unit": "oz", "item": "cream cheese" },
+          { "amount": 8, "unit": "oz", "item": "cheddar cheese" }
+        ]
+      },
+      {
+        "name": "White Queso",
+        "url": "/recipe-selector-site/recipes/white-queso.html",
+        "ingredients": [
+          { "amount": 1, "unit": "LBS", "item": "white american cheese" },
+          { "amount": 5, "unit": "oz", "item": "evaporated milk" },
+          { "amount": 1, "unit": "TBSP", "item": "unsalted butter" },
+          { "amount": 4, "unit": "oz", "item": "green chilis" },
+          { "amount": 0.25, "unit": "tsp", "item": "cumin" },
+          { "amount": 0.25, "unit": "tsp", "item": "garlic powder" },
+          { "amount": 0.125, "unit": "tsp", "item": "paprika" },
+          { "amount": 0.125, "unit": "tsp", "item": "cayenne powder" }
+        ]
+      }
+    ],
+
+    "Sauces": [
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
-     "Dressings": [
+
+    "Dressings": [
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
-     "Breads": [
+
+    "Breads": [
       { "name": "Banana Bread Grandma Peggy", "url": "/recipe-selector-site/recipes/banana-bread-grandma-peggy.html" },
       { "name": "Banana Bread Bites", "url": "/recipe-selector-site/recipes/banana-bread-bites.html" }
     ],
-     "Sides": [
-      { "name": "Applesauce Grandma Peggy",
+
+    "Sides": [
+      {
+        "name": "Applesauce Grandma Peggy",
         "url": "/recipe-selector-site/recipes/applesauce-grandma-peggy.html",
         "ingredients": [
-    { "amount": 8, "unit": "cup", "item": "granny smith apples" },
-    { "amount": 1, "unit": "cup", "item": "water" },
-    { "amount": 2, "unit": "TBSP", "item": "lemon juice" },
-    { "amount": 1, "unit": "cup", "item": "sugar" },
-    { "amount": 2, "unit": "dashes", "item": "vanilla" },
-    { "amount": 2, "unit": "dashes", "item": "cinnamon" },
-    { "amount": 2, "unit": "dashes", "item": "nutmeg" }
- }
-    ]
-  },
-  {
-      { "name": "Avocado Chips Keto",
+          { "amount": 8, "unit": "cup", "item": "granny smith apples" },
+          { "amount": 1, "unit": "cup", "item": "water" },
+          { "amount": 2, "unit": "TBSP", "item": "lemon juice" },
+          { "amount": 1, "unit": "cup", "item": "sugar" },
+          { "amount": 2, "unit": "dashes", "item": "vanilla" },
+          { "amount": 2, "unit": "dashes", "item": "cinnamon" },
+          { "amount": 2, "unit": "dashes", "item": "nutmeg" }
+        ]
+      },
+      {
+        "name": "Avocado Chips Keto",
         "url": "/recipe-selector-site/recipes/avocado-chips-keto.html",
         "ingredients": [
-    { "amount": 1, "unit": "each", "item": "avocado" },
-    { "amount": 0.25, "unit": "cup", "item": "parmesan cheese" },
-    { "amount": 0.5, "unit": "cup", "item": "mozzerella cheese" },
-    { "amount": 2, "unit": "tsp", "item": "garlic powder" },
-    { "amount": 2, "unit": "dashes", "item": "everything bagel seasoning" },
+          { "amount": 1, "unit": "each", "item": "avocado" },
+          { "amount": 0.25, "unit": "cup", "item": "parmesan cheese" },
+          { "amount": 0.5, "unit": "cup", "item": "mozzerella cheese" },
+          { "amount": 2, "unit": "tsp", "item": "garlic powder" },
+          { "amount": 2, "unit": "dashes", "item": "everything bagel seasoning" }
+        ]
+      }
     ],
-     "Misc.": [
+
+    "Misc.": [
       { "name": "Almond Flour", "url": "/recipe-selector-site/recipes/almond-flour.html" },
       { "name": "Almond Milk", "url": "/recipe-selector-site/recipes/almond-milk.html" },
       { "name": "Restaurant", "url": "/recipe-selector-site/recipes/restaurant.html" },
       { "name": "Leftovers", "url": "/recipe-selector-site/recipes/leftovers.html" }
     ]
   },
+
   "Dinner": {
-      "American Meals": [
-      { "name": "Bacon Cheeseburger Tatortot Casserole",
+    "American Meals": [
+      {
+        "name": "Bacon Cheeseburger Tatortot Casserole",
         "url": "/recipe-selector-site/recipes/bacon-cheeseburger-tatortot-casserole.html",
-                "ingredients": [
-    { "amount": 1.5, "unit": "LBS", "item": "ground beef" },
-    { "amount": 3, "unit": "oz", "item": "bacon bits (black label)" },
-    { "amount": 2, "unit": "cup", "item": "cheddar cheese" },
-    { "amount": 32, "unit": "oz", "item": "tator tots" },
-    { "amount": 10.75, "unit": "oz", "item": "condensed cream of chicken soup" },
-    { "amount": 16, "unit": "oz", "item": "sour cream" },
+        "ingredients": [
+          { "amount": 1.5, "unit": "LBS", "item": "ground beef" },
+          { "amount": 3, "unit": "oz", "item": "bacon bits (black label)" },
+          { "amount": 2, "unit": "cup", "item": "cheddar cheese" },
+          { "amount": 32, "unit": "oz", "item": "tator tots" },
+          { "amount": 10.75, "unit": "oz", "item": "condensed cream of chicken soup" },
+          { "amount": 16, "unit": "oz", "item": "sour cream" }
+        ]
+      }
     ],
-      "Asian Meals": [
-      { "name": "Korean Beef",
+
+    "Asian Meals": [
+      {
+        "name": "Korean Beef",
         "url": "/recipe-selector-site/recipes/korean-beef.html",
-                "ingredients": [
-    { "amount": 1.5, "unit": "LBS", "item": "flank steak" },
-    { "amount": 0.25, "unit": "cup", "item": "cornstarch" },
-    { "amount": 1.5, "unit": "TBSP", "item": "sesame oil" },
-    { "amount": 2, "unit": "tsp", "item": "garlic" },
-    { "amount": 0.5, "unit": "tsp", "item": "fresh ginger" },
-    { "amount": 2, "unit": "tsp", "item": "rice vinegar" },
-    { "amount": 0.5, "unit": "cup", "item": "liquid aminos" },
-    { "amount": 0.5, "unit": "cup", "item": "beef broth" },
-    { "amount": 0.75, "unit": "cup", "item": "brown sugar" },
-    { "amount": 0.25, "unit": "tsp", "item": "red pepper flakes" },
-    { "amount": 4, "unit": "each", "item": "green onion" },
-                ],
-      { "name": "Thai Chicken Lettuce Wrap",
+        "ingredients": [
+          { "amount": 1.5, "unit": "LBS", "item": "flank steak" },
+          { "amount": 0.25, "unit": "cup", "item": "cornstarch" },
+          { "amount": 1.5, "unit": "TBSP", "item": "sesame oil" },
+          { "amount": 2, "unit": "tsp", "item": "garlic" },
+          { "amount": 0.5, "unit": "tsp", "item": "fresh ginger" },
+          { "amount": 2, "unit": "tsp", "item": "rice vinegar" },
+          { "amount": 0.5, "unit": "cup", "item": "liquid aminos" },
+          { "amount": 0.5, "unit": "cup", "item": "beef broth" },
+          { "amount": 0.75, "unit": "cup", "item": "brown sugar" },
+          { "amount": 0.25, "unit": "tsp", "item": "red pepper flakes" },
+          { "amount": 4, "unit": "each", "item": "green onion" }
+        ]
+      },
+      {
+        "name": "Thai Chicken Lettuce Wrap",
         "url": "/recipe-selector-site/recipes/thai-chicken-lettuce-wrap.html",
-                "ingredients": [
-    { "amount": 1, "unit": "tsp", "item": "sesame oil" },
-    { "amount": 2, "unit": "clove", "item": "garlic" },
-    { "amount": 1, "unit": "each", "item": "onion" },
-    { "amount": 1, "unit": "cup", "item": "carrot" },
-    { "amount": 1, "unit": "LBS", "item": "chicken" },
-    { "amount": 3, "unit": "TBSP", "item": "liquid aminos" },
-    { "amount": 2, "unit": "tsp", "item": "rice vinegar" },
-    { "amount": 2, "unit": "TBSP", "item": "brown sugar" },
-    { "amount": 1, "unit": "TBSP", "item": "peanut butter" },
-    { "amount": 1, "unit": "dashes", "item": "chili paste" },
-    { "amount": 2, "unit": "tsp", "item": "cornstarch" },
-    { "amount": 2, "unit": "tsp", "item": "water" },
-    { "amount": 12, "unit": "each", "item": "romaine or butter lettuce" },
-    { "amount": 0.25, "unit": "cup", "item": "peanuts" },
-    { "amount": 0.75, "unit": "each", "item": "green onion" },
-                ],
-      "Italian Meals": [
-      { "name": "Balls of Meat",
+        "ingredients": [
+          { "amount": 1, "unit": "tsp", "item": "sesame oil" },
+          { "amount": 2, "unit": "clove", "item": "garlic" },
+          { "amount": 1, "unit": "each", "item": "onion" },
+          { "amount": 1, "unit": "cup", "item": "carrot" },
+          { "amount": 1, "unit": "LBS", "item": "chicken" },
+          { "amount": 3, "unit": "TBSP", "item": "liquid aminos" },
+          { "amount": 2, "unit": "tsp", "item": "rice vinegar" },
+          { "amount": 2, "unit": "TBSP", "item": "brown sugar" },
+          { "amount": 1, "unit": "TBSP", "item": "peanut butter" },
+          { "amount": 1, "unit": "dashes", "item": "chili paste" },
+          { "amount": 2, "unit": "tsp", "item": "cornstarch" },
+          { "amount": 2, "unit": "tsp", "item": "water" },
+          { "amount": 12, "unit": "each", "item": "romaine or butter lettuce" },
+          { "amount": 0.25, "unit": "cup", "item": "peanuts" },
+          { "amount": 0.75, "unit": "each", "item": "green onion" }
+        ]
+      }
+    ],
+
+    "Italian Meals": [
+      {
+        "name": "Balls of Meat",
         "url": "/recipe-selector-site/recipes/balls-of-meat.html",
-                "ingredients": [
-    { "amount": 2, "unit": "cup", "item": "ketchup" },
-    { "amount": 2, "unit": "cup", "item": "brown sugar" },
-    { "amount": 0.5, "unit": "cup", "item": "onion" },
-    { "amount": 2, "unit": "tsp", "item": "liquid smoke" },
-    { "amount": 0.5, "unit": "tsp", "item": "garlic powder" },
-    { "amount": 32, "unit": "oz", "item": "frozen meatballs" },
-                ],
-      "Soups": [
-      { "name": "French Onion Soup",
-        "url": "/recipe-selector-site/recipes/french-onion-soup.html",
-                "ingredients": [
-    { "amount": 6, "unit": "cup", "item": "onion" },
-    { "amount": 2, "unit": "TBSP", "item": "unsalted butter" },
-    { "amount": 2, "unit": "TBSP", "item": "olive oil" },
-    { "amount": 6, "unit": "sprig", "item": "fresh thyme" },
-    { "amount": 1, "unit": "each", "item": "bay leaf" },
-    { "amount": 0.5, "unit": "cup", "item": "white wine" },
-    { "amount": 4, "unit": "cup", "item": "beef broth" },
-    { "amount": 1.5, "unit": "cup", "item": "gruyere cheese" },
-    { "amount": 2, "unit": "TBSP", "item": "worcestershire sauce" },
-    { "amount": 1, "unit": "dashes", "item": "salt" },
-    { "amount": 1, "unit": "dashes", "item": "pepper" },
-                ],    
-      { "name": "Potato Soup",
-        "url": "/recipe-selector-site/recipes/potato-soup.html",
-                "ingredients": [
-    { "amount": 3, "unit": "each", "item": "russet potato" },
-    { "amount": 0.5, "unit": "each", "item": "onion" },
-    { "amount": 2, "unit": "cup", "item": "chicken broth" },
-    { "amount": 1, "unit": "cup", "item": "milk" },
-    { "amount": 0.5, "unit": "cup", "item": "heavy whipping cream" },
-    { "amount": 1, "unit": "dashes", "item": "salt" },
-    { "amount": 1, "unit": "dashes", "item": "pepper" },
-    { "amount": 0.25, "unit": "tsp", "item": "garlic powder" },
-    { "amount": 0.25, "unit": "tsp", "item": "paprika" },
-    { "amount": 1, "unit": "cup", "item": "chedddar cheese" },
-    { "amount": 0.3, "unit": "cup", "item": "sour cream" },
-    { "amount": 0.5, "unit": "LBS", "item": "bacon" },
-                ],   
-      "Mexican Meals": [
-      { "name": "RECIPE GOES HERE",
-        "url": "/recipe-selector-site/recipes/template.html" }
-    ],
-      "Mediterranean Meals": [
-      { "name": "Chicken Gyro Bowl",
-        "url": "/recipe-selector-site/recipes/chicken-gyro-bowl.html",
-                "ingredients": [
-    { "amount": 16, "unit": "oz", "item": "chicken" },
-    { "amount": 0.5, "unit": "each", "item": "red onion" },
-    { "amount": 1, "unit": "each", "item": "english cucumber" },
-    { "amount": 2, "unit": "each", "item": "roma tomato" },
-    { "amount": 4, "unit": "each", "item": "kalamata olives" },
-    { "amount": 8, "unit": "oz", "item": "feta cheese" },
-    { "amount": 1, "unit": "cup", "item": "tzatziki sauce" },
-    { "amount": 2, "unit": "clove", "item": "garlic" },
-    { "amount": 1, "unit": "TBSP", "item": "red wine vinegar" },
-    { "amount": 0.5, "unit": "each", "item": "lemon" },
-    { "amount": 2, "unit": "TBSP", "item": "extra virgin oil" },
-    { "amount": 3, "unit": "TBSP", "item": "greek yogurt" },
-    { "amount": 2, "unit": "tsp", "item": "dried oregano" },
-    { "amount": 0.75, "unit": "tsp", "item": "salt" },
-                ],
-  },
-  "Desserts": {
-      "Cake": [
-      { "name": "Banana Greek Yogurt Muffins",
-        "url": "/recipe-selector-site/recipes/banana-greek-yogurt-muffins.html",
-                "ingredients": [
-    { "amount": 2, "unit": "each", "item": "ripe bananas" },
-    { "amount": 1, "unit": "cup", "item": "greek yogurt" },
-    { "amount": 2, "unit": "each", "item": "egg" },
-    { "amount": 2, "unit": "cup", "item": "rolled quick oats" },
-    { "amount": 0.25, "unit": "cup", "item": "brown sugar" },
-    { "amount": 1.5, "unit": "tsp", "item": "baking powder" },
-    { "amount": 0.5, "unit": "tsp", "item": "baking soda" },
-    { "amount": 0.5, "unit": "cup", "item": "mini chocolate chips" },
-                ],
-      "Cookies": [
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
-    ],
-      "Bars": [
-      { "name": "Avocado Fudge", "url": "/recipe-selector-site/recipes/avocado-fudge.html" }
-    ],
-      "Brownies": [
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
-    ],
-      "Pie": [
-      { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
+        "ingredients": [
+          { "amount": 2, "unit": "cup", "item": "ketchup" },
+          { "amount": 2, "unit": "cup", "item": "brown sugar" },
+          { "amount": 0.5, "unit": "cup", "item": "onion" },
+          { "amount": 2, "unit": "tsp", "item": "liquid smoke" },
+          { "amount": 0.5, "unit": "tsp", "item": "garlic powder" },
+          { "amount": 32, "unit": "oz", "item": "frozen meatballs" }
+        ]
+      }
     ]
   },
+
+  "Desserts": {
+    "Cake": [
+      {
+        "name": "Banana Greek Yogurt Muffins",
+        "url": "/recipe-selector-site/recipes/banana-greek-yogurt-muffins.html",
+        "ingredients": [
+          { "amount": 2, "unit": "each", "item": "ripe bananas" },
+          { "amount": 1, "unit": "cup", "item": "greek yogurt" },
+          { "amount": 2, "unit": "each", "item": "egg" },
+          { "amount": 2, "unit": "cup", "item": "rolled quick oats" },
+          { "amount": 0.25, "unit": "cup", "item": "brown sugar" },
+          { "amount": 1.5, "unit": "tsp", "item": "baking powder" },
+          { "amount": 0.5, "unit": "tsp", "item": "baking soda" },
+          { "amount": 0.5, "unit": "cup", "item": "mini chocolate chips" }
+        ]
+      }
+    ]
+  },
+
   "Breakfast": {
-      "Skillet": [
+    "Skillet": [
       { "name": "Dutch Baby", "url": "/recipe-selector-site/recipes/dutch-baby-regular.html" }
     ],
-      "Baking": [
+    "Baking": [
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
-      "Overnight Oats": [
+    "Overnight Oats": [
       { "name": "RECIPE GOES HERE", "url": "/recipe-selector-site/recipes/template.html" }
     ],
-      "Casserole": [
+    "Casserole": [
       { "name": "Sausage Egg Bake", "url": "/recipe-selector-site/recipes/sausage-egg-bake.html" }
     ]
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
