@@ -185,6 +185,7 @@ select {
 .grocery-items {
   list-style-position: inside;
   margin-top: 8px;
+  display: block;   /* default visible */
 }
 
 .grocery-items.collapsed {
@@ -452,7 +453,7 @@ function generateGroceryList() {
     groceryListDiv.innerHTML += `
   <div class="grocery-category">
     <div class="grocery-header">${category}</div>
-    <ul class="grocery-items">
+    <ul class="grocery-items collapsed">
 `;
 
     grouped[category]
@@ -471,10 +472,14 @@ function generateGroceryList() {
 document.querySelectorAll(".grocery-header").forEach(header => {
   header.addEventListener("click", () => {
     const items = header.nextElementSibling;
-    items.classList.toggle("collapsed");
+
+    if (items.classList.contains("collapsed")) {
+      items.classList.remove("collapsed");
+    } else {
+      items.classList.add("collapsed");
+    }
   });
 });
-}
 
 function formatAmount(amount) {
   return Number.isInteger(amount) ? amount : amount.toFixed(2);
