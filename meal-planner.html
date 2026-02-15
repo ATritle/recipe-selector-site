@@ -480,7 +480,8 @@ groceryListDiv.appendChild(title);
   categoryDiv.appendChild(ul);
   groceryListDiv.appendChild(categoryDiv);
 });
-  
+}
+
 function formatAmount(amount) {
   return Number.isInteger(amount) ? amount : amount.toFixed(2);
 }
@@ -535,7 +536,7 @@ fetch("recipes.json")
 
     loadWeek();
   });
-}
+
 </script>
 
 </body>
