@@ -227,8 +227,7 @@
           { "amount": 32, "unit": "oz", "item": "frozen meatballs" }
         ]
       }
-    ]
-  },
+    ],
 
     "Soups": [
             {
@@ -296,7 +295,8 @@
           { "amount": 1, "unit": "dashes", "item": "pepper" }
         ]
       }
-    ],
+    ]
+  },
 
   "Desserts": {
     "Cake": [
@@ -333,4 +333,5 @@
   }
 
 }
+
 
