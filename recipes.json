@@ -132,23 +132,23 @@
         "name": "Birria Tacos",
         "url": "/recipe-selector-site/recipes/birria-tacos.html",
         "ingredients": [
-          { "amount": 3.5, "unit": "LBS", "item": "chuck roast" },
+          { "amount": 3.5, "unit": "LBS", "item": "beef chuck roast" },
           { "amount": 3, "unit": "each", "item": "onion" },
           { "amount": 4, "unit": "each", "item": "roma tomato" },
           { "amount": 5, "unit": "cloves", "item": "garlic" },
           { "amount": 2, "unit": "each", "item": "dried ancho chile pepper" },
           { "amount": 2, "unit": "each", "item": "dried guajillo chile pepper" },
-          { "amount": 3, "unit": "each", "item": "bay leaf" },
+          { "amount": 1, "unit": "each", "item": "bay leaf" },
           { "amount": 2, "unit": "dashes", "item": "ground cinnamon" },
-          { "amount": 32, "unit": "TBSP", "item": "whole black peppercorn" },
-          { "amount": 10.75, "unit": "TBSP", "item": "apple cider vinegar" },
+          { "amount": 1, "unit": "TBSP", "item": "whole black peppercorn" },
+          { "amount": 1, "unit": "TBSP", "item": "apple cider vinegar" },
           { "amount": 1.5, "unit": "each", "item": "water" },
-          { "amount": 3, "unit": "dashes", "item": "salt" },
+          { "amount": 2, "unit": "dashes", "item": "salt" },
           { "amount": 2, "unit": "TBSP", "item": "cumin" },
-          { "amount": 32, "unit": "TBSP", "item": "better than bouillon beef" },
-          { "amount": 10.75, "unit": "TBSP", "item": "taco seasoning" },
-          { "amount": 32, "unit": "tsp", "item": "dried oregano" },
-          { "amount": 10.75, "unit": "tsp", "item": "garlic powder" },
+          { "amount": 1.5, "unit": "TBSP", "item": "better than bouillon beef" },
+          { "amount": 2, "unit": "TBSP", "item": "taco seasoning" },
+          { "amount": 2, "unit": "tsp", "item": "dried oregano" },
+          { "amount": 2, "unit": "tsp", "item": "garlic powder" },
           { "amount": 1, "unit": "each", "item": "red onion" },
           { "amount": 1, "unit": "each", "item": "cilantro" },
           { "amount": 1, "unit": "each", "item": "flour tortillas" },
@@ -333,5 +333,6 @@
   }
 
 }
+
 
 
