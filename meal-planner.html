@@ -352,22 +352,21 @@ title.innerHTML = `
 day.addEventListener("drop", e => {
   e.preventDefault();
 
-  // If dragging an existing chip (from pool OR another day)
   if (window.currentDraggedChip) {
 
-    // Move the existing chip to this day
-    day.appendChild(window.currentDraggedChip);
+    const dragged = window.currentDraggedChip;
+
+    // If dragged from recipePool (search results)
+    if (recipePool.contains(dragged)) {
+      dragged.remove();
+    }
+
+    // If dragged from another day, it will auto-move
+    day.appendChild(dragged);
 
     window.currentDraggedChip = null;
-
     saveWeek();
-    return;
   }
-
-  // Fallback (shouldn't normally happen)
-  const data = JSON.parse(e.dataTransfer.getData("text/plain"));
-  createRecipeChip(day, data);
-  saveWeek();
 });
 
     if (saved[i]) {
@@ -570,17 +569,16 @@ fetch("recipes.json")
       recipeSelect.value = "";
     });
 
-    plannerSearch.addEventListener("input",()=>{
-      const term = plannerSearch.value.toLowerCase();
-      recipePool.innerHTML = "";
-      if (term.length < 2) return;
-      allRecipes
-        .filter(r=>r.name.toLowerCase().includes(term))
-        .forEach(r=>createDraggableChip(r));
-    });
+plannerSearch.addEventListener("input",()=>{
+  const term = plannerSearch.value.toLowerCase();
+  recipePool.innerHTML = "";
 
-    loadWeek();
-  });
+  if (term.length < 2) return;
+
+  allRecipes
+    .filter(r=>r.name.toLowerCase().includes(term))
+    .forEach(r=>createDraggableChip(r));
+});
 
 
 </script>
