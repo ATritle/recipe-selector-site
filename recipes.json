@@ -206,6 +206,29 @@
       }
     ],
 
+    "Mediterranean Meals": [
+      {
+        "name": "Chicken Gyro Bowl",
+        "url": "/recipe-selector-site/recipes/chicken-gyro-bowl.html",
+        "ingredients": [
+          { "amount": 16, "unit": "oz", "item": "chicken" },
+          { "amount": 0.5, "unit": "each", "item": "red onion" },
+          { "amount": 1, "unit": "each", "item": "english cucumber" },
+          { "amount": 2, "unit": "each", "item": "roma tomato" },
+          { "amount": 4, "unit": "each", "item": "kalamata olives" },
+          { "amount": 8, "unit": "oz", "item": "feta cheese" },
+          { "amount": 1, "unit": "cup", "item": "tzatziki sauce" },
+          { "amount": 2, "unit": "cloves", "item": "garlic" },
+          { "amount": 1, "unit": "TBSP", "item": "red wine vinegar" },
+          { "amount": 0.5, "unit": "each", "item": "lemon" },
+          { "amount": 2, "unit": "TBSP", "item": "extra virgin olive oil" },
+          { "amount": 3, "unit": "TBSP", "item": "greek yogurt" },
+          { "amount": 2, "unit": "tsp", "item": "dried oregano" },
+          { "amount": 0.75, "unit": "tsp", "item": "salt" }
+        ]
+      }
+    ],
+
     "Asian Meals": [
       {
         "name": "Korean Beef",
@@ -420,3 +443,4 @@
     ]
   }
 }
+
