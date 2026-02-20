@@ -384,8 +384,10 @@
           { "amount": 1, "unit": "dashes", "item": "salt" },
           { "amount": 1, "unit": "each", "item": "walnuts" },
           { "amount": 1, "unit": "each", "item": "coconut flakes" }
-        ]
-      },
+      ]
+    }
+  ]
+},
   
   "Breakfast": {
     "Skillet": [
@@ -440,4 +442,5 @@
     ]
   }
 }
+
 
