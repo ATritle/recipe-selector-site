@@ -370,9 +370,7 @@
           { "amount": 0.5, "unit": "cup", "item": "mini chocolate chips" }
         ]
       }
-    ]
-  },
-
+    ],
     "Bars": [
       {
         "name": "Avocado Fudge",
@@ -387,8 +385,7 @@
           { "amount": 1, "unit": "each", "item": "walnuts" },
           { "amount": 1, "unit": "each", "item": "coconut flakes" }
         ]
-      }
-    ],
+      },
   
   "Breakfast": {
     "Skillet": [
@@ -443,3 +440,4 @@
     ]
   }
 }
+
