@@ -533,16 +533,24 @@ function formatAmount(amount) {
 function getCategory(item) {
   const name = item.toLowerCase();
 
-  if (name.includes("chicken") || name.includes("beef") || name.includes("pork") || name.includes("steak") || name.includes("brats") || name.includes("bacon"))
-    return "Meat";
+  // Soups & canned goods first
+  if (/\b(soup|broth|stock|rotel|beans|evaporated)\b/.test(name))
+    return "Canned Goods";
 
-  if (name.includes("milk") || name.includes("cheese") || name.includes("cream") || name.includes("butter") || name.includes("yogurt"))
+  // Dairy
+  if (/\b(milk|cheese|cream|butter|yogurt)\b/.test(name))
     return "Dairy";
 
-  if (name.includes("onion") || name.includes("lemon") || name.includes("avocado") || name.includes("fresh") || name.includes("apple") || name.includes("tomato") || name.includes("cucumber"))
+  // Meat (whole word match)
+  if (/\b(chicken|beef|bacon|pork|steak)\b/.test(name))
+    return "Meat";
+
+  // Produce
+  if (/\b(onion|lemon|apple|tomato|cucumber|pepper|cilantro)\b/.test(name))
     return "Produce";
 
-  if (name.includes("flour") || name.includes("sugar") || name.includes("starch") || name.includes("baking") || name.includes("oats"))
+  // Baking
+  if (/\b(flour|sugar|baking|oats)\b/.test(name))
     return "Baking";
 
   return "Other";
