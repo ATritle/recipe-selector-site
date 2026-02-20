@@ -387,6 +387,7 @@ function createDraggableChip(recipe) {
 
   chip.addEventListener("dragstart", e=>{
     e.dataTransfer.setData("text/plain", JSON.stringify(recipe));
+    window.currentDraggedChip = chip;   // 🔥 THIS WAS MISSING
   });
 
   recipePool.appendChild(chip);
