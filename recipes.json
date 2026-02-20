@@ -350,7 +350,7 @@
     ]
   },
 
-    "Misc.": [
+    "Bars": [
       {
         "name": "Avocado Fudge",
         "url": "/recipe-selector-site/recipes/avocado-fudge.html",
@@ -389,7 +389,7 @@
     "Baking": [
       {
         "name": "RECIPE GOES HERE",
-        "url": "/recipe-selector-site/recipes/template.html" 
+        "url": "/recipe-selector-site/recipes/template.html", 
         "ingredients": [
           { "amount": 0, "unit": "each", "item": "ingredient" },
           { "amount": 0, "unit": "each", "item": "ingredient" }
@@ -400,7 +400,7 @@
     "Overnight Oats": [
       {
         "name": "RECIPE GOES HERE",
-        "url": "/recipe-selector-site/recipes/template.html" 
+        "url": "/recipe-selector-site/recipes/template.html", 
         "ingredients": [
           { "amount": 0, "unit": "each", "item": "ingredient" },
           { "amount": 0, "unit": "each", "item": "ingredient" }
@@ -411,16 +411,12 @@
     "Casserole": [
       {
         "name": "RECIPE GOES HERE",
-        "url": "/recipe-selector-site/recipes/template.html" 
+        "url": "/recipe-selector-site/recipes/template.html", 
         "ingredients": [
           { "amount": 0, "unit": "each", "item": "ingredient" },
           { "amount": 0, "unit": "each", "item": "ingredient" }
         ]
       }
-    ],
-
+    ]
+  }
 }
-
-
-
-
