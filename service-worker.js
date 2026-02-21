@@ -1,24 +1,22 @@
-const CACHE_NAME = "recipe-app-v1";
+const CACHE_NAME = "recipe-app-v2";
+
+const BASE = self.location.pathname.replace("service-worker.js", "");
 
 const CORE_ASSETS = [
-  "/tritlekitchen/",
-  "/tritlekitchen/index.html",
-  "/tritlekitchen/css/style.css",
-  "/tritlekitchen/recipes.json",
-  "/tritlekitchen/apple-touch-icon.png",
-  "/tritlekitchen/favicon.png"
+  BASE,
+  BASE + "index.html",
+  BASE + "css/style.css",
+  BASE + "recipes.json",
+  BASE + "apple-touch-icon.png",
+  BASE + "favicon.png"
 ];
 
-// Install: cache core files
 self.addEventListener("install", event => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then(cache => {
-      return cache.addAll(CORE_ASSETS);
-    })
+    caches.open(CACHE_NAME).then(cache => cache.addAll(CORE_ASSETS))
   );
 });
 
-// Activate: cleanup old caches
 self.addEventListener("activate", event => {
   event.waitUntil(
     caches.keys().then(keys =>
@@ -31,24 +29,21 @@ self.addEventListener("activate", event => {
   );
 });
 
-// Fetch: serve cache first, then network
 self.addEventListener("fetch", event => {
   event.respondWith(
     caches.match(event.request).then(response => {
       if (response) return response;
 
       return fetch(event.request).then(networkResponse => {
-        // Cache PDFs and pages when fetched
         if (
           event.request.url.endsWith(".pdf") ||
-          event.request.url.includes("/tritlekitchen/")
+          event.request.url.startsWith(self.location.origin + BASE)
         ) {
           return caches.open(CACHE_NAME).then(cache => {
             cache.put(event.request, networkResponse.clone());
             return networkResponse;
           });
         }
-
         return networkResponse;
       });
     })
