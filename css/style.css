@@ -161,6 +161,14 @@ select:focus {
   border-bottom: 1px solid #2a2a2a;
 }
 
+#ingredientSearch {
+  margin-top: 10px;
+}
+
+#ingredientResults {
+  margin-top: 5px;
+}
+
 /* Hover / tap feedback */
 #searchResults li:hover {
   background: #2a2a2a;
@@ -189,6 +197,7 @@ select:focus {
 .planner-link:hover {
   text-decoration: underline;
 }
+
 
 
 
