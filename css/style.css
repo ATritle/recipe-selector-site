@@ -86,7 +86,9 @@ select:focus {
 }
 
 /* ===== Search Bar ===== */
-#recipeSearch {
+/* ===== Search Bars ===== */
+#recipeSearch,
+#ingredientSearch {
   display: block;
 
   width: 100%;
@@ -94,7 +96,6 @@ select:focus {
 
   font-size: 26px;
   padding: 20px;
-  margin-top: 30px;
 
   background: #1e1e1e;
   color: #ffffff;
@@ -107,11 +108,18 @@ select:focus {
 
   margin-left: auto;
   margin-right: auto;
-
-  display: block;
 }
 
-#recipeSearch::placeholder {
+#recipeSearch {
+  margin-top: 30px;
+}
+
+#ingredientSearch {
+  margin-top: 20px;
+}
+
+#recipeSearch::placeholder,
+#ingredientSearch::placeholder {
   color: #9a9a9a;
 }
 
@@ -138,7 +146,8 @@ select:focus {
 
 
 /* Search focus */
-#recipeSearch:focus {
+#recipeSearch:focus,
+#ingredientSearch:focus {
   border-color: #0a84ff;
   box-shadow: 0 0 0 4px rgba(10, 132, 255, 0.35);
 }
@@ -197,6 +206,7 @@ select:focus {
 .planner-link:hover {
   text-decoration: underline;
 }
+
 
 
 
