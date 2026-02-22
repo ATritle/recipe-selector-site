@@ -85,10 +85,25 @@
 </div>
   
   <script>
-    fetch("recipes.json")
-      .then(res => res.json())
-      .then(data => init(data));
+    Promise.all([
+  fetch("drinks.json").then(res => res.json()),
+  fetch("dinner.json").then(res => res.json()),
+  fetch("desserts.json").then(res => res.json()),
+  fetch("breakfast.json").then(res => res.json()),
+  fetch("miscellaneous.json").then(res => res.json())
+])
+.then(([drinks, dinner, desserts, breakfast, miscellaneous]) => {
 
+  const data = {
+    Drinks: drinks,
+    Dinner: dinner,
+    Desserts: desserts,
+    Breakfast: breakfast,
+    Miscellaneous: miscellaneous
+  };
+
+  init(data);
+});
     function init(data) {
       const main = document.getElementById("mainCategory");
       const sub = document.getElementById("subCategory");
@@ -255,6 +270,7 @@ if ("serviceWorker" in navigator) {
 
 </body>
 </html>
+
 
 
 
