@@ -1,0 +1,164 @@
+{
+    "Dips": [
+      {
+        "name": "Bagel Dip",
+        "url": "recipes/bagel-dip.html",
+        "ingredients": [
+          { "amount": 3, "unit": "slices", "item": "dried beef" },
+          { "amount": 2, "unit": "cup", "item": "mayo" },
+          { "amount": 2, "unit": "cup", "item": "sour cream" },
+          { "amount": 2, "unit": "tsp", "item": "dried dill" },
+          { "amount": 2, "unit": "tsp", "item": "dried parsley" },
+          { "amount": 4, "unit": "each", "item": "green onion" }
+        ]
+      },
+      {
+        "name": "Bacon Dip",
+        "url": "recipes/bacon-dip.html",
+        "ingredients": [
+          { "amount": 8, "unit": "slices", "item": "bacon" },
+          { "amount": 1, "unit": "cup", "item": "mayo" },
+          { "amount": 1, "unit": "cup", "item": "sour cream" },
+          { "amount": 4, "unit": "dashes", "item": "hot sauce" },
+          { "amount": 4, "unit": "each", "item": "green onion" },
+          { "amount": 4, "unit": "TBSP", "item": "fresh parsley" },
+          { "amount": 0.5, "unit": "tsp", "item": "mustard powder" },
+          { "amount": 0.5, "unit": "tsp", "item": "garlic powder" },
+          { "amount": 2, "unit": "cup", "item": "shredded cheddar cheese" }
+        ]
+      },
+      {
+        "name": "Buffalo Chicken Dip",
+        "url": "recipes/buffalo-chicken-dip.html",
+        "ingredients": [
+          { "amount": 25, "unit": "oz", "item": "canned chicken" },
+          { "amount": 1, "unit": "cup", "item": "ranch" },
+          { "amount": 0.75, "unit": "cup", "item": "buffalo sauce" },
+          { "amount": 16, "unit": "oz", "item": "cream cheese" },
+          { "amount": 8, "unit": "oz", "item": "cheddar cheese" }
+        ]
+      },
+      {
+        "name": "White Queso",
+        "url": "recipes/white-queso.html",
+        "ingredients": [
+          { "amount": 1, "unit": "LBS", "item": "white american cheese" },
+          { "amount": 5, "unit": "oz", "item": "evaporated milk" },
+          { "amount": 1, "unit": "TBSP", "item": "unsalted butter" },
+          { "amount": 4, "unit": "oz", "item": "green chilis" },
+          { "amount": 0.25, "unit": "tsp", "item": "cumin" },
+          { "amount": 0.25, "unit": "tsp", "item": "garlic powder" },
+          { "amount": 0.125, "unit": "tsp", "item": "paprika" },
+          { "amount": 0.125, "unit": "tsp", "item": "cayenne powder" }
+        ]
+      }
+    ],
+
+    "Sauces": [
+      { "name": "RECIPE GOES HERE", "url": "recipes/template.html" }
+    ],
+
+    "Dressings": [
+      {
+        "name": "Caesar Dressing",
+        "url": "recipes/caesar-dressing.html",
+              "ingredients": [
+          { "amount": 2, "unit": "cloves", "item": "garlic" },
+          { "amount": 0.5, "unit": "tsp", "item": "salt" },
+          { "amount": 1, "unit": "TBSP", "item": "mayo" },
+          { "amount": 2, "unit": "TBSP", "item": "lemon juice" },
+          { "amount": 1, "unit": "tsp", "item": "worcestershire sauce" },
+          { "amount": 3, "unit": "each", "item": "anchovy" },
+          { "amount": 1, "unit": "pinch", "item": "salt" },
+          { "amount": 1, "unit": "pinch", "item": "pepper" },
+          { "amount": 0.5, "unit": "cup", "item": "extra virgin olive oil" },
+          { "amount": 0.25, "unit": "cup", "item": "parmesan cheese" }
+        ]
+      }
+    ],
+
+    "Breads": [
+      {
+        "name": "Banana Bread Grandma Peggy",
+        "url": "recipes/banana-bread-grandma-peggy.html",
+        "ingredients": [
+          { "amount": 0.75, "unit": "cup", "item": "butter" },
+          { "amount": 0.5, "unit": "cup", "item": "sugar" },
+          { "amount": 4, "unit": "each", "item": "bananas" },
+          { "amount": 2, "unit": "each", "item": "egg" },
+          { "amount": 1, "unit": "tsp", "item": "vanilla extract" },
+          { "amount": 2, "unit": "cup", "item": "flour" },
+          { "amount": 1, "unit": "tsp", "item": "baking soda" },
+          { "amount": 0.5, "unit": "tsp", "item": "salt" },
+          { "amount": 0.5, "unit": "cup", "item": "buttermilk" },
+          { "amount": 1, "unit": "each", "item": "chocolate chips" },
+          { "amount": 1, "unit": "each", "item": "walnuts" }
+        ]
+      },
+      {
+        "name": "Banana Bread Bites",
+        "url": "recipes/banana-bread-bites.html",
+        "ingredients": [
+          { "amount": 2, "unit": "each", "item": "bananas" },
+          { "amount": 1, "unit": "tsp", "item": "baking soda" },
+          { "amount": 0.5, "unit": "tsp", "item": "baking powder" },
+          { "amount": 1, "unit": "pinch", "item": "salt" },
+          { "amount": 2, "unit": "TBSP", "item": "milled flaxseed" },
+          { "amount": 1, "unit": "tsp", "item": "vanilla extract" },
+          { "amount": 2, "unit": "TBSP", "item": "almond butter" },
+          { "amount": 2, "unit": "TBSP", "item": "agave syrup" },
+          { "amount": 2, "unit": "TBSP", "item": "avocado oil" },
+          { "amount": 1, "unit": "cup", "item": "flour" },
+          { "amount": 0.75, "unit": "cup", "item": "rolled quick oats" },
+          { "amount": 0.5, "unit": "cup", "item": "mini chocolate chips" }
+        ]
+      }
+    ],
+
+    "Sides": [
+      {
+        "name": "Applesauce Grandma Peggy",
+        "url": "recipes/applesauce-grandma-peggy.html",
+        "ingredients": [
+          { "amount": 8, "unit": "cup", "item": "granny smith apples" },
+          { "amount": 1, "unit": "cup", "item": "water" },
+          { "amount": 2, "unit": "TBSP", "item": "lemon juice" },
+          { "amount": 1, "unit": "cup", "item": "sugar" },
+          { "amount": 2, "unit": "dashes", "item": "vanilla" },
+          { "amount": 2, "unit": "dashes", "item": "cinnamon" },
+          { "amount": 2, "unit": "dashes", "item": "nutmeg" }
+        ]
+      },
+      {
+        "name": "Avocado Chips Keto",
+        "url": "recipes/avocado-chips-keto.html",
+        "ingredients": [
+          { "amount": 1, "unit": "each", "item": "avocado" },
+          { "amount": 0.25, "unit": "cup", "item": "parmesan cheese" },
+          { "amount": 0.5, "unit": "cup", "item": "mozzarella cheese" },
+          { "amount": 2, "unit": "tsp", "item": "garlic powder" },
+          { "amount": 2, "unit": "dashes", "item": "everything bagel seasoning" }
+        ]
+      }
+    ],
+
+    "Misc.": [
+      { "name": "Almond Flour", "url": "recipes/almond-flour.html" },
+      { "name": "Almond Milk", "url": "recipes/almond-milk.html" },
+      {
+        "name": "Bourbon Butter",
+        "url": "recipes/bourbon-butter.html",
+        "ingredients": [
+          { "amount": 0.5, "unit": "cup", "item": "unsalted butter" },
+          { "amount": 2, "unit": "cloves", "item": "garlic" },
+          { "amount": 2, "unit": "TBSP", "item": "bourbon of choice" },
+          { "amount": 1, "unit": "TBSP", "item": "green onion" },
+          { "amount": 1, "unit": "TBSP", "item": "parsley" },
+          { "amount": 0.5, "unit": "tsp", "item": "salt" },
+          { "amount": 0.5, "unit": "tsp", "item": "pepper" }
+        ]
+      },      
+      { "name": "Restaurant", "url": "recipes/restaurant.html" },
+      { "name": "Leftovers", "url": "recipes/leftovers.html" }
+    ]
+  }
