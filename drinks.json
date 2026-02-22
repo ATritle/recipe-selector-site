@@ -1,6 +1,5 @@
 {
-"Drinks": {
-    "Alcoholic": [
+"Alcoholic": [
       {
         "name": "Apple Cider Honey Whiskey",
         "url": "recipes/apple-cider-honey-whiskey.html",
@@ -14,11 +13,10 @@
         ]
       }
     ],
-    "Non-Alcoholic": [
+"Non-Alcoholic": [
       { "name": "RECIPE GOES HERE", "url": "recipes/template.html" }
     ],
-    "Shots": [
+"Shots": [
       { "name": "RECIPE GOES HERE", "url": "recipes/template.html" }
     ]
-  },
-}
+  }
