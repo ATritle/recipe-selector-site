@@ -1,4 +1,4 @@
-const CACHE_NAME = "recipe-app-2026-02-21";
+const CACHE_NAME = "recipe-app-v3";
 
 const BASE = self.location.pathname.replace("service-worker.js", "");
 
