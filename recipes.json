@@ -316,7 +316,7 @@
           { "amount": 1, "unit": "each", "item": "cilantro" }
         ]
       },
-      {
+    {
         "name": "Potato Soup",
         "url": "recipes/potato-soup.html",
         "ingredients": [
@@ -355,6 +355,21 @@
   },
 
   "Desserts": {
+      "Layered Dish": [
+      {
+        "name": "Banana Chessmen Dessert",
+        "url": "recipes/banana-chessmen-dessert.html",
+        "ingredients": [
+          { "amount": 12, "unit": "oz", "item": "cool whip" },
+          { "amount": 14, "unit": "oz", "item": "sweetened condensed milk" },
+          { "amount": 8, "unit": "oz", "item": "cream cheese" },
+          { "amount": 2, "unit": "cup", "item": "milk" },
+          { "amount": 5, "unit": "oz", "item": "french vanilla pudding mix" },
+          { "amount": 8, "unit": "each", "item": "banana" },
+          { "amount": 48, "unit": "each", "item": "chessmen cookies" }
+        ]
+      }
+    ],
     "Cake": [
       {
         "name": "Banana Greek Yogurt Muffins",
@@ -442,6 +457,7 @@
     ]
   }
 }
+
 
 
 
