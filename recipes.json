@@ -85,7 +85,7 @@
     "Dressings": [
       {
         "name": "Caesar Dressing",
-        "url": "recipes/caeser-dressing.html"
+        "url": "recipes/caesar-dressing.html",
               "ingredients": [
           { "amount": 2, "unit": "cloves", "item": "garlic" },
           { "amount": 0.5, "unit": "tsp", "item": "salt" },
@@ -131,7 +131,7 @@
           { "amount": 1, "unit": "tsp", "item": "vanilla extract" },
           { "amount": 2, "unit": "TBSP", "item": "almond butter" },
           { "amount": 2, "unit": "TBSP", "item": "agave syrup" },
-          { "amount": 2, "unit": "TBSP", "item": "avacado oil" },
+          { "amount": 2, "unit": "TBSP", "item": "avocado oil" },
           { "amount": 1, "unit": "cup", "item": "flour" },
           { "amount": 0.75, "unit": "cup", "item": "rolled quick oats" },
           { "amount": 0.5, "unit": "cup", "item": "mini chocolate chips" }
@@ -159,7 +159,7 @@
         "ingredients": [
           { "amount": 1, "unit": "each", "item": "avocado" },
           { "amount": 0.25, "unit": "cup", "item": "parmesan cheese" },
-          { "amount": 0.5, "unit": "cup", "item": "mozzerella cheese" },
+          { "amount": 0.5, "unit": "cup", "item": "mozzarella cheese" },
           { "amount": 2, "unit": "tsp", "item": "garlic powder" },
           { "amount": 2, "unit": "dashes", "item": "everything bagel seasoning" }
         ]
@@ -423,7 +423,7 @@
           { "amount": 3, "unit": "each", "item": "heath bars" },
           { "amount": 8, "unit": "oz", "item": "cool whip" }
         ]
-      },
+      }
     ],
     "Bars": [
       {
@@ -442,18 +442,18 @@
     },
  {
         "name": "Blueberry Oat Bars",
-        "url": "recipes/bblueberry-oat-bars.html",
+        "url": "recipes/blueberry-oat-bars.html",
         "ingredients": [
           { "amount": 2, "unit": "cup", "item": "rolled oats" },
           { "amount": 1, "unit": "cup", "item": "almonds" },
-          { "amount": 2, "unit": "scoop", "item": "vanilla protien powder" },
+          { "amount": 2, "unit": "scoop", "item": "vanilla protein powder" },
           { "amount": 10, "unit": "each", "item": "dates" },
           { "amount": 0.5, "unit": "cup", "item": "agave syrup" },
           { "amount": 0.5, "unit": "tsp", "item": "vanilla extract" },
           { "amount": 1, "unit": "pinch", "item": "salt" },
           { "amount": 1, "unit": "cup", "item": "blueberries" }
         ]
-      },
+      }
     ],
   
   "Breakfast": {
@@ -509,9 +509,4 @@
     ]
   }
 }
-
-
-
-
-
-
+}
