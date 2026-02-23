@@ -175,24 +175,12 @@
 
   </div>
   
-<div class="download-recipe">
-  <a id="downloadLink" href="#">
-    ⬇️ Download this recipe (PDF)
-  </a>
-</div>
-
-<script>
-  const pageName = window.location.pathname
-    .split("/")
-    .pop()
-    .replace(".html", ".pdf");
-
-  document.getElementById("downloadLink").href =
-    "/recipe-selector-site/pdfs/" + pageName;
-</script>
+<script src="../js/recipe-global.js"></script>
+  
 </body>
 
 </html>
+
 
 
 
