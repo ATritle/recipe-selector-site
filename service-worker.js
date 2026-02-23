@@ -1,33 +1,28 @@
-const CACHE_NAME = "tritle-kitchen-" + self.location.href;
-
-const BASE = self.location.pathname.replace("service-worker.js", "");
+const CACHE_NAME = "tritle-kitchen-v" + Date.now();
 
 const CORE_ASSETS = [
-  BASE,
-  BASE + "index.html",
-  BASE + "css/style.css",
-  BASE + "meal-planner.html",
-  BASE + "drinks.json",
-  BASE + "dinner.json",
-  BASE + "desserts.json",
-  BASE + "breakfast.json",
-  BASE + "miscellaneous.json",
-  BASE + "apple-touch-icon.png",
-  BASE + "favicon.png"
+  "./",
+  "./index.html",
+  "./meal-planner.html",
+  "./css/style.css",
+  "./apple-touch-icon.png",
+  "./favicon.png"
 ];
 
+// INSTALL
 self.addEventListener("install", event => {
-  self.skipWaiting(); // 🔥 Immediately activate new SW
+  self.skipWaiting();
 
   event.waitUntil(
     caches.open(CACHE_NAME).then(cache => cache.addAll(CORE_ASSETS))
   );
 });
 
+// ACTIVATE
 self.addEventListener("activate", event => {
   event.waitUntil(
     Promise.all([
-      self.clients.claim(), // 🔥 Take control immediately
+      self.clients.claim(),
       caches.keys().then(keys =>
         Promise.all(
           keys
@@ -39,29 +34,36 @@ self.addEventListener("activate", event => {
   );
 });
 
+// FETCH
 self.addEventListener("fetch", event => {
-  event.respondWith(
-    caches.match(event.request).then(response => {
-      if (response) return response;
 
-      return fetch(event.request).then(networkResponse => {
-        if (
-          event.request.url.endsWith(".pdf") ||
-          event.request.url.startsWith(self.location.origin + BASE)
-        ) {
-          return caches.open(CACHE_NAME).then(cache => {
-            cache.put(event.request, networkResponse.clone());
-            return networkResponse;
-          });
-        }
+  const request = event.request;
+
+  // 🔥 Network-first for HTML & JSON
+  if (
+    request.destination === "document" ||
+    request.url.endsWith(".json")
+  ) {
+    event.respondWith(
+      fetch(request)
+        .then(response => {
+          const clone = response.clone();
+          caches.open(CACHE_NAME).then(cache => cache.put(request, clone));
+          return response;
+        })
+        .catch(() => caches.match(request))
+    );
+    return;
+  }
+
+  // 🔥 Cache-first for everything else (images, css, etc.)
+  event.respondWith(
+    caches.match(request).then(response => {
+      return response || fetch(request).then(networkResponse => {
+        const clone = networkResponse.clone();
+        caches.open(CACHE_NAME).then(cache => cache.put(request, clone));
         return networkResponse;
       });
     })
   );
-});
-
-self.addEventListener("message", event => {
-  if (event.data && event.data.type === "SKIP_WAITING") {
-    self.skipWaiting();
-  }
 });
