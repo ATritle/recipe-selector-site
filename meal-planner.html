@@ -533,7 +533,7 @@ groceryListDiv.appendChild(title);
   header.textContent = category;
 
   const ul = document.createElement("ul");
-  ul.className = "grocery-items collapsed";
+  ul.className = "grocery-items";
 
   grouped[category]
     .sort((a,b)=>a.item.localeCompare(b.item))
