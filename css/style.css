@@ -310,7 +310,7 @@ select:focus {
 
 .site-logo-wrapper {
   text-align: center;
-  margin: 0 0 5px 0; /* reduced from 40px */
+  margin: 0 0 15px 0; /* reduced from 40px */
 }
 
 .site-logo {
@@ -329,6 +329,7 @@ select:focus {
   font-size: 26px;
   font-weight: 600;
 }
+
 
 
 
