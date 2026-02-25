@@ -86,7 +86,10 @@ input[type="search"] {
 }
 
 .week-label {
-  font-weight: bold;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.2;
 }
 
 .grocery-section {
@@ -318,7 +321,7 @@ function getWeekNumber(date) {
 function updateWeekLabel(startOfWeek) {
   const month = startOfWeek.toLocaleString('default', { month: 'long' });
   const year = startOfWeek.getFullYear();
-  weekLabel.textContent = `${month} ${year}`;
+  weekLabel.innerHTML = `${month}<br>${year}`;
 }
 
 function saveWeek() {
