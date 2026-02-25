@@ -241,6 +241,12 @@ select {
   
 <div id="groceryList" class="grocery-section"></div>
 
+<div class="button-wrapper">
+  <a href="#" id="exportCalendar" class="accent-button">
+    ADD WEEK TO CALENDAR
+  </a>
+</div>
+  
 <div class="back-link-wrapper">
 <a class="accent-button" href="index.html">
   ← BACK TO RECIPE FINDER
@@ -618,6 +624,59 @@ Promise.all([
   loadWeek();
 });
 
+document.getElementById("exportCalendar").addEventListener("click", e => {
+  e.preventDefault();
+
+  const weekData = JSON.parse(localStorage.getItem(getWeekKey())) || [];
+  if (!weekData.length) return;
+
+  const today = new Date();
+  today.setDate(today.getDate() + (weekOffset * 7));
+
+  const startOfWeek = new Date(today);
+  startOfWeek.setDate(today.getDate() - today.getDay());
+
+  let icsContent = `BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Tritle Kitchen//Meal Planner//EN
+`;
+
+  weekData.forEach((dayRecipes, i) => {
+    const eventDate = new Date(startOfWeek);
+    eventDate.setDate(startOfWeek.getDate() + i);
+
+    dayRecipes.forEach(recipe => {
+
+      const dateStr = eventDate.toISOString().split("T")[0].replace(/-/g, "");
+
+      icsContent += `
+BEGIN:VEVENT
+UID:${Date.now()}-${Math.random()}
+DTSTAMP:${dateStr}T120000Z
+DTSTART;VALUE=DATE:${dateStr}
+DTEND;VALUE=DATE:${dateStr}
+SUMMARY:${recipe.name}
+DESCRIPTION:Planned using The Tritle Kitchen
+END:VEVENT
+`;
+    });
+  });
+
+  icsContent += "END:VCALENDAR";
+
+  const blob = new Blob([icsContent], { type: "text/calendar" });
+  const url = URL.createObjectURL(blob);
+
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "Tritle-Kitchen-Meal-Plan.ics";
+  document.body.appendChild(a);
+  a.click();
+
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+});
+  
 </script>
 
 </body>
