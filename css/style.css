@@ -200,8 +200,9 @@ select:focus {
 /* ===== Search Wrapper ===== */
 .search-wrapper {
   position: relative;
+  width: 100%;          /* ADD THIS */
   max-width: 600px;
-  margin: 0 auto;
+  margin: 0 auto 20px auto;  /* match dropdown spacing */
 }
 
 /* Icon inside input */
@@ -329,6 +330,7 @@ select:focus {
   font-size: 26px;
   font-weight: 600;
 }
+
 
 
 
