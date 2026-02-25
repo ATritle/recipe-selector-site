@@ -648,6 +648,21 @@ PRODID:-//Tritle Kitchen//Meal Planner//EN
     const dateStr = eventDate.toISOString().split("T")[0].replace(/-/g, "");
 
     dayRecipes.forEach(recipe => {
+
+      const fullRecipe = allRecipes.find(r => r.url === recipe.url);
+
+      let ingredientText = "";
+
+      if (fullRecipe && fullRecipe.ingredients) {
+        ingredientText = fullRecipe.ingredients
+          .map(ing => `${formatAmount(ing.amount)} ${ing.unit} ${ing.item}`)
+          .join("\\n");
+      }
+
+      const description =
+        `Ingredients:\\n${ingredientText}\\n\\nPlanned using The Tritle Kitchen`
+          .replace(/,/g, "\\,"); // escape commas for iOS
+
       ics += `
 BEGIN:VEVENT
 UID:${Date.now()}-${Math.random()}
@@ -655,7 +670,7 @@ DTSTAMP:${dateStr}T120000Z
 DTSTART;VALUE=DATE:${dateStr}
 DTEND;VALUE=DATE:${dateStr}
 SUMMARY:${recipe.name}
-DESCRIPTION:Planned using The Tritle Kitchen
+DESCRIPTION:${description}
 END:VEVENT
 `;
     });
@@ -665,7 +680,6 @@ END:VEVENT
 
   const blob = new Blob([ics], { type: "text/calendar" });
   const url = URL.createObjectURL(blob);
-
   window.location.href = url;
 });
   
