@@ -371,18 +371,21 @@ main {
   flex: 1;
 }
 
-/* Discreet dark footer */
 .site-footer {
-  padding: 18px 0;
+  padding: 20px 0;
   text-align: center;
   font-size: 13px;
-  color: rgba(255, 255, 255, 0.45);   /* softened light text */
-  border-top: 1px solid rgba(255, 255, 255, 0.08); /* subtle divider */
-  background: transparent; /* blends into body */
   letter-spacing: 0.5px;
+
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(6px);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .footer-content {
   max-width: 1200px;
   margin: 0 auto;
 }
+
