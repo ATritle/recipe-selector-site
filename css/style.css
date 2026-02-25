@@ -356,7 +356,7 @@ select:focus {
   padding: 0;
 }
 
-/* Make page structure flex so footer sticks to bottom */
+/* Make layout full height so footer sticks */
 html, body {
   height: 100%;
 }
@@ -366,20 +366,20 @@ body {
   flex-direction: column;
 }
 
-/* If you have a main wrapper, use that instead of main */
+/* If your main content wrapper is not <main>, apply flex: 1 to that instead */
 main {
   flex: 1;
 }
 
-/* Footer styling */
+/* Discreet dark footer */
 .site-footer {
-  background-color: #fafafa;           /* soft light background */
-  color: #666;                         /* muted text */
-  padding: 20px 0;
+  padding: 18px 0;
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.45);   /* softened light text */
+  border-top: 1px solid rgba(255, 255, 255, 0.08); /* subtle divider */
+  background: transparent; /* blends into body */
   letter-spacing: 0.5px;
-  border-top: 1px solid #e5e5e5;       /* subtle divider */
 }
 
 .footer-content {
