@@ -372,10 +372,10 @@ main {
 }
 
 .site-footer {
-  padding: 20px 0;
   text-align: center;
   font-size: 13px;
-  letter-spacing: 0.5px;
+  line-height: 2;              /* makes total height ≈ 2x text height */
+  padding: 0;                  /* remove extra vertical padding */
 
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(6px);
@@ -388,4 +388,5 @@ main {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 
