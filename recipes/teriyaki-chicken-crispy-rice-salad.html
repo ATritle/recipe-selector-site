@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teriyaki Chicken Crispy Rice Salad</title>
+
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #0f0f0f;
+      color: #f2f2f2;
+
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    /* Title */
+    .recipe-title {
+      text-align: center;
+      font-size: 28px;
+      letter-spacing: 6px;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      color: #e8f1ff;
+
+      text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+    }
+
+    /* Horizontal rule under title */
+    .title-rule {
+      border: none;
+      border-top: 2px solid #444;
+      margin: 10px 0 30px;
+    }
+
+    /* Two-column layout */
+    .recipe-content {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      column-gap: 40px;
+      position: relative;
+    }
+
+    /* Vertical divider */
+    .recipe-content::before {
+      content: "";
+      position: absolute;
+      left: calc(33.33% + 20px);
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      background: #444;
+    }
+
+    /* Section headers */
+    h2 {
+      font-style: italic;
+      font-size: 18px;
+      margin-bottom: 12px;
+      color: #cfcfcf;
+    }
+
+    /* Ingredients list */
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      font-size: 16px;
+      line-height: 1.6;
+      color: #e0e0e0;
+    }
+
+    ul li {
+      margin-bottom: 6px;
+    }
+
+    /* Directions list */
+    ol {
+      padding-left: 22px;
+      margin: 0;
+
+      font-size: 16px;
+      line-height: 1.6;
+      color: #e0e0e0;
+    }
+
+    ol li {
+      margin-bottom: 8px;
+    }
+    /* ===== Download Recipe Link ===== */
+.download-recipe {
+  margin: 40px auto 20px;
+  text-align: center;
+}
+
+.download-recipe a {
+  display: inline-block;   /* important */
+  font-size: 18px;
+  color: #0a84ff;
+  text-decoration: none;
+  padding: 10px 16px;
+  border-radius: 12px;
+}
+	  /* ===== Print styles (PDF / Printer) ===== */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .recipe-title {
+    color: #000000 !important;
+    text-shadow: none !important;
+  }
+
+  h2 {
+    color: #000000 !important;
+  }
+
+  ul,
+  ol {
+    color: #000000 !important;
+  }
+
+  .title-rule {
+    border-color: #000000 !important;
+  }
+
+  .recipe-content::before {
+    background: #000000 !important;
+  }
+
+  .download-recipe {
+    display: none;
+  }
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="recipe-title">
+    Teriyaki Chicken Crispy Rice Salad
+  </div>
+
+  <hr class="title-rule">
+
+  <div class="recipe-content">
+
+    <!-- Ingredients -->
+    <section>
+      <h2>Ingredients:</h2>
+      <ul>
+        <li>CRISPY RICE:</li>
+        <li>2 cups cooked Jasmine rice</li>
+        <li>1 TBSP sesame oil</li>
+        <li>2 TBSP teriyaki sauce</li>
+        <li>CHICKEN:</li>
+        <li>1 rotisserie chicken</li>
+        <li>1/4 cup teriyaki sauce</li>
+        <li>SALAD:</li>
+        <li>1 large english cucumber</li>
+        <li>1/2 cup red cabbage - finely chopped</li>
+        <li>1/2 cup cilantro - finely chopped</li>
+        <li>1 bunch green onions - diced</li>
+        <li>1 red bell pepper - diced</li>
+        <li>1/2 cup peanuts - chopped</li>
+        <li>CREAMY SESAME GINGER DRESSING:</li>
+        <li>1/2 cup olive oil</li>
+        <li>3 TBSP toasted sesame oil</li>
+        <li>3 TBSP soy sauce</li>
+        <li>3 TBSP rice vinegar</li>
+        <li>2 TBSP maple syrup</li>
+        <li>2 TBSP cashew butter (or peanut butter)</li>
+        <li>2 cloves garlic</li>
+        <li>1 TBSP fresh ginger</li>
+        
+      </ul>
+    </section>
+
+    <!-- Directions -->
+    <section>
+      <h2>Directions:</h2>
+      <ol>
+    <li>Preheat the oven to 400°F.</li>
+    <li>Line a baking sheet with parchment paper.</li>
+    <li>Add cooked and cooled rice to the baking sheet.</li>
+    <li>Toss well with the sesame oil and teriyaki sauce and spread into an even layer.</li>
+    <li>Bake for 30-35 minutes, tossing half way through.</li>
+    <li>Toss the chicken with teriyaki sauce and set aside.</li>
+    <li>Add all of the ingredients to a blender fand blend for about 1 minute until smooth.</li>
+    <li>Chop/slice all of the ingredients for the salad and add to a large bowl.</li>
+    <li>Add the shredded chicken and cripsy rice on top.</li>
+    <li>Pour dressing over the salad.  Toss and enjoy.</li>
+      </ol>
+    </section>
+
+  </div>
+
+<script src="../js/recipe-global.js"></script>
+	
+</body>
+</html>
+
+
+
+
+
+
+
