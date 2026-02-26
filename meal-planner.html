@@ -51,7 +51,7 @@
 }
 
 .remove-btn {
-  color: #ff4c4c;
+  color: #4CAF50;
   cursor: pointer;
   font-weight: bold;
   margin-left: 8px;
@@ -76,12 +76,13 @@ input[type="search"] {
   padding: 8px 14px;
   border-radius: 8px;
   border: none;
-  background: #ff4c4c;
+  background: #4CAF50;
   color: white;
   cursor: pointer;
 }
 
 .nav-btn:hover, .clear-btn:hover {
+  background: #43A047;
   opacity: 0.85;
 }
 
@@ -148,17 +149,19 @@ input[type="search"] {
 .day-number {
   font-size: 30px;
   font-weight: 800;
-  color: #ff4c4c;
+  color: #4CAF50;
 }
 
 /* Highlight current day */
 .planner-day.today {
-  border: 2px solid #ff4c4c;
-  box-shadow: 0 0 15px rgba(255,76,76,0.4);
+  border: 2px solid #4CAF50;
+  box-shadow:
+    0 0 10px rgba(76,175,80,0.5),
+    0 0 25px rgba(76,175,80,0.25);
 }
 
 .planner-day.today .day-number {
-  color: #ff4c4c;
+  color: #4CAF50;
 }
 
 .grocery-category {
