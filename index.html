@@ -173,7 +173,24 @@ recipe.addEventListener("change", () => {
   const results = document.getElementById("searchResults");
   const ingredientInput = document.getElementById("ingredientSearch");
   const ingredientResults = document.getElementById("ingredientResults");
+  const preview = document.getElementById("recipePreview");
 
+  // 📱 Tap outside preview closes it
+  document.addEventListener("click", function (e) {
+    const isTouch = !window.matchMedia("(hover: hover)").matches;
+    if (!isTouch) return;
+
+    if (
+      !e.target.closest("#recipePreview") &&
+      !e.target.closest("#searchResults li")
+    ) {
+      preview.classList.remove("show");
+      setTimeout(function () {
+        preview.classList.add("hidden");
+      }, 200);
+    }
+  });
+          
   const allRecipes = [];
 
   Object.values(data).forEach(category =>
@@ -199,8 +216,7 @@ allRecipes
 
     const li = document.createElement("li");
     li.textContent = r.name;
-
-    const preview = document.getElementById("recipePreview");
+    
     const isTouch = !window.matchMedia("(hover: hover)").matches;
     let tappedOnce = false;
 
@@ -393,6 +409,7 @@ function closeModal() {
   
 </body>
 </html>
+
 
 
 
