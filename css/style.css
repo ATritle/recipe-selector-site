@@ -493,3 +493,12 @@ main {
   color: #ccc;
   margin: 0;
 }
+
+@media (hover: none) {
+  .recipe-preview {
+    left: 50% !important;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 400px;
+  }
+}
