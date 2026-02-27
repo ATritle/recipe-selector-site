@@ -452,3 +452,44 @@ main {
 .modal-close:hover {
   color: white;
 }
+
+/* ===== Floating Recipe Preview ===== */
+
+.recipe-preview {
+  position: absolute;
+  width: 320px;
+  background: rgba(25, 25, 25, 0.95);
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+  z-index: 5000;
+  backdrop-filter: blur(8px);
+
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.recipe-preview.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.recipe-preview img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.recipe-preview h3 {
+  margin: 0 0 6px 0;
+  font-size: 18px;
+}
+
+.recipe-preview p {
+  font-size: 14px;
+  color: #ccc;
+  margin: 0;
+}
