@@ -101,14 +101,13 @@
     Breakfast: breakfast,
     Miscellaneous: miscellaneous
   };
- 
+
   init(data);
 });
     function init(data) {
       const main = document.getElementById("mainCategory");
       const sub = document.getElementById("subCategory");
       const recipe = document.getElementById("recipe");
-      let favoriteRecipes = JSON.parse(localStorage.getItem("favorites")) || [];
 
 Object.keys(data)
   .sort((a, b) => a.localeCompare(b))
@@ -147,23 +146,12 @@ document.getElementById("recipeSearch").value = "";
           return;
         }
 
-const recipesList = data[main.value][sub.value]
+       data[main.value][sub.value]
   .slice()
-  .sort((a, b) => a.name.localeCompare(b.name));
-
-// Split favorites and non-favorites
-const favorites = recipesList.filter(r => favoriteRecipes.includes(r.url));
-const others = recipesList.filter(r => !favoriteRecipes.includes(r.url));
-
-// Add favorites first
-favorites.forEach(r => {
-  recipe.add(new Option(`⭐ ${r.name}`, r.url));
-});
-
-// Then add others
-others.forEach(r => {
-  recipe.add(new Option(r.name, r.url));
-});
+  .sort((a, b) => a.name.localeCompare(b.name))
+  .forEach(r => {
+    recipe.add(new Option(r.name, r.url));
+  });
 
 
         recipe.disabled = false;
@@ -225,9 +213,7 @@ allRecipes
   .forEach(r => {
 
     const li = document.createElement("li");
-
-const isFavorite = favoriteRecipes.includes(r.url);
-li.textContent = (isFavorite ? "⭐ " : "") + r.name;
+    li.textContent = r.name;
     
     const isTouch = !window.matchMedia("(hover: hover)").matches;
     let tappedOnce = false;
@@ -301,41 +287,6 @@ li.textContent = (isFavorite ? "⭐ " : "") + r.name;
       }
     });
 
-// ⭐ iOS-style long press to toggle favorite
-let pressTimer;
-
-li.addEventListener("touchstart", function () {
-  pressTimer = setTimeout(() => {
-    toggleFavorite();
-  }, 600); // long press duration (ms)
-});
-
-li.addEventListener("touchend", function () {
-  clearTimeout(pressTimer);
-});
-
-li.addEventListener("touchmove", function () {
-  clearTimeout(pressTimer);
-});
-
-function toggleFavorite() {
-  if (favoriteRecipes.includes(r.url)) {
-    favoriteRecipes = favoriteRecipes.filter(url => url !== r.url);
-  } else {
-    favoriteRecipes.push(r.url);
-  }
-
-  // Haptic feedback
-  if (navigator.vibrate) {
-    navigator.vibrate(10);
-  }
-
-  localStorage.setItem("favorites", JSON.stringify(favoriteRecipes));
-
-  const isFav = favoriteRecipes.includes(r.url);
-  li.textContent = (isFav ? "⭐ " : "") + r.name;
-}
-    
     results.appendChild(li);
   });
 
