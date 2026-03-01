@@ -30,22 +30,45 @@
 
     "Overnight Oats": [
       {
-        "name": "RECIPE GOES HERE",
-        "url": "recipes/template.html", 
+        "name": "Blueberry Overnight Oats",
+        "url": "recipes/blueberry-overnight-oats.html", 
         "ingredients": [
-          { "amount": 0, "unit": "each", "item": "ingredient" },
-          { "amount": 0, "unit": "each", "item": "ingredient" }
+          { "amount": 0.5, "unit": "cup", "item": "quick oats" },
+          { "amount": 0.25, "unit": "tsp", "item": "cinnamon" },
+          { "amount": 0.5, "unit": "cup", "item": "almond milk" },
+          { "amount": 0.5, "unit": "TBSP", "item": "agave syrup" },
+          { "amount": 0.25, "unit": "cup", "item": "frozen blueberries" },
+          { "amount": 1, "unit": "dashes", "item": "salt" }
+        ]
+      },
+            {
+        "name": "Chocolate Peanut Butter Overnight Oats",
+        "url": "recipes/chocolate-peanut-butter-overnight-oats.html", 
+        "ingredients": [
+          { "amount": 0.5, "unit": "cup", "item": "quick oats" },
+          { "amount": 1, "unit": "TBSP", "item": "peanut butter" },
+          { "amount": 1, "unit": "TBSP", "item": "cacao powder" },
+          { "amount": 1, "unit": "TBSP", "item": "chia seeds" },
+          { "amount": 2, "unit": "tsp", "item": "agave syrup" },
+          { "amount": 0.5, "unit": "cup", "item": "almond milk" },
+          { "amount": 2, "unit": "TBSP", "item": "mini semi-sweet chocolate chips" }
         ]
       }
     ],
 
     "Casserole": [
       {
-        "name": "RECIPE GOES HERE",
-        "url": "recipes/template.html", 
+        "name": "French Toast Bake",
+        "url": "recipes/french-toast-bake.html", 
         "ingredients": [
-          { "amount": 0, "unit": "each", "item": "ingredient" },
-          { "amount": 0, "unit": "each", "item": "ingredient" }
+          { "amount": 18, "unit": "slice", "item": "bread" },
+          { "amount": 12, "unit": "each", "item": "egg" },
+          { "amount": 16, "unit": "oz", "item": "cream cheese" },
+          { "amount": 1.25, "unit": "cup", "item": "milk" },
+          { "amount": 0.75, "unit": "cup", "item": "maple syrup" },
+          { "amount": 1, "unit": "tsp", "item": "cinnamon" },
+          { "amount": 1, "unit": "tsp", "item": "sugar" },
+          { "amount": 2, "unit": "tsp", "item": "vanilla extract" }
         ]
       }
     ]
