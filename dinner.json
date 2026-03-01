@@ -1,7 +1,7 @@
 {
   "Mexican Meals": [
     {
-      "name": "Birria Tacos",
+      "name": "⭐ Birria Tacos",
       "url": "recipes/birria-tacos.html",
       "ingredients": [
         { "amount": 3.5, "unit": "LBS", "item": "beef chuck roast" },
@@ -49,7 +49,7 @@
       ]
     },
         {
-      "name": "Elote Chicken Pasta",
+      "name": "⭐ Elote Chicken Pasta",
       "url": "recipes/elote-chicken-pasta.html",
       "ingredients": [
         { "amount": 3, "unit": "LBS", "item": "chicken" },
@@ -198,7 +198,7 @@
       ]
     },
     {
-      "name": "Teriyaki Chicken Crispy Rice Salad",
+      "name": "⭐ Teriyaki Chicken Crispy Rice Salad",
       "url": "recipes/teriyaki-chicken-crispy-rice-salad.html",
       "ingredients": [
         { "amount": 2, "unit": "cup", "item": "jasmine rice" },
@@ -273,7 +273,7 @@
       ]
     },
         {
-      "name": "Low Carb Chicken Spaghetti",
+      "name": "⭐ Low Carb Chicken Spaghetti",
       "url": "recipes/low-carb-chicken-spaghetti.html",
       "ingredients": [
         { "amount": 2, "unit": "each", "item": "spaghetti squash" },
@@ -356,7 +356,7 @@
       ]
     },
     {
-      "name": "French Onion Soup",
+      "name": "⭐ French Onion Soup",
       "url": "recipes/french-onion-soup.html",
       "ingredients": [
         { "amount": 6, "unit": "cup", "item": "onion" },
