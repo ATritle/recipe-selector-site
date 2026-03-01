@@ -21,7 +21,7 @@ select,
   min-height: auto; /* removed forced extra height */
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.45);
 
-  background-image: url("/images/recipes-home.png");
+  background-image: url("images/recipes-home.png");
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -452,6 +452,7 @@ main {
 .modal-close:hover {
   color: white;
 }
+
 
 
 
