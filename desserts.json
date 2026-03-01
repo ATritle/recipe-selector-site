@@ -49,7 +49,7 @@
       },
         {
         "name": "Caramel Cinnamon Rolls - Ruby",
-        "url": "recipes/caramel-cinnamon-rolls.html",
+        "url": "recipes/caramel-cinnamon-rolls-ruby.html",
         "ingredients": [
           { "amount": 1, "unit": "cup", "item": "sugar" },
           { "amount": 0.5, "unit": "cup", "item": "crisco" },
