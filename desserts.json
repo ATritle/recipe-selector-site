@@ -14,7 +14,7 @@
         ]
       }
     ],
-    "Cake": [
+        "Cake": [
       {
         "name": "Banana Greek Yogurt Muffins",
         "url": "recipes/banana-greek-yogurt-muffins.html",
@@ -29,6 +29,45 @@
           { "amount": 0.5, "unit": "cup", "item": "mini chocolate chips" }
         ]
       },
+        {
+        "name": "Chocolate Zucchini Cake",
+        "url": "recipes/chocolate-zucchini-cake.html",
+        "ingredients": [
+          { "amount": 2, "unit": "cup", "item": "flour" },
+          { "amount": 0.75, "unit": "cup", "item": "hershey's unsweetened cocoa powder" },
+          { "amount": 2, "unit": "tsp", "item": "baking soda" },
+          { "amount": 0.5, "unit": "tsp", "item": "baking powder" },
+          { "amount": 1, "unit": "cup", "item": "olive oil" },
+          { "amount": 1, "unit": "cup", "item": "sugar" },
+          { "amount": 0.75, "unit": "cup", "item": "brown sugar" },
+          { "amount": 2, "unit": "tsp", "item": "vanilla extract" },
+          { "amount": 0.33, "unit": "cup", "item": "sour cream" },
+          { "amount": 4, "unit": "each", "item": "egg" },
+          { "amount": 3, "unit": "cup", "item": "zucchini" },
+          { "amount": 1, "unit": "cup", "item": "semi-sweet chocolate chips" }
+        ]
+      },
+        {
+        "name": "Caramel Cinnamon Rolls - Ruby",
+        "url": "recipes/caramel-cinnamon-rolls.html",
+        "ingredients": [
+          { "amount": 1, "unit": "cup", "item": "sugar" },
+          { "amount": 0.5, "unit": "cup", "item": "crisco" },
+          { "amount": 1.5, "unit": "tsp", "item": "salt" },
+          { "amount": 2, "unit": "each", "item": "egg" },
+          { "amount": 1.25, "unit": "tsp", "item": "yeast" },
+          { "amount": 6, "unit": "cup", "item": "flour" },
+          { "amount": 2, "unit": "cup", "item": "boiling water" },
+          { "amount": 4, "unit": "TBSP", "item": "unsalted butter" },
+          { "amount": 1, "unit": "dashes", "item": "cinnamon" },
+          { "amount": 1, "unit": "dashes", "item": "sugar" },
+          { "amount": 2, "unit": "cup", "item": "brown sugar" },
+          { "amount": 0.5, "unit": "cup", "item": "water" },
+          { "amount": 0.5, "unit": "cup", "item": "unsalted butter" },
+          { "amount": 4, "unit": "TBSP", "item": "white karo syrup" },
+          { "amount": 1, "unit": "each", "item": "pecan or walnuts" }
+        ]
+      },
     {
         "name": "Better Than Sex Cake",
         "url": "recipes/better-than-sex-cake.html",
@@ -38,6 +77,114 @@
           { "amount": 6, "unit": "oz", "item": "caramel ice cream topping" },
           { "amount": 3, "unit": "each", "item": "heath bars" },
           { "amount": 8, "unit": "oz", "item": "cool whip" }
+        ]
+      }
+    ],
+    "Misc.": [
+      {
+        "name": "Caramel Corn - Old Dutch Style",
+        "url": "recipes/caramel-corn-old-dutch-style.html",
+        "ingredients": [
+          { "amount": 1, "unit": "each", "item": "old dutch puffcorn" },
+          { "amount": 1, "unit": "cup", "item": "unsalted butter" },
+          { "amount": 1.25, "unit": "cup", "item": "brown sugar" },
+          { "amount": 0.66, "unit": "cup", "item": "light corn syrup" },
+          { "amount": 1, "unit": "tsp", "item": "baking soda" },
+          { "amount": 1, "unit": "each", "item": "chocolate chips" }
+        ]
+      },
+        {
+        "name": "Chocolate Peanut Butter Mousse - Keto",
+        "url": "recipes/chocolate-peanut-butter-mousse-keto.html",
+        "ingredients": [
+          { "amount": 4, "unit": "oz", "item": "cream cheese" },
+          { "amount": 3.5, "unit": "TBSP", "item": "swerve confectioners sugar" },
+          { "amount": 1, "unit": "TBSP", "item": "cocoa powder" },
+          { "amount": 3, "unit": "TBSP", "item": "sugar-free peanut butter" },
+          { "amount": 0.66, "unit": "cup", "item": "heavy whipping cream" }
+        ]
+      },
+      {
+        "name": "Chocolate Chip Cookies - Grandma Peggy",
+        "url": "recipes/chocolate-chip-cookies-grandma-peggy.html",
+        "ingredients": [
+          { "amount": 1.5, "unit": "cup", "item": "unsalted butter" },
+          { "amount": 1.25, "unit": "cup", "item": "sugar" },
+          { "amount": 1.25, "unit": "cup", "item": "brown sugar" },
+          { "amount": 2, "unit": "each", "item": "egg" },
+          { "amount": 1, "unit": "TBSP", "item": "vanilla extract" },
+          { "amount": 4.5, "unit": "cup", "item": "flour" },
+          { "amount": 1, "unit": "tsp", "item": "baking powder" },
+          { "amount": 1, "unit": "tsp", "item": "baking soda" },
+          { "amount": 1, "unit": "tsp", "item": "salt" },
+          { "amount": 2, "unit": "cup", "item": "chocolate chips" }
+        ]
+      },
+      {
+        "name": "Monster Cookies",
+        "url": "recipes/monster-cookie.html",
+        "ingredients": [
+          { "amount": 3, "unit": "each", "item": "egg" },
+          { "amount": 1.25, "unit": "cup", "item": "light brown sugar" },
+          { "amount": 1, "unit": "cup", "item": "sugar" },
+          { "amount": 0.5, "unit": "tsp", "item": "salt" },
+          { "amount": 0.5, "unit": "tsp", "item": "vanilla extract" },
+          { "amount": 12, "unit": "oz", "item": "peanut butter" },
+          { "amount": 8, "unit": "TBSP", "item": "unsalted butter" },
+          { "amount": 4.5, "unit": "cup", "item": "old fashioned oats" },
+          { "amount": 2, "unit": "tsp", "item": "baking soda" },
+          { "amount": 1, "unit": "cup", "item": "m&ms" }
+        ]
+      },
+      {
+        "name": "Nieman Marcus Cookies",
+        "url": "recipes/nieman-marcus-cookies.html",
+        "ingredients": [
+          { "amount": 4, "unit": "cup", "item": "flour" },
+          { "amount": 2, "unit": "tsp", "item": "baking soda" },
+          { "amount": 2, "unit": "tsp", "item": "baking powder" },
+          { "amount": 5, "unit": "cup", "item": "rolled quick oats" },
+          { "amount": 2, "unit": "cup", "item": "sugar" },
+          { "amount": 2, "unit": "cup", "item": "unsalted butter" },
+          { "amount": 2, "unit": "cup", "item": "light brown sugar" },
+          { "amount": 1, "unit": "tsp", "item": "salt" },
+          { "amount": 4, "unit": "each", "item": "egg" },
+          { "amount": 2, "unit": "tsp", "item": "vanilla extract" },
+          { "amount": 24, "unit": "oz", "item": "milk chocolate chips" },
+          { "amount": 8, "unit": "oz", "item": "hershey's bar - grated" }
+        ]
+      },
+        {
+        "name": "Cream Cheese Fluff - Keto",
+        "url": "recipes/cream-cheese-fluff-keto.html",
+        "ingredients": [
+          { "amount": 3, "unit": "oz", "item": "cream cheese" },
+          { "amount": 3, "unit": "TBSP", "item": "swerve confectioners sugar" },
+          { "amount": 3, "unit": "TBSP", "item": "heavy whipping cream" }
+        ]
+      },
+        {
+        "name": "Everything Bagel Seasoning",
+        "url": "recipes/everything-bagel-seasoning.html",
+        "ingredients": [
+          { "amount": 1, "unit": "TBSP", "item": "poppy seeds" },
+          { "amount": 1, "unit": "TBSP", "item": "sesame seeds" },
+          { "amount": 1, "unit": "TBSP", "item": "black sesame seeds" },
+          { "amount": 1.5, "unit": "TBSP", "item": "dried minced garlic powder" },
+          { "amount": 1.5, "unit": "TBSP", "item": "dried minced onion" },
+          { "amount": 2, "unit": "tsp", "item": "sea salt" }
+        ]
+      },
+    {
+        "name": "Chocolate Buttercream Frosting",
+        "url": "recipes/chocolate-buttercream-frosting.html",
+        "ingredients": [
+          { "amount": 1.25, "unit": "cup", "item": "unsalted butter" },
+          { "amount": 3.5, "unit": "cup", "item": "powdered sugar" },
+          { "amount": 5, "unit": "TBSP", "item": "heavy whipping cream" },
+          { "amount": 0.25, "unit": "tsp", "item": "salt" },
+          { "amount": 1, "unit": "tsp", "item": "vanilla extract" },
+          { "amount": 1, "unit": "each", "item": "semi-sweet chocolate chips" }
         ]
       }
     ],
@@ -54,6 +201,80 @@
           { "amount": 1, "unit": "pinch", "item": "salt" },
           { "amount": 1, "unit": "each", "item": "walnuts" },
           { "amount": 1, "unit": "each", "item": "coconut flakes" }
+      ]
+    },
+      {
+        "name": "Caramel Rice Krispies Treats",
+        "url": "recipes/caramel-rice-krispies-treats.html",
+        "ingredients": [
+          { "amount": 2, "unit": "bag", "item": "marshmallows" },
+          { "amount": 0.5, "unit": "cup", "item": "unsalted butter" },
+          { "amount": 12, "unit": "cup", "item": "rice krispies" },
+          { "amount": 10, "unit": "TBSP", "item": "unsalted butter" },
+          { "amount": 14, "unit": "oz", "item": "kraft caramels" },
+          { "amount": 13, "unit": "oz", "item": "sweetened condensed milk" }
+      ]
+    },
+        {
+        "name": "Chocolate Chickpea Brownies",
+        "url": "recipes/chocolate-chickpea-brownies.html",
+        "ingredients": [
+          { "amount": 15, "unit": "oz", "item": "chickpeas" },
+          { "amount": 0.5, "unit": "cup", "item": "almond or peanut butter" },
+          { "amount": 0.5, "unit": "cup", "item": "agave syrup" },
+          { "amount": 1, "unit": "TBSP", "item": "coconut oil" },
+          { "amount": 1, "unit": "tsp", "item": "vanilla extract" },
+          { "amount": 0.25, "unit": "cup", "item": "almond flour" },
+          { "amount": 0.25, "unit": "cup", "item": "hershey's unsweetened cocoa powder" },
+          { "amount": 0.25, "unit": "tsp", "item": "baking soda" },
+          { "amount": 0.25, "unit": "tsp", "item": "baking powder" },
+          { "amount": 0.25, "unit": "tsp", "item": "salt" },
+          { "amount": 1, "unit": "cup", "item": "chocolate chips" }
+      ]
+    },
+       {
+        "name": "Chunky Blonde Brownies",
+        "url": "recipes/chunky-blonde-brownies.html",
+        "ingredients": [
+          { "amount": 0.5, "unit": "cup", "item": "unsalted butter" },
+          { "amount": 0.75, "unit": "cup", "item": "sugar" },
+          { "amount": 0.75, "unit": "cup", "item": "brown sugar" },
+          { "amount": 2, "unit": "each", "item": "egg" },
+          { "amount": 1, "unit": "tsp", "item": "vanilla extract" },
+          { "amount": 1.5, "unit": "cup", "item": "flour" },
+          { "amount": 1, "unit": "tsp", "item": "baking powder" },
+          { "amount": 0.5, "unit": "tsp", "item": "salt" },
+          { "amount": 1, "unit": "cup", "item": "white chocolate chips" },
+          { "amount": 1, "unit": "cup", "item": "chocolate chips" },
+          { "amount": 1, "unit": "cup", "item": "macadamia nuts" }
+      ]
+    },
+       {
+        "name": "Mary Bars",
+        "url": "recipes/mary-bars.html",
+        "ingredients": [
+          { "amount": 1.5, "unit": "cup", "item": "peanut butter" },
+          { "amount": 1, "unit": "cup", "item": "sugar" },
+          { "amount": 1, "unit": "cup", "item": "light corn syrup" },
+          { "amount": 7, "unit": "cup", "item": "rice krispies" },
+          { "amount": 6, "unit": "each", "item": "white almost bark square" },
+          { "amount": 1.5, "unit": "cup", "item": "semi-sweet chocolate chips" }
+      ]
+    },
+       {
+        "name": "Monster Cookie Bars - Jocelyn MHS",
+        "url": "recipes/monster-cookie-bars.html",
+        "ingredients": [
+          { "amount": 8, "unit": "oz", "item": "unsalted butter" },
+          { "amount": 1, "unit": "cup", "item": "light brown sugar" },
+          { "amount": 1, "unit": "cup", "item": "sugar" },
+          { "amount": 3, "unit": "each", "item": "egg" },
+          { "amount": 1.5, "unit": "cup", "item": "peanut butter" },
+          { "amount": 1, "unit": "tsp", "item": "vanilla extract" },
+          { "amount": 2, "unit": "tsp", "item": "baking soda" },
+          { "amount": 4.5, "unit": "cup", "item": "rolled quick oats" },
+          { "amount": 1.5, "unit": "cup", "item": "semi-sweet chocolate chips" },
+          { "amount": 1, "unit": "cup", "item": "m&ms" }
       ]
     },
  {
