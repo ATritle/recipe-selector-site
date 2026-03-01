@@ -148,11 +148,20 @@ document.getElementById("recipeSearch").value = "";
 
        data[main.value][sub.value]
   .slice()
-  .sort((a, b) => a.name.localeCompare(b.name))
+  .sort((a, b) => {
+  const aFav = a.name.startsWith("⭐");
+  const bFav = b.name.startsWith("⭐");
+
+  // Favorites first
+  if (aFav && !bFav) return -1;
+  if (!aFav && bFav) return 1;
+
+  // Then alphabetical
+  return a.name.localeCompare(b.name);
+})
   .forEach(r => {
     recipe.add(new Option(r.name, r.url));
   });
-
 
         recipe.disabled = false;
       });
@@ -374,12 +383,12 @@ if ("serviceWorker" in navigator) {
   <div class="modal-box">
     <button class="modal-close" onclick="closeModal()">×</button>
     <h2>What's New</h2>
-    <p>New Tariyaki Chicken Crispy Rice Salad!</p>
+    <p>NOW STARS NEXT TO FAVORITE RECIPES!</p>
   </div>
 </div>
 
 <script>
-const MODAL_VERSION = "1.0.12";  // 🔥 REMOVED THE THUMBNAIL PREVIEW
+const MODAL_VERSION = "1.0.13";  // 🔥 NOW STARS NEXT TO FAVORITE RECIPES!
 
 document.addEventListener("DOMContentLoaded", () => {
   const storedVersion = localStorage.getItem("modalVersionSeen");
