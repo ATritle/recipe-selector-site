@@ -269,7 +269,7 @@ select:focus {
 /* Hover */
 .accent-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 18px rgba(10, 132, 255, 0.45);
+  box-shadow: 0 8px 18px rgba(255, 255, 255, 255);
 }
 
 /* Click */
@@ -452,4 +452,5 @@ main {
 .modal-close:hover {
   color: white;
 }
+
 
