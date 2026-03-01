@@ -38,6 +38,80 @@
           { "amount": 8, "unit": "oz", "item": "cheddar cheese" }
         ]
       },
+            {
+        "name": "Corn Dip - Jesi Fuller",
+        "url": "recipes/corn-dip.html",
+        "ingredients": [
+          { "amount": 44, "unit": "oz", "item": "white shoepeg corn" },
+          { "amount": 11, "unit": "oz", "item": "jalapenos" },
+          { "amount": 1, "unit": "each", "item": "red onion" },
+          { "amount": 2, "unit": "cup", "item": "mayo" },
+          { "amount": 2, "unit": "cup", "item": "cheddar cheese" },
+          { "amount": 1, "unit": "dashes", "item": "salt" },
+          { "amount": 1, "unit": "dashes", "item": "pepper" },
+          { "amount": 1, "unit": "dashes", "item": "garlic powder" }
+        ]
+      },
+            {
+        "name": "Dunkaroo Dip",
+        "url": "recipes/dunkaroo-dip.html",
+        "ingredients": [
+          { "amount": 1, "unit": "box", "item": "funfetti cake mix" },
+          { "amount": 12, "unit": "oz", "item": "vanilla yogurt" },
+          { "amount": 8, "unit": "oz", "item": "cool whip" },
+          { "amount": 1, "unit": "dashes", "item": "sprinkles" }
+        ]
+      },
+          {
+        "name": "Jalapeno Corn Dip",
+        "url": "recipes/jalapeno-corn-dip.html",
+        "ingredients": [
+          { "amount": 0.5, "unit": "cup", "item": "sour cream" },
+          { "amount": 0.5, "unit": "cup", "item": "mayo" },
+          { "amount": 0.5, "unit": "cup", "item": "salsa" },
+          { "amount": 0.25, "unit": "tsp", "item": "pepper" },
+          { "amount": 0.5, "unit": "tsp", "item": "garlic powder" },
+          { "amount": 14.5, "unit": "oz", "item": "sweet corn" },
+          { "amount": 2, "unit": "each", "item": "jalapenos" },
+          { "amount": 2, "unit": "cup", "item": "cheddar cheese" }
+        ]
+      },
+          {
+        "name": "Jalapeno Popper Dip",
+        "url": "recipes/jalapeno-popper-dip.html",
+        "ingredients": [
+          { "amount": 16, "unit": "oz", "item": "cream cheese" },
+          { "amount": 1, "unit": "cup", "item": "mayo" },
+          { "amount": 4, "unit": "oz", "item": "green chilis" },
+          { "amount": 2, "unit": "oz", "item": "jalapenos" },
+          { "amount": 1, "unit": "cup", "item": "parmesan cheese" }
+        ]
+      },
+          {
+        "name": "Mexican Corn Dip",
+        "url": "recipes/mexican-corn-dip.html",
+        "ingredients": [
+          { "amount": 1, "unit": "cup", "item": "mayo" },
+          { "amount": 1, "unit": "cup", "item": "sour cream" },
+          { "amount": 30, "unit": "oz", "item": "mexican or southwest sweet corn" },
+          { "amount": 10, "unit": "oz", "item": "rotel" },
+          { "amount": 2, "unit": "cup", "item": "cheddar cheese" },
+          { "amount": 8, "unit": "each", "item": "green onion" },
+          { "amount": 1, "unit": "bunch", "item": "cilantro" }
+        ]
+      },
+           {
+        "name": "Pumpkin Harvest Dip - Rebekah",
+        "url": "recipes/pumpkin-harvest-dip.html",
+        "ingredients": [
+          { "amount": 8, "unit": "oz", "item": "cream cheese" },
+          { "amount": 2, "unit": "cup", "item": "powdered sugar" },
+          { "amount": 15, "unit": "oz", "item": "pumpkin puree" },
+          { "amount": 3, "unit": "TBSP", "item": "pumpkin pie spice" },
+          { "amount": 1, "unit": "tsp", "item": "vanilla extract" },
+          { "amount": 0.5, "unit": "tsp", "item": "ground ginger" }
+        ]
+      },
       {
         "name": "White Queso",
         "url": "recipes/white-queso.html",
@@ -55,7 +129,55 @@
     ],
 
     "Sauces": [
-      { "name": "RECIPE GOES HERE", "url": "recipes/template.html" }
+      {
+        "name": "Cajun Dipping Sauce - Rainbow",
+        "url": "recipes/cajun-dipping-sauce.html",
+              "ingredients": [
+          { "amount": 1, "unit": "cup", "item": "mayo" },
+          { "amount": 1, "unit": "cup", "item": "sour cream" },
+          { "amount": 1.5, "unit": "TBSP", "item": "cajun seasoning" }
+        ]
+      },
+            {
+        "name": "Honey Mustard",
+        "url": "recipes/honey-mustard.html",
+              "ingredients": [
+          { "amount": 0.5, "unit": "cup", "item": "mayo" },
+          { "amount": 1, "unit": "TBSP", "item": "dijon mustard" },
+          { "amount": 1, "unit": "TBSP", "item": "yellow mustard" },
+          { "amount": 3, "unit": "TBSP", "item": "honey" },
+          { "amount": 1, "unit": "tsp", "item": "apple cider vinegar" },
+          { "amount": 0.12, "unit": "tsp", "item": "garlic powder" },
+          { "amount": 0.12, "unit": "tsp", "item": "paprika" },
+          { "amount": 0.12, "unit": "tsp", "item": "salt" },
+          { "amount": 1, "unit": "dashes", "item": "pepper" }
+        ]
+      },
+            {
+        "name": "Margherita Pizza Sauce",
+        "url": "recipes/margherita-pizza-sauce.html",
+              "ingredients": [
+          { "amount": 1, "unit": "TBSP", "item": "extra virgin olive oil" },
+          { "amount": 1, "unit": "each", "item": "onion" },
+          { "amount": 1, "unit": "tsp", "item": "fresh parsley" },
+          { "amount": 1, "unit": "dashes", "item": "salt" },
+          { "amount": 1, "unit": "dashes", "item": "pepper" },
+          { "amount": 4, "unit": "cloves", "item": "garlic" },
+          { "amount": 0.25, "unit": "tsp", "item": "oregano" },
+          { "amount": 30, "unit": "oz", "item": "whole peeled tomatoes" }
+        ]
+      },
+            {
+        "name": "Fish Taco Sauce",
+        "url": "recipes/fish-taco-sauce.html",
+              "ingredients": [
+          { "amount": 3, "unit": "TBSP", "item": "sour cream" },
+          { "amount": 0.25, "unit": "cup", "item": "mayo" },
+          { "amount": 0.5, "unit": "each", "item": "lime" },
+          { "amount": 1, "unit": "tsp", "item": "garlic powder" },
+          { "amount": 0.5, "unit": "tsp", "item": "chili powder" }
+        ]
+      }
     ],
 
     "Dressings": [
@@ -139,6 +261,27 @@
           { "amount": 2, "unit": "tsp", "item": "garlic powder" },
           { "amount": 2, "unit": "dashes", "item": "everything bagel seasoning" }
         ]
+      },
+      {
+        "name": "Ole Feller Beans",
+        "url": "recipes/ole-feller-beans.html",
+        "ingredients": [
+          { "amount": 1, "unit": "LBS", "item": "ground beef" },
+          { "amount": 1, "unit": "tsp", "item": "salt" },
+          { "amount": 0.5, "unit": "cup", "item": "onion" },
+          { "amount": 0.33, "unit": "cup", "item": "light brown sugar" },
+          { "amount": 0.5, "unit": "tsp", "item": "chili powder" },
+          { "amount": 0.5, "unit": "LBS", "item": "bacon" },
+          { "amount": 2, "unit": "TBSP", "item": "white corn syrup" },
+          { "amount": 15, "unit": "oz", "item": "kidney beans" },
+          { "amount": 15, "unit": "oz", "item": "butter beans" },
+          { "amount": 15, "unit": "oz", "item": "pork and beans" },
+          { "amount": 0.33, "unit": "cup", "item": "sugar" },
+          { "amount": 0.25, "unit": "cup", "item": "ketchup" },
+          { "amount": 0.25, "unit": "cup", "item": "bbq sauce" },
+          { "amount": 2, "unit": "TBSP", "item": "yellow mustard" },
+          { "amount": 0.25, "unit": "tsp", "item": "pepper" }
+        ]
       }
     ],
 
@@ -157,7 +300,44 @@
           { "amount": 0.5, "unit": "tsp", "item": "salt" },
           { "amount": 0.5, "unit": "tsp", "item": "pepper" }
         ]
-      },      
+      },
+            {
+        "name": "Cinnamon Butter - Copycat Texas Roadhouse",
+        "url": "recipes/cinnamon-butter.html",
+        "ingredients": [
+          { "amount": 8, "unit": "TBSP", "item": "unsalted butter" },
+          { "amount": 0.5, "unit": "cup", "item": "powdered sugar" },
+          { "amount": 1.5, "unit": "TBSP", "item": "honey" },
+          { "amount": 0.75, "unit": "tsp", "item": "cinnamon" }
+        ]
+      },
+            {
+        "name": "Dry Brine",
+        "url": "recipes/dry-brine.html",
+        "ingredients": [
+          { "amount": 0.33, "unit": "cup", "item": "kosher salt" },
+          { "amount": 1, "unit": "TBSP", "item": "light brown sugar" },
+          { "amount": 1, "unit": "tsp", "item": "pepper" },
+          { "amount": 0.25, "unit": "cup", "item": "unsalted butter" },
+          { "amount": 1, "unit": "cup", "item": "water" },
+          { "amount": 1, "unit": "each", "item": "whole turkey or chicken" }
+        ]
+      },
+            {
+        "name": "Turkey Tender Marinade - Rainbow",
+        "url": "recipes/turkey-tender-marinade.html",
+        "ingredients": [
+          { "amount": 0.5, "unit": "cup", "item": "liquid aminos" },
+          { "amount": 0.5, "unit": "cup", "item": "cooking sherry" },
+          { "amount": 1, "unit": "cup", "item": "olive oil" },
+          { "amount": 0.5, "unit": "cup", "item": "lemon juice" },
+          { "amount": 0.25, "unit": "tsp", "item": "pepper" },
+          { "amount": 0.12, "unit": "tsp", "item": "garlic powder" },
+          { "amount": 1, "unit": "each", "item": "onion" },
+          { "amount": 1, "unit": "cup", "item": "sierra mist, 7-up or sprite" },
+          { "amount": 3, "unit": "LBS", "item": "turkey tenderloins" }
+        ]
+      },         
       { "name": "Restaurant", "url": "recipes/restaurant.html" },
       { "name": "Leftovers", "url": "recipes/leftovers.html" }
     ]
