@@ -1,5 +1,5 @@
 // ===============================
-// AUTO-INJECT RECIPE IMAGE (FINAL FIX)
+// AUTO-INJECT RECIPE IMAGE (SAFE VERSION)
 // ===============================
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -12,27 +12,25 @@ document.addEventListener("DOMContentLoaded", function () {
   const baseName = fileName.replace(".html", "");
   const imagePath = `/images/${baseName}.jpg`;
 
-  console.log("Attempting to inject image:", imagePath);
-
   const recipeContent = document.querySelector(".recipe-content");
-  if (!recipeContent) {
-    console.log("No .recipe-content found");
-    return;
-  }
+  if (!recipeContent) return;
 
-  const wrapper = document.createElement("div");
-  wrapper.className = "recipe-image-wrapper";
-
-  const img = document.createElement("img");
-  img.className = "recipe-image";
-  img.alt = document.title;
+  const img = new Image();
   img.src = imagePath;
-  img.loading = "lazy";
 
-  wrapper.appendChild(img);
+  img.onload = function () {
+    const wrapper = document.createElement("div");
+    wrapper.className = "recipe-image-wrapper";
 
-  recipeContent.after(wrapper);
+    img.className = "recipe-image";
+    img.alt = document.title;
+    img.loading = "lazy";
 
+    wrapper.appendChild(img);
+    recipeContent.after(wrapper);
+  };
+
+  // If image doesn't exist, do nothing
 });
 
 // ===============================
