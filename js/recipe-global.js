@@ -1,22 +1,24 @@
 // ===============================
-// AUTO-INJECT RECIPE IMAGE (FIXED PATH)
+// AUTO-INJECT RECIPE IMAGE (FINAL FIX)
 // ===============================
 
 document.addEventListener("DOMContentLoaded", function () {
 
-  // Only run on recipe pages
   if (!window.location.pathname.includes("/recipes/")) return;
 
-  const fileName = window.location.pathname
-    .split("/")
-    .pop();
-
+  const fileName = window.location.pathname.split("/").pop();
   if (!fileName.endsWith(".html")) return;
 
   const baseName = fileName.replace(".html", "");
-
-  // 🔥 Build absolute path safely
   const imagePath = `/images/${baseName}.jpg`;
+
+  console.log("Attempting to inject image:", imagePath);
+
+  const recipeContent = document.querySelector(".recipe-content");
+  if (!recipeContent) {
+    console.log("No .recipe-content found");
+    return;
+  }
 
   const wrapper = document.createElement("div");
   wrapper.className = "recipe-image-wrapper";
@@ -24,21 +26,12 @@ document.addEventListener("DOMContentLoaded", function () {
   const img = document.createElement("img");
   img.className = "recipe-image";
   img.alt = document.title;
-  img.loading = "lazy";
   img.src = imagePath;
+  img.loading = "lazy";
 
-  img.onerror = function () {
-    console.log("Image not found:", imagePath);
-  };
+  wrapper.appendChild(img);
 
-  img.onload = function () {
-    wrapper.appendChild(img);
-
-    const recipeContent = document.querySelector(".recipe-content");
-    if (recipeContent) {
-      recipeContent.after(wrapper);
-    }
-  };
+  recipeContent.after(wrapper);
 
 });
 
