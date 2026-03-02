@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const baseName = fileName.replace(".html", "");
 
   // 🔥 Build absolute path safely
-  const imagePath = `${window.location.origin}/tritlekitchen/images/${baseName}.jpg`;
+  const imagePath = `${window.location.origin}/images/${baseName}.jpg`;
 
   const wrapper = document.createElement("div");
   wrapper.className = "recipe-image-wrapper";
