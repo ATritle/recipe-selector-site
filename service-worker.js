@@ -43,23 +43,26 @@ self.addEventListener("fetch", event => {
   // Only handle GET requests
   if (event.request.method !== "GET") return;
 
+  // 🚫 Ignore non-http(s) requests
+  if (!event.request.url.startsWith("http")) return;
+
   event.respondWith(
     fetch(event.request)
       .then(response => {
 
-        // Optionally cache successful responses
-        if (response && response.status === 200) {
-          const clone = response.clone();
-          caches.open(CACHE_NAME).then(cache => {
-            cache.put(event.request, clone);
-          });
+        if (!response || response.status !== 200) {
+          return response;
         }
+
+        // Only cache valid http/https requests
+        const clone = response.clone();
+        caches.open(CACHE_NAME).then(cache => {
+          cache.put(event.request, clone).catch(() => {});
+        });
 
         return response;
       })
-      .catch(() => {
-        return caches.match(event.request);
-      })
+      .catch(() => caches.match(event.request))
   );
 
 });
