@@ -42,21 +42,25 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // ===============================
-// AUTO-INJECT RECIPE IMAGE
+// AUTO-INJECT RECIPE IMAGE (FIXED PATH)
 // ===============================
 
 document.addEventListener("DOMContentLoaded", function () {
 
-  // Get current filename
-  const path = window.location.pathname;
-  const fileName = path.substring(path.lastIndexOf("/") + 1);
+  // Only run on recipe pages
+  if (!window.location.pathname.includes("/recipes/")) return;
+
+  const fileName = window.location.pathname
+    .split("/")
+    .pop();
 
   if (!fileName.endsWith(".html")) return;
 
   const baseName = fileName.replace(".html", "");
-  const imagePath = `../images/${baseName}.jpg`;
 
-  // Create image wrapper
+  // 🔥 Build absolute path safely
+  const imagePath = `${window.location.origin}/tritlekitchen/images/${baseName}.jpg`;
+
   const wrapper = document.createElement("div");
   wrapper.className = "recipe-image-wrapper";
 
@@ -64,10 +68,12 @@ document.addEventListener("DOMContentLoaded", function () {
   img.className = "recipe-image";
   img.alt = document.title;
   img.loading = "lazy";
-
   img.src = imagePath;
 
-  // If image loads successfully, append it
+  img.onerror = function () {
+    console.log("Image not found:", imagePath);
+  };
+
   img.onload = function () {
     wrapper.appendChild(img);
 
