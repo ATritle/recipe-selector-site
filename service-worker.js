@@ -34,36 +34,32 @@ self.addEventListener("activate", event => {
   );
 });
 
-// FETCH
+// ===============================
+// SAFE FETCH (Network First)
+// ===============================
+
 self.addEventListener("fetch", event => {
 
-  const request = event.request;
+  // Only handle GET requests
+  if (event.request.method !== "GET") return;
 
-  // 🔥 Network-first for HTML & JSON
-  if (
-    request.destination === "document" ||
-    request.url.endsWith(".json")
-  ) {
-    event.respondWith(
-      fetch(request)
-        .then(response => {
-          const clone = response.clone();
-          caches.open(CACHE_NAME).then(cache => cache.put(request, clone));
-          return response;
-        })
-        .catch(() => caches.match(request))
-    );
-    return;
-  }
-
-  // 🔥 Cache-first for everything else (images, css, etc.)
   event.respondWith(
-    caches.match(request).then(response => {
-      return response || fetch(request).then(networkResponse => {
-        const clone = networkResponse.clone();
-        caches.open(CACHE_NAME).then(cache => cache.put(request, clone));
-        return networkResponse;
-      });
-    })
+    fetch(event.request)
+      .then(response => {
+
+        // Optionally cache successful responses
+        if (response && response.status === 200) {
+          const clone = response.clone();
+          caches.open(CACHE_NAME).then(cache => {
+            cache.put(event.request, clone);
+          });
+        }
+
+        return response;
+      })
+      .catch(() => {
+        return caches.match(event.request);
+      })
   );
+
 });
