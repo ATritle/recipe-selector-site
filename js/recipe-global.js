@@ -1,36 +1,55 @@
 // ===============================
-// AUTO-INJECT RECIPE IMAGE (SAFE VERSION)
+// AUTO-INJECT RECIPE IMAGE
+// Supports .jpg and .png
 // ===============================
 
 document.addEventListener("DOMContentLoaded", function () {
 
+  // Only run on recipe pages
   if (!window.location.pathname.includes("/recipes/")) return;
 
   const fileName = window.location.pathname.split("/").pop();
   if (!fileName.endsWith(".html")) return;
 
   const baseName = fileName.replace(".html", "");
-  const imagePath = `/images/${baseName}.jpg`;
-
   const recipeContent = document.querySelector(".recipe-content");
   if (!recipeContent) return;
 
-  const img = new Image();
-  img.src = imagePath;
+  // Possible image formats (order matters — jpg first)
+  const formats = ["jpg", "png"];
 
-  img.onload = function () {
+  function tryNextFormat(index) {
+    if (index >= formats.length) return; // No image found
+
+    const imagePath = `/images/${baseName}.${formats[index]}`;
+    const testImg = new Image();
+    testImg.src = imagePath;
+
+    testImg.onload = function () {
+      injectImage(imagePath);
+    };
+
+    testImg.onerror = function () {
+      tryNextFormat(index + 1);
+    };
+  }
+
+  function injectImage(path) {
     const wrapper = document.createElement("div");
     wrapper.className = "recipe-image-wrapper";
 
+    const img = document.createElement("img");
     img.className = "recipe-image";
+    img.src = path;
     img.alt = document.title;
     img.loading = "lazy";
 
     wrapper.appendChild(img);
     recipeContent.after(wrapper);
-  };
+  }
 
-  // If image doesn't exist, do nothing
+  tryNextFormat(0);
+
 });
 
 // ===============================
