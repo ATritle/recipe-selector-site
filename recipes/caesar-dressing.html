@@ -121,6 +121,35 @@
   padding: 10px 16px;
   border-radius: 12px;
 }
+
+/* ===== Recipe Image ===== */
+.recipe-image-wrapper {
+  text-align: center;
+  margin: 50px 0 20px;
+}
+
+.recipe-image {
+  width: 100%;
+  max-width: 200px;      /* Perfect size for iPhone */
+  border-radius: 20px;   /* Rounded edges */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  display: block;
+  margin: 0 auto;
+}
+
+/* Scale up nicely on larger screens */
+@media (min-width: 768px) {
+  .recipe-image {
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .recipe-image {
+    max-width: 500px;
+  }
+}
+    
   /* ===== Print styles (PDF / Printer) ===== */
 @media print {
   body {
@@ -205,6 +234,7 @@
 </body>
 
 </html>
+
 
 
 
