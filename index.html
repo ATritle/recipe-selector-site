@@ -196,9 +196,6 @@ Object.values(data).forEach(category =>
 // Sort alphabetically
 allRecipes.sort((a, b) => a.name.localeCompare(b.name));
 
-// Sort alphabetically
-allRecipes.sort((a, b) => a.name.localeCompare(b.name));
-
 // Update dropdown label with count
 recipeSelect.options[0].textContent = 
   `All Recipes (${allRecipes.length})`;
@@ -427,8 +424,34 @@ if ("serviceWorker" in navigator) {
   <div class="modal-box">
     <button class="modal-close" onclick="closeModal()">×</button>
     <h2>What's New</h2>
-    <p>ALL RECIPES DROP DOWN ADDED!</p>
-    <p>Submit a recipe form coming soon!</p>
+    <p>Users can now submit a recipe!</p>
+  </div>
+</div>
+
+<div id="submitModal" class="modal-overlay hidden">
+  <div class="modal-box">
+    <button class="modal-close" onclick="closeSubmitModal()">×</button>
+
+    <h2>Submit a Recipe</h2>
+
+    <input
+      type="text"
+      id="recipeSubject"
+      placeholder="Recipe Name"
+      style="width:100%;padding:10px;margin-bottom:12px;border-radius:8px;"
+    >
+
+    <textarea
+      id="recipeBody"
+      style="width:100%;height:220px;padding:10px;border-radius:8px;"
+    ></textarea>
+
+    <div style="text-align:center;margin-top:15px;">
+      <button onclick="sendRecipeEmail()" class="accent-button">
+        SEND RECIPE
+      </button>
+    </div>
+
   </div>
 </div>
 
@@ -463,63 +486,76 @@ function closeModal() {
 </script>
 
 <script>
-const submitModal = document.getElementById("submitModal");
-const openSubmitBtn = document.getElementById("openSubmitModal");
+document.addEventListener("DOMContentLoaded", () => {
 
-openSubmitBtn.addEventListener("click", (e) => {
-  e.preventDefault();
-  submitModal.classList.remove("hidden");
-  setTimeout(() => {
-    submitModal.classList.add("show");
-  }, 10);
+  const openBtn = document.getElementById("openSubmitModal");
+  const modal = document.getElementById("submitModal");
+  const bodyField = document.getElementById("recipeBody");
+
+  const template = `Ingredients:
+• 
+
+Instructions:
+1.
+2.
+3.
+
+Notes (optional):
+`;
+
+  if (openBtn) {
+    openBtn.addEventListener("click", (e) => {
+      e.preventDefault();
+
+      bodyField.value = template;
+
+      modal.classList.remove("hidden");
+
+      setTimeout(() => {
+        modal.classList.add("show");
+      }, 10);
+    });
+  }
+
 });
 
 function closeSubmitModal() {
-  submitModal.classList.remove("show");
+  const modal = document.getElementById("submitModal");
+
+  modal.classList.remove("show");
+
   setTimeout(() => {
-    submitModal.classList.add("hidden");
+    modal.classList.add("hidden");
   }, 300);
 }
 
 function sendRecipeEmail() {
+
   const subject = document.getElementById("recipeSubject").value.trim();
   const body = document.getElementById("recipeBody").value.trim();
 
-  if (!subject || !body) {
-    alert("Please fill out both fields.");
+  if (!subject) {
+    alert("Please enter a recipe name.");
     return;
   }
 
-  const email = "tritle.aaron@gmail.com"; // 🔥 CHANGE THIS
+  const email = "tritle.aaron@gmail.com"; // change this
 
-  const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  const footer = `
 
-  window.location.href = mailtoLink;
+Submitted from:
+The Tritle Kitchen
+https://atritle.github.io/tritlekitchen/
+`;
+
+  const mailto =
+    `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body + footer)}`;
+
+  window.location.href = mailto;
 
   closeSubmitModal();
 }
 </script>
-
-<div id="submitModal" class="modal-overlay hidden">
-  <div class="modal-box">
-    <button class="modal-close" onclick="closeSubmitModal()">×</button>
-    <h2>Submit a Recipe</h2>
-
-    <input type="text" id="recipeSubject" placeholder="Recipe Name" style="width:100%; margin-bottom:12px; padding:10px; border-radius:8px;">
-
-    <textarea id="recipeBody" 
-      placeholder="Ingredients:
-
-Instructions:"
-      style="width:100%; height:200px; padding:10px; border-radius:8px;"></textarea>
-
-    <div style="text-align:center; margin-top:15px;">
-      <button onclick="sendRecipeEmail()" class="accent-button">
-        SEND RECIPE
-      </button>
-    </div>
-  </div>
-</div>
 
 </body>
 </html>
