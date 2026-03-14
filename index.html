@@ -740,9 +740,10 @@ fetch("https://api.cloudinary.com/v1_1/tritlekitchen/image/upload", {
 .then(res => res.json())
 .then(data => {
 
-  const imageUrl = data.secure_url;
+  console.log("Cloudinary upload success:", data);
 
-  sendEmail(imageUrl);
+  const imageUrl = data.secure_url.replace("/upload/", "/upload/w_400,q_auto,f_auto/");
+sendEmail(imageUrl);
 
 })
 .catch(err => {
