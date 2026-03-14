@@ -201,7 +201,7 @@
 
     "Breads": [
       {
-        "name": "⭐ Banana Bread Grandma Peggy",
+        "name": "⭐ Banana Bread - Grandma Peggy",
         "url": "recipes/banana-bread-grandma-peggy.html",
         "ingredients": [
           { "amount": 0.75, "unit": "cup", "item": "butter" },
@@ -239,7 +239,7 @@
 
     "Sides": [
       {
-        "name": "Applesauce Grandma Peggy",
+        "name": "Applesauce - Grandma Peggy",
         "url": "recipes/applesauce-grandma-peggy.html",
         "ingredients": [
           { "amount": 8, "unit": "cup", "item": "granny smith apples" },
