@@ -474,6 +474,9 @@ main {
   font-size:15px;
   border-radius:8px;
   resize:vertical;
+  min-height:180px;
+  max-height:500px;
+  overflow:hidden;
 }
 
 #submitModal input[type="file"]{
