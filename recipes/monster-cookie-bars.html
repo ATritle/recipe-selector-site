@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Monster Cookie Bars - Jocelyn MHS</title>
+  <title>Monster Cookie Bars</title>
 
   <style>
     body {
@@ -28,6 +28,22 @@
       text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
     }
 
+    /* Sub Title */
+    .recipe-subtitle {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 4px;
+  margin-top: 6px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  color: #e8f1ff;
+  opacity: 0.85; /* optional softer look */
+}
+    /* Sub Title if None */
+    .recipe-subtitle:empty {
+  display: none;
+}
+    
     /* Horizontal rule under title */
     .title-rule {
       border: none;
@@ -174,9 +190,13 @@
 <body>
 
   <div class="recipe-title">
-    Monster Cookie Bars - Jocelyn MHS
+    Monster Cookie Bars
   </div>
 
+  <div class="recipe-subtitle">
+    Jocelyn Pearce
+  </div>
+  
   <hr class="title-rule">
 
   <div class="recipe-content">
@@ -219,6 +239,9 @@
 </body>
 
 </html>
+
+
+
 
 
 
