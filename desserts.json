@@ -138,7 +138,7 @@
       },
       {
         "name": "Neiman Marcus Cookies",
-        "url": "recipes/nieman-marcus-cookies.html",
+        "url": "recipes/neiman-marcus-cookies.html",
         "ingredients": [
           { "amount": 4, "unit": "cup", "item": "flour" },
           { "amount": 2, "unit": "tsp", "item": "baking soda" },
