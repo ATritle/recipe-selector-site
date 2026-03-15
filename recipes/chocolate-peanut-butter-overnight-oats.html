@@ -28,6 +28,22 @@
       text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
     }
 
+    /* Sub Title */
+    .recipe-subtitle {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 4px;
+  margin-top: 6px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  color: #e8f1ff;
+  opacity: 0.85; /* optional softer look */
+}
+    /* Sub Title if None */
+    .recipe-subtitle:empty {
+  display: none;
+}
+    
     /* Horizontal rule under title */
     .title-rule {
       border: none;
@@ -177,6 +193,10 @@
     Chocolate Peanut Butter Overnight Oats
   </div>
 
+  <div class="recipe-subtitle">
+    
+  </div>
+  
   <hr class="title-rule">
 
   <div class="recipe-content">
@@ -204,6 +224,7 @@
       </ol>
     </section>
 
+
   </div>
   
 <script src="../js/recipe-global.js"></script>
@@ -211,6 +232,8 @@
 </body>
 
 </html>
+
+
 
 
 
