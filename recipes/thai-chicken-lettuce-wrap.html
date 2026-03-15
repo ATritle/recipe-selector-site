@@ -28,6 +28,22 @@
       text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
     }
 
+    /* Sub Title */
+    .recipe-subtitle {
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 4px;
+  margin-top: 6px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  color: #e8f1ff;
+  opacity: 0.85; /* optional softer look */
+}
+    /* Sub Title if None */
+    .recipe-subtitle:empty {
+  display: none;
+}
+    
     /* Horizontal rule under title */
     .title-rule {
       border: none;
@@ -134,7 +150,7 @@
   }
 }
     
-/* ===== Print styles (PDF / Printer) ===== */
+  /* ===== Print styles (PDF / Printer) ===== */
 @media print {
   body {
     background: #ffffff !important;
@@ -168,15 +184,19 @@
   .download-recipe {
     display: none;
   }
-}    
+}  
   </style>
 </head>
 <body>
 
   <div class="recipe-title">
-    Thai Chicken Lettuce Wrap - thebusybaker.ca
+    Thai Chicken Lettuce Wrap
   </div>
 
+  <div class="recipe-subtitle">
+    thebusybaker.ca
+  </div>
+  
   <hr class="title-rule">
 
   <div class="recipe-content">
@@ -214,9 +234,8 @@
     <li>Remove from heat and spoon the chicken mixture into lettuce leaves. Garnish with chopped peanuts and sliced green onions before serving.</li>
       </ol>
     </section>
-
   </div>
-
+  
 <script src="../js/recipe-global.js"></script>
   
 </body>
