@@ -338,6 +338,29 @@
       ]
     },
     {
+      "name": "Tortellini Soup",
+      "url": "recipes/tortellini-soup.html",
+      "ingredients": [
+        { "amount": 1, "unit": "TBSP", "item": "unsalted butter" },
+        { "amount": 1, "unit": "TBSP", "item": "olive oil" },
+        { "amount": 1, "unit": "each", "item": "onion" },
+        { "amount": 0.5, "unit": "cup", "item": "celery" },
+        { "amount": 0.5, "unit": "cup", "item": "carrot" },
+        { "amount": 6, "unit": "cloves", "item": "garlic" },
+        { "amount": 2, "unit": "tsp", "item": "italian seasoning" },
+        { "amount": 1, "unit": "LBS", "item": "ground italian sausage" },
+        { "amount": 3, "unit": "TBSP", "item": "tomato paste" },
+        { "amount": 0.5, "unit": "cup", "item": "dry white wine" },
+        { "amount": 28, "unit": "oz", "item": "diced tomatoes" },
+        { "amount": 4, "unit": "cup", "item": "chicken broth" },
+        { "amount": 1, "unit": "each", "item": "bay leaf" },
+        { "amount": 1, "unit": "each", "item": "parmesan rind" },
+        { "amount": 2, "unit": "cup", "item": "spinach" },
+        { "amount": 18, "unit": "oz", "item": "four cheese tortellini" },
+        { "amount": 0.5, "unit": "cup", "item": "heavy whipping cream" }
+      ]
+    },
+    {
       "name": "White Chicken Chili",
       "url": "recipes/white-chicken-chili.html",
       "ingredients": [
