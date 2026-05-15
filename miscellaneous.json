@@ -321,6 +321,21 @@
         ]
       },
       {
+        "name": "Potato Salad",
+        "url": "recipes/potato-salad.html",
+        "ingredients": [
+          { "amount": 10, "unit": "each", "item": "eggs" },
+          { "amount": 4, "unit": "LBS", "item": "potatoes" },
+          { "amount": 1, "unit": "each", "item": "onion" },
+          { "amount": 0.5, "unit": "TBSP", "item": "salt" },
+          { "amount": 0.5, "unit": "TBSP", "item": "black pepper" },
+          { "amount": 2, "unit": "cup", "item": "mayo" },
+          { "amount": 3, "unit": "TBSP", "item": "mustard" },
+          { "amount": 0.25, "unit": "cup", "item": "vinegar" },
+          { "amount": 0.5, "unit": "cup", "item": "sugar" }
+        ]
+      },
+      {
         "name": "Pinto Beans",
         "url": "recipes/pinto-beans.html",
         "ingredients": [
