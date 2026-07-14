@@ -13,6 +13,51 @@
           { "amount": 48, "unit": "each", "item": "chessmen cookies" }
         ]
       },
+      {
+        "name": "Peach Cobbler",
+        "url": "recipes/peach-cobbler.html",
+        "ingredients": [
+          { "amount": 15.25, "unit": "oz", "item": "yellow cake mix" },
+          { "amount": 30, "unit": "oz", "item": "sliced peaches - no sugar" },
+          { "amount": 24, "unit": "oz", "item": "7up" },
+          { "amount": 0.5, "unit": "cup", "item": "light brown sugar" },
+          { "amount": 1, "unit": "dashes", "item": "honey" },
+          { "amount": 1, "unit": "tsp", "item": "cinnamon" }
+        ]
+      },
+      {
+        "name": "Rhubarb Butter Crunch",
+        "url": "recipes/rhubarb-butter-crunch.html",
+        "ingredients": [
+          { "amount": 6, "unit": "cup", "item": "rhubarb" },
+          { "amount": 1, "unit": "cup", "item": "sugar" },
+          { "amount": 2, "unit": "TBSP", "item": "flour" },
+          { "amount": 1, "unit": "tsp", "item": "nutmeg" },
+          { "amount": 4, "unit": "tsp", "item": "cinnamon" },
+          { "amount": 1, "unit": "cup", "item": "light brown sugar" },
+          { "amount": 1.25, "unit": "cup", "item": "flour" },
+          { "amount": 1, "unit": "cup", "item": "old fashioned oats" },
+          { "amount": 0.75, "unit": "cup", "item": "butter" }
+        ]
+      },
+      {
+        "name": "Rhubarb Cheesecake Squares",
+        "url": "recipes/rhubarb-cheesecake-squares.html",
+        "ingredients": [
+          { "amount": 1.25, "unit": "cup", "item": "flour" },
+          { "amount": 0.5, "unit": "cup", "item": "old fashioned oats" },
+          { "amount": 0.5, "unit": "cup", "item": "light brown sugar" },
+          { "amount": 0.5, "unit": "cup", "item": "butter" },
+          { "amount": 8, "unit": "oz", "item": "cream cheese" },
+          { "amount": 0.75, "unit": "cup", "item": "sugar" },
+          { "amount": 0.5, "unit": "tsp", "item": "salt" },
+          { "amount": 0.25, "unit": "tsp", "item": "cinnamon" },
+          { "amount": 0.125, "unit": "tsp", "item": "nutmeg" },
+          { "amount": 1, "unit": "each", "item": "egg" },
+          { "amount": 1.5, "unit": "cup", "item": "rhubarb" },
+          { "amount": 0.5, "unit": "tsp", "item": "vanilla extract" }
+        ]
+      },
         {
         "name": "Strawberry Rhubarb Crisp",
         "url": "recipes/strawberry-rhubarb-crisp.html",
@@ -80,6 +125,31 @@
           { "amount": 0.5, "unit": "cup", "item": "unsalted butter" },
           { "amount": 4, "unit": "TBSP", "item": "white karo syrup" },
           { "amount": 1, "unit": "each", "item": "pecan or walnuts" }
+        ]
+      },
+        {
+        "name": "Red Velvet Cake",
+        "url": "recipes/red-velvet-cake.html",
+        "ingredients": [
+          { "amount": 1.5, "unit": "cup", "item": "sugar" },
+          { "amount": 0.5, "unit": "cup", "item": "crisco" },
+          { "amount": 2, "unit": "oz", "item": "red food coloring" },
+          { "amount": 2, "unit": "each", "item": "egg" },
+          { "amount": 2, "unit": "cup", "item": "flour" },
+          { "amount": 1, "unit": "tsp", "item": "salt" },
+          { "amount": 2, "unit": "TBSP", "item": "hershey's unsweetened cocoa powder" },
+          { "amount": 1, "unit": "cup", "item": "buttermilk" },
+          { "amount": 1, "unit": "tsp", "item": "baking soda" },
+          { "amount": 1, "unit": "TBSP", "item": "vanilla extract" },
+          { "amount": 1, "unit": "TBSP", "item": "white vinegar" },
+          { "amount": 1, "unit": "cup", "item": "milk" },
+          { "amount": 1.5, "unit": "TBSP", "item": "cornstarch" },
+          { "amount": 1, "unit": "pinch", "item": "salt" },
+          { "amount": 0.5, "unit": "cup", "item": "crisco" },
+          { "amount": 0.5, "unit": "cup", "item": "butter" },
+          { "amount": 0.66, "unit": "cup", "item": "sugar" },
+          { "amount": 1.66, "unit": "cup", "item": "powdered sugar" },
+          { "amount": 1, "unit": "tsp", "item": "vanilla extract" }
         ]
       },
         {
@@ -161,6 +231,17 @@
           { "amount": 4.5, "unit": "cup", "item": "old fashioned oats" },
           { "amount": 2, "unit": "tsp", "item": "baking soda" },
           { "amount": 1, "unit": "cup", "item": "m&ms" }
+        ]
+      },
+      {
+        "name": "Monkey Bread",
+        "url": "recipes/monkey-bread.html",
+        "ingredients": [
+          { "amount": 0.5, "unit": "cup", "item": "sugar" },
+          { "amount": 1, "unit": "tsp", "item": "cinnamon" },
+          { "amount": 2, "unit": "each", "item": "Pilsbury Grands Homestyle Buttermilk Biscuits" },
+          { "amount": 1, "unit": "cup", "item": "light brown sugar" },
+          { "amount": 0.75, "unit": "cup", "item": "unsalted butter" }
         ]
       },
       {
@@ -329,6 +410,17 @@
           { "amount": 7, "unit": "cup", "item": "rice krispies" },
           { "amount": 6, "unit": "each", "item": "white almost bark square" },
           { "amount": 1.5, "unit": "cup", "item": "semi-sweet chocolate chips" }
+      ]
+    },
+       {
+        "name": "Smore Bars",
+        "url": "recipes/smore-bars.html",
+        "ingredients": [
+          { "amount": 8, "unit": "cup", "item": "mini marshmallows" },
+          { "amount": 4, "unit": "TBSP", "item": "unsalted butter" },
+          { "amount": 0.5, "unit": "tsp", "item": "salt" },
+          { "amount": 1.75, "unit": "cup", "item": "chocolate chips" },
+          { "amount": 8, "unit": "each", "item": "graham crackers" }
       ]
     },
        {
