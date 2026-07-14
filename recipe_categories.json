@@ -1,0 +1,39 @@
+{
+    "Breakfast": [
+        "Baking",
+        "Casseroles",
+        "Overnight Oats",
+        "Skillet"
+    ],
+
+    "Desserts": [
+        "Bars",
+        "Cake",
+        "Layered Dish",
+        "Miscellaneous"
+    ],
+
+    "Dinner": [
+        "American Meals",
+        "Asian Meals",
+        "Italian Meals",
+        "Mexican Meals",
+        "Mideastern Meals",
+        "Soups"
+    ],
+
+    "Drinks": [
+        "Alcoholic",
+        "Non-Alcoholic",
+        "Shots"
+    ],
+
+    "Miscellaneous": [
+        "Breads",
+        "Dips",
+        "Dressings",
+        "Sauces",
+        "Misc.",
+        "Sides"
+    ]
+}
