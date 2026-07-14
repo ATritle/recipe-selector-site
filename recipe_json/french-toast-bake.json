@@ -1,0 +1,41 @@
+{
+    "name": "French Toast Bake",
+    "category": "Breakfast",
+    "subcategory": "Casserole",
+    "url": "recipes/french-toast-bake.html",
+    "ingredients": [
+        {
+            "amount": 18,
+            "unit": "slice",
+            "item": "thick bread",
+            "note": "cubed"
+        },
+        {
+            "amount": 12,
+            "item": "eggs"
+        },
+        {
+            "amount": 12,
+            "item": "-16 oz cream cheese",
+            "note": "cubed"
+        },
+        {
+            "amount": 1.25,
+            "unit": "cup",
+            "item": "milk"
+        },
+        {
+            "amount": 0.75,
+            "unit": "cup",
+            "item": "maple syrup"
+        },
+        {
+            "amount": 1,
+            "item": "-2 tsp cinnamon & sugar"
+        },
+        {
+            "amount": 1,
+            "item": "-2 tsp vanilla extract"
+        }
+    ]
+}

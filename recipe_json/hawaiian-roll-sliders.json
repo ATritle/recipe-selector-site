@@ -1,0 +1,60 @@
+{
+    "name": "Hawaiian Roll Sliders",
+    "category": "Dinner",
+    "subcategory": "American Meals",
+    "url": "recipes/hawaiian-roll-sliders.html",
+    "ingredients": [
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "olive oil"
+        },
+        {
+            "amount": 1,
+            "item": "large onion",
+            "note": "thinly sliced"
+        },
+        {
+            "item": "salt",
+            "note": "to taste"
+        },
+        {
+            "amount": 4,
+            "unit": "TBSP",
+            "item": "unsalted butter",
+            "note": "melted"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "poppy seeds"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "Worcestershire sauce"
+        },
+        {
+            "amount": 2,
+            "unit": "clove",
+            "item": "garlic",
+            "note": "minced"
+        },
+        {
+            "amount": 12,
+            "item": "Hawaiian rolls",
+            "note": "sliced in half"
+        },
+        {
+            "amount": 2,
+            "unit": "LB",
+            "item": "ham",
+            "note": "sliced thinly"
+        },
+        {
+            "amount": 1,
+            "unit": "LB",
+            "item": "sliced Swiss cheese"
+        }
+    ]
+}

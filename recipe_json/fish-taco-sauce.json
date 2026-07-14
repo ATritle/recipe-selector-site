@@ -1,0 +1,33 @@
+{
+    "name": "Fish Taco Sauce",
+    "category": "Miscellaneous",
+    "subcategory": "Sauces",
+    "url": "recipes/fish-taco-sauce.html",
+    "ingredients": [
+        {
+            "amount": 3,
+            "unit": "TBSP",
+            "item": "sour cream"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "mayo"
+        },
+        {
+            "amount": 0.5,
+            "item": "fresh lime",
+            "note": "juiced"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "garlic powder"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "chili powder"
+        }
+    ]
+}

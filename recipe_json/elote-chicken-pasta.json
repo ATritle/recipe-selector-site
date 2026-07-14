@@ -1,0 +1,72 @@
+{
+    "name": "Elote Chicken Pasta",
+    "category": "Dinner",
+    "subcategory": "Mexican Meals",
+    "url": "recipes/elote-chicken-pasta.html",
+    "ingredients": [
+        {
+            "amount": 2,
+            "item": "-3 LBS chicken",
+            "note": "cooked & diced"
+        },
+        {
+            "amount": 4,
+            "item": "-6 TBSP taco seasoning"
+        },
+        {
+            "amount": 12,
+            "item": "-16 oz package fusilli pasta"
+        },
+        {
+            "amount": 1,
+            "item": "medium red onion",
+            "note": "diced"
+        },
+        {
+            "amount": 0.5,
+            "unit": "bunch",
+            "item": "cilantro",
+            "note": "chopped"
+        },
+        {
+            "amount": 2,
+            "item": "",
+            "note": "15 oz cans sweet corn - roasted"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "Cotija cheese"
+        },
+        {
+            "item": "SAUCE:"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "sour cream"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "mayo"
+        },
+        {
+            "item": "Tajín",
+            "note": "to taste"
+        },
+        {
+            "amount": 1,
+            "item": "fresh lime",
+            "note": "zested and juiced"
+        },
+        {
+            "item": "drizzle honey",
+            "note": "to taste"
+        },
+        {
+            "amount": 1,
+            "item": "-2 TBSP taco seasoning"
+        }
+    ]
+}

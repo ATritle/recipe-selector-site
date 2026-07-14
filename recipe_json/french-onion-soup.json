@@ -1,0 +1,56 @@
+{
+    "name": "French Onion Soup",
+    "category": "Dinner",
+    "subcategory": "Soups",
+    "url": "recipes/french-onion-soup.html",
+    "ingredients": [
+        {
+            "amount": 6,
+            "unit": "cup",
+            "item": "onions",
+            "note": "thinly sliced"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "unsalted butter"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "olive oil"
+        },
+        {
+            "amount": 6,
+            "unit": "sprig",
+            "item": "fresh thyme",
+            "note": "leaves stripped"
+        },
+        {
+            "amount": 1,
+            "item": "bay leaf"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "white wine"
+        },
+        {
+            "amount": 4,
+            "unit": "cup",
+            "item": "beef broth"
+        },
+        {
+            "amount": 1,
+            "item": "½ cups grated Gruyère cheese"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "Worcestershire sauce"
+        },
+        {
+            "item": "pinch of salt & pepper"
+        }
+    ]
+}

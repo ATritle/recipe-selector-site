@@ -1,0 +1,73 @@
+{
+    "name": "Garlic Chicken",
+    "category": "Dinner",
+    "subcategory": "Asian Meals",
+    "url": "recipes/garlic-chicken.html",
+    "ingredients": [
+        {
+            "amount": 1,
+            "item": "-2 LBS chicken",
+            "note": "diced"
+        },
+        {
+            "amount": 5,
+            "unit": "clove",
+            "item": "garlic",
+            "note": "minced"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "liquid aminos"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "toasted sesame oil"
+        },
+        {
+            "amount": 4,
+            "unit": "TBSP",
+            "item": "honey"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "cornstarch"
+        },
+        {
+            "amount": 4,
+            "item": "-6 green onions",
+            "note": "sliced"
+        },
+        {
+            "amount": 1,
+            "unit": "can",
+            "item": "water chestnuts"
+        },
+        {
+            "amount": 1,
+            "item": "bag frozen broccoli"
+        },
+        {
+            "amount": 1,
+            "item": "bag frozen cauliflower rice"
+        },
+        {
+            "amount": 0.25,
+            "item": "-1/2 bag frozen peas and carrots"
+        },
+        {
+            "amount": 2,
+            "item": "eggs"
+        },
+        {
+            "item": "salt & pepper",
+            "note": "to taste"
+        },
+        {
+            "item": "sesame seeds",
+            "note": "garnish"
+        }
+    ]
+}
