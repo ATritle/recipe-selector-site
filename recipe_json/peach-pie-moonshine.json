@@ -1,0 +1,47 @@
+{
+    "name": "Peach Pie Moonshine",
+    "category": "Drinks",
+    "subcategory": "Alcoholic",
+    "url": "recipes/peach-pie-moonshine.html",
+    "ingredients": [
+        {
+            "amount": 128,
+            "unit": "oz",
+            "item": "Welch's white grape peach juice"
+        },
+        {
+            "amount": 15,
+            "unit": "oz",
+            "item": "can sliced peaches",
+            "note": "heavy syrup"
+        },
+        {
+            "amount": 15,
+            "unit": "oz",
+            "item": "can sugar-free sliced peaches"
+        },
+        {
+            "amount": 6,
+            "item": "-7 cinnamon sticks"
+        },
+        {
+            "amount": 750,
+            "item": "ml peach schnapps"
+        },
+        {
+            "amount": 375,
+            "item": "ml Everclear"
+        },
+        {
+            "amount": 1.5,
+            "unit": "cup",
+            "item": "sugar"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "brown sugar",
+            "note": "packed"
+        }
+    ]
+}

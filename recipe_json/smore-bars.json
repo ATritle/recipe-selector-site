@@ -1,0 +1,35 @@
+{
+    "name": "S'more Bars",
+    "category": "Desserts",
+    "subcategory": "Bars",
+    "url": "recipes/smore-bars.html",
+    "ingredients": [
+        {
+            "amount": 8,
+            "unit": "cup",
+            "item": "mini marshmallows",
+            "note": "divided into 6 cups and 2 cups"
+        },
+        {
+            "amount": 4,
+            "unit": "TBSP",
+            "item": "unsalted butter"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "salt"
+        },
+        {
+            "amount": 1.75,
+            "unit": "cup",
+            "item": "chocolate chips",
+            "note": "divided into 1 cup and 3/4 cup"
+        },
+        {
+            "amount": 8,
+            "item": "-10 graham crackers",
+            "note": "cut in half short way"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "name": "Zucchini Bread",
+    "category": "Miscellaneous",
+    "subcategory": "Breads",
+    "url": "recipes/zucchini-bread.html",
+    "ingredients": [
+        {
+            "amount": 3,
+            "unit": "cup",
+            "item": "flour",
+            "note": "sifted"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "salt"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "baking soda"
+        },
+        {
+            "amount": 0.25,
+            "unit": "tsp",
+            "item": "baking powder"
+        },
+        {
+            "amount": 3,
+            "item": "LG eggs",
+            "note": "room temperature and beaten"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "sugar"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "brown sugar",
+            "note": "packed"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "vanilla extract"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "ground cinnamon"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "unsweetened applesauce"
+        },
+        {
+            "amount": 2.5,
+            "unit": "cup",
+            "item": "zucchini",
+            "note": "shredded and squeezed"
+        },
+        {
+            "item": "Optional: chocolate chips or chopped nuts"
+        }
+    ]
+}

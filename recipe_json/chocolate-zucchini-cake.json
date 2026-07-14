@@ -1,0 +1,71 @@
+{
+    "name": "Chocolate Zucchini Cake",
+    "category": "Desserts",
+    "subcategory": "Cake",
+    "url": "recipes/chocolate-zucchini-cake.html",
+    "ingredients": [
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "flour",
+            "note": "sifted"
+        },
+        {
+            "amount": 0.75,
+            "unit": "cup",
+            "item": "unsweetened natural cocoa powder"
+        },
+        {
+            "amount": 2,
+            "unit": "tsp",
+            "item": "baking soda"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "baking powder"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "olive or avocado oil"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "sugar"
+        },
+        {
+            "amount": 0.75,
+            "unit": "cup",
+            "item": "brown sugar",
+            "note": "packed"
+        },
+        {
+            "amount": 2,
+            "unit": "tsp",
+            "item": "vanilla extract"
+        },
+        {
+            "amount": 0.3333333333333333,
+            "unit": "cup",
+            "item": "sour cream or plain vanilla yogurt"
+        },
+        {
+            "amount": 4,
+            "item": "eggs",
+            "note": "room temperature"
+        },
+        {
+            "amount": 3,
+            "unit": "cup",
+            "item": "zucchini",
+            "note": "shredded and lightly squeezed"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "semi-sweet chocolate chips"
+        }
+    ]
+}

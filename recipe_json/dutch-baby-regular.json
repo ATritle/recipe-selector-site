@@ -1,0 +1,40 @@
+{
+    "name": "Dutch Baby - Regular",
+    "category": "Breakfast",
+    "subcategory": "Skillet",
+    "url": "recipes/dutch-baby-regular.html",
+    "ingredients": [
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "unsalted butter"
+        },
+        {
+            "amount": 3,
+            "item": "XL eggs",
+            "note": "room temperature"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "+ 2 TBSP milk"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "gluten-free flour"
+        },
+        {
+            "item": "pinch salt"
+        },
+        {
+            "item": "splash vanilla extract"
+        },
+        {
+            "item": "dash cinnamon"
+        },
+        {
+            "item": "dash nutmeg"
+        }
+    ]
+}

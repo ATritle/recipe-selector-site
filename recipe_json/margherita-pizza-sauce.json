@@ -1,0 +1,43 @@
+{
+    "name": "Margherita Pizza Sauce",
+    "category": "Miscellaneous",
+    "subcategory": "Sauces",
+    "url": "recipes/margherita-pizza-sauce.html",
+    "ingredients": [
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "extra-virgin olive oil"
+        },
+        {
+            "amount": 1,
+            "item": "small onion",
+            "note": "minced"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "fresh parsley",
+            "note": "chopped"
+        },
+        {
+            "item": "salt & pepper",
+            "note": "to taste"
+        },
+        {
+            "amount": 3,
+            "item": "-4 cloves garlic",
+            "note": "minced"
+        },
+        {
+            "amount": 0.25,
+            "unit": "tsp",
+            "item": "dried oregano"
+        },
+        {
+            "amount": 2,
+            "item": "",
+            "note": "15 oz cans whole peeled tomatoes"
+        }
+    ]
+}

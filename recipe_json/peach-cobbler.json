@@ -1,0 +1,43 @@
+{
+    "name": "Peach Cobbler",
+    "category": "Desserts",
+    "subcategory": "Layered Dish",
+    "url": "recipes/peach-cobbler.html",
+    "ingredients": [
+        {
+            "amount": 15.25,
+            "unit": "oz",
+            "item": "package yellow cake mix"
+        },
+        {
+            "amount": 30,
+            "unit": "oz",
+            "item": "can no sugar added sliced peaches",
+            "note": "mostly drained"
+        },
+        {
+            "amount": 24,
+            "unit": "oz",
+            "item": "Sprite or 7UP"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "brown sugar",
+            "note": "packed and divided"
+        },
+        {
+            "item": "honey",
+            "note": "to drizzle"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "cinnamon",
+            "note": "divided"
+        },
+        {
+            "item": "Optional: vanilla ice cream"
+        }
+    ]
+}

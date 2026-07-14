@@ -1,0 +1,60 @@
+{
+    "name": "Monster Cookies",
+    "category": "Desserts",
+    "subcategory": "Misc.",
+    "url": "recipes/monster-cookie.html",
+    "ingredients": [
+        {
+            "amount": 3,
+            "item": "eggs",
+            "note": "room temperature"
+        },
+        {
+            "amount": 1.25,
+            "unit": "cup",
+            "item": "light brown sugar",
+            "note": "packed"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "sugar"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "salt"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "vanilla extract"
+        },
+        {
+            "amount": 12,
+            "unit": "oz",
+            "item": "jar creamy peanut butter"
+        },
+        {
+            "amount": 1,
+            "unit": "stick",
+            "item": "unsalted butter",
+            "note": "softened"
+        },
+        {
+            "amount": 4.5,
+            "unit": "cup",
+            "item": "old-fashioned oats"
+        },
+        {
+            "amount": 2,
+            "unit": "tsp",
+            "item": "baking soda"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "M&M's"
+        }
+    ]
+}

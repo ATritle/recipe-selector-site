@@ -1,0 +1,65 @@
+{
+    "name": "Million Dollar Spaghetti",
+    "category": "Dinner",
+    "subcategory": "Italian Meals",
+    "url": "recipes/million-dollar-spaghetti.html",
+    "ingredients": [
+        {
+            "amount": 1,
+            "unit": "LB",
+            "item": "ground beef"
+        },
+        {
+            "amount": 24,
+            "item": "-32 oz spaghetti sauce"
+        },
+        {
+            "amount": 8,
+            "unit": "oz",
+            "item": "cream cheese",
+            "note": "softened"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "sour cream"
+        },
+        {
+            "amount": 1,
+            "unit": "stick",
+            "item": "unsalted butter",
+            "note": "sliced"
+        },
+        {
+            "amount": 12,
+            "item": "-16 oz spaghetti noodles"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "cottage cheese"
+        },
+        {
+            "amount": 1,
+            "item": "-2 cups mozzarella cheese",
+            "note": "shredded"
+        },
+        {
+            "item": "salt & pepper",
+            "note": "to taste"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "Italian seasoning"
+        },
+        {
+            "amount": 1,
+            "item": "-2 tsp garlic powder"
+        },
+        {
+            "amount": 1,
+            "item": "-2 tsp minced onion"
+        }
+    ]
+}

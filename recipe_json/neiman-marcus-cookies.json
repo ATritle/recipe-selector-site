@@ -1,0 +1,72 @@
+{
+    "name": "Neiman Marcus Cookies",
+    "category": "Desserts",
+    "subcategory": "Misc.",
+    "url": "recipes/neiman-marcus-cookies.html",
+    "ingredients": [
+        {
+            "amount": 4,
+            "unit": "cup",
+            "item": "flour",
+            "note": "sifted"
+        },
+        {
+            "amount": 2,
+            "unit": "tsp",
+            "item": "baking soda"
+        },
+        {
+            "amount": 2,
+            "unit": "tsp",
+            "item": "baking powder"
+        },
+        {
+            "amount": 5,
+            "unit": "cup",
+            "item": "quick oats"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "sugar"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "unsalted butter",
+            "note": "softened"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "light brown sugar",
+            "note": "packed"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "salt"
+        },
+        {
+            "amount": 4,
+            "item": "eggs",
+            "note": "room temperature"
+        },
+        {
+            "amount": 2,
+            "unit": "tsp",
+            "item": "vanilla extract"
+        },
+        {
+            "amount": 24,
+            "unit": "oz",
+            "item": "milk chocolate chips"
+        },
+        {
+            "amount": 8,
+            "unit": "oz",
+            "item": "Hershey's bar",
+            "note": "grated"
+        }
+    ]
+}

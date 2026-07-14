@@ -1,0 +1,68 @@
+{
+    "name": "Sweet Potato Casserole",
+    "category": "Miscellaneous",
+    "subcategory": "Sides",
+    "url": "recipes/sweet-potato-casserole.html",
+    "ingredients": [
+        {
+            "amount": 3,
+            "item": "-4 large sweet potatoes"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "sugar"
+        },
+        {
+            "amount": 2,
+            "item": "eggs",
+            "note": "room temperature and well beaten"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "vanilla extract"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "unsalted butter",
+            "note": "melted"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "milk"
+        },
+        {
+            "item": "Topping:"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "brown sugar",
+            "note": "packed"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "flour",
+            "note": "sifted"
+        },
+        {
+            "amount": 0.75,
+            "unit": "cup",
+            "item": "pecans",
+            "note": "chopped"
+        },
+        {
+            "amount": 3,
+            "unit": "TBSP",
+            "item": "unsalted butter",
+            "note": "melted"
+        },
+        {
+            "item": "Optional: mini marshmallows"
+        }
+    ]
+}

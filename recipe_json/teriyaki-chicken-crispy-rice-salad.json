@@ -1,0 +1,114 @@
+{
+    "name": "Teriyaki Chicken Crispy Rice",
+    "category": "Dinner",
+    "subcategory": "Asian Meals",
+    "url": "recipes/teriyaki-chicken-crispy-rice-salad.html",
+    "ingredients": [
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "jasmine rice",
+            "note": "rinsed and cooked"
+        },
+        {
+            "amount": 2.5,
+            "unit": "cup",
+            "item": "water"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "toasted sesame oil"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "teriyaki sauce"
+        },
+        {
+            "amount": 1,
+            "item": "rotisserie chicken or 1-2 LBS chicken",
+            "note": "cooked and diced"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "teriyaki sauce"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "English cucumber",
+            "note": "sliced and cut into quarters"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "red cabbage",
+            "note": "finely sliced"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "cilantro",
+            "note": "chopped"
+        },
+        {
+            "amount": 1,
+            "unit": "bunch",
+            "item": "green onions",
+            "note": "finely chopped"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "roasted unsalted peanuts"
+        },
+        {
+            "item": "Optional: 1 red bell pepper",
+            "note": "diced small"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "extra-virgin olive oil"
+        },
+        {
+            "amount": 3,
+            "unit": "TBSP",
+            "item": "toasted sesame seed oil"
+        },
+        {
+            "amount": 3,
+            "unit": "TBSP",
+            "item": "liquid aminos"
+        },
+        {
+            "amount": 3,
+            "unit": "TBSP",
+            "item": "rice vinegar"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "maple syrup"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "nut butter",
+            "note": "peanut, almond, or cashew"
+        },
+        {
+            "amount": 2,
+            "item": "-3 cloves garlic",
+            "note": "mashed"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "fresh ginger",
+            "note": "grated"
+        }
+    ]
+}

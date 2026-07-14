@@ -1,0 +1,40 @@
+{
+    "name": "Applesauce",
+    "category": "Miscellaneous",
+    "subcategory": "Sides",
+    "url": "recipes/applesauce-grandma-peggy.html",
+    "ingredients": [
+        {
+            "amount": 6,
+            "item": "-8 cups Granny Smith apples",
+            "note": "peeled & diced"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "water"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "lemon juice"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "sugar"
+        },
+        {
+            "amount": 1,
+            "item": "-2 dashes vanilla extract"
+        },
+        {
+            "amount": 1,
+            "item": "-2 dashes cinnamon"
+        },
+        {
+            "amount": 1,
+            "item": "-2 dashes nutmeg"
+        }
+    ]
+}

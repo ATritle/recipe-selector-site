@@ -1,0 +1,32 @@
+{
+    "name": "Protein Balls",
+    "category": "Miscellaneous",
+    "subcategory": "Misc.",
+    "url": "recipes/protein-balls.html",
+    "ingredients": [
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "quick oats"
+        },
+        {
+            "amount": 1,
+            "item": "scoop protein powder"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "peanut butter"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "honey"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "mini chocolate chips or mini M&M's"
+        }
+    ]
+}

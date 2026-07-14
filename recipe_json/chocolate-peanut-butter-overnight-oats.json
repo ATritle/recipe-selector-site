@@ -1,0 +1,43 @@
+{
+    "name": "Chocolate Peanut Butter Overnight Oats",
+    "category": "Breakfast",
+    "subcategory": "Overnight Oats",
+    "url": "recipes/chocolate-peanut-butter-overnight-oats.html",
+    "ingredients": [
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "quick oats"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "peanut butter"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "cacao powder"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "chia seeds"
+        },
+        {
+            "amount": 2,
+            "unit": "tsp",
+            "item": "maple or agave syrup"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "almond milk"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "mini semi-sweet chocolate chips"
+        }
+    ]
+}

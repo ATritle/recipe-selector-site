@@ -1,0 +1,36 @@
+{
+    "name": "Blueberry Overnight Oats",
+    "category": "Breakfast",
+    "subcategory": "Overnight Oats",
+    "url": "recipes/blueberry-overnight-oats.html",
+    "ingredients": [
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "quick oats"
+        },
+        {
+            "amount": 0.25,
+            "unit": "tsp",
+            "item": "ground cinnamon"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "almond milk"
+        },
+        {
+            "amount": 0.5,
+            "unit": "TBSP",
+            "item": "agave syrup"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "frozen blueberries"
+        },
+        {
+            "item": "pinch of salt"
+        }
+    ]
+}

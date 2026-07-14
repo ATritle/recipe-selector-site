@@ -1,0 +1,38 @@
+{
+    "name": "Dry Brine",
+    "category": "Miscellaneous",
+    "subcategory": "Misc.",
+    "url": "recipes/dry-brine.html",
+    "ingredients": [
+        {
+            "amount": 0.3333333333333333,
+            "unit": "cup",
+            "item": "kosher salt"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "light brown sugar"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "ground black pepper"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "unsalted butter",
+            "note": "room temp"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "water"
+        },
+        {
+            "amount": 1,
+            "item": "whole turkey or chicken"
+        }
+    ]
+}

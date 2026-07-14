@@ -1,0 +1,45 @@
+{
+    "name": "Tzatziki Sauce",
+    "category": "Miscellaneous",
+    "subcategory": "Sauces",
+    "url": "recipes/tzatziki-sauce.html",
+    "ingredients": [
+        {
+            "amount": 1.5,
+            "unit": "cup",
+            "item": "sour cream"
+        },
+        {
+            "amount": 1,
+            "item": "medium English cucumber",
+            "note": "finely shredded and squeezed"
+        },
+        {
+            "amount": 3,
+            "unit": "clove",
+            "item": "garlic",
+            "note": "finely minced"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "lemon juice"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "red wine vinegar"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "fresh dill",
+            "note": "finely chopped"
+        },
+        {
+            "amount": 2,
+            "unit": "tsp",
+            "item": "salt"
+        }
+    ]
+}

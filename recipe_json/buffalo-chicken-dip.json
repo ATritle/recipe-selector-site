@@ -1,0 +1,33 @@
+{
+    "name": "Buffalo Chicken Dip",
+    "category": "Miscellaneous",
+    "subcategory": "Dips",
+    "url": "recipes/buffalo-chicken-dip.html",
+    "ingredients": [
+        {
+            "amount": 2,
+            "item": "",
+            "note": "12.5 oz canned chicken"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "ranch dressing"
+        },
+        {
+            "amount": 0.75,
+            "unit": "cup",
+            "item": "buffalo sauce"
+        },
+        {
+            "amount": 16,
+            "unit": "oz",
+            "item": "cream cheese"
+        },
+        {
+            "amount": 8,
+            "unit": "oz",
+            "item": "shredded cheddar cheese"
+        }
+    ]
+}

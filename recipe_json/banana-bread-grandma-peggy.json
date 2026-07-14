@@ -1,0 +1,65 @@
+{
+    "name": "Banana Bread - Grandma Peggy",
+    "category": "Miscellaneous",
+    "subcategory": "Breads",
+    "url": "recipes/banana-bread-grandma-peggy.html",
+    "ingredients": [
+        {
+            "amount": 0.75,
+            "unit": "cup",
+            "item": "butter",
+            "note": "softened"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "sugar"
+        },
+        {
+            "amount": 3,
+            "item": "-4 blackened bananas",
+            "note": "mashed"
+        },
+        {
+            "amount": 2,
+            "item": "eggs",
+            "note": "room temp"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "vanilla extract"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "flour",
+            "note": "sifted"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "baking soda"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "salt"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "buttermilk or sour milk",
+            "note": "(1/2 cup milk and 1 TBSP vinegar)"
+        },
+        {
+            "item": "Optional:"
+        },
+        {
+            "item": "chocolate chips"
+        },
+        {
+            "item": "walnuts"
+        }
+    ]
+}

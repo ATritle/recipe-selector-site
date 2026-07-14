@@ -1,0 +1,38 @@
+{
+    "name": "Caramel Corn",
+    "category": "Desserts",
+    "subcategory": "Misc.",
+    "url": "recipes/caramel-corn-old-dutch-style.html",
+    "ingredients": [
+        {
+            "amount": 1,
+            "unit": "package",
+            "item": "Old Dutch Puffcorn"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "unsalted butter"
+        },
+        {
+            "amount": 1.25,
+            "unit": "cup",
+            "item": "brown sugar",
+            "note": "packed"
+        },
+        {
+            "amount": 0.6666666666666666,
+            "unit": "cup",
+            "item": "light corn syrup"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "baking soda"
+        },
+        {
+            "item": "Optional: chocolate chips",
+            "note": "melted"
+        }
+    ]
+}

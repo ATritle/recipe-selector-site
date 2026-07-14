@@ -1,0 +1,34 @@
+{
+    "name": "Chocolate Peanut Butter Mousse - Keto",
+    "category": "Desserts",
+    "subcategory": "Misc.",
+    "url": "recipes/chocolate-peanut-butter-mousse-keto.html",
+    "ingredients": [
+        {
+            "amount": 4,
+            "unit": "oz",
+            "item": "cream cheese",
+            "note": "softened"
+        },
+        {
+            "amount": 3.5,
+            "unit": "TBSP",
+            "item": "Swerve confectioners sugar"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "cocoa powder"
+        },
+        {
+            "amount": 3,
+            "unit": "TBSP",
+            "item": "sugar-free peanut butter"
+        },
+        {
+            "amount": 0.6666666666666666,
+            "unit": "cup",
+            "item": "heavy whipping cream"
+        }
+    ]
+}

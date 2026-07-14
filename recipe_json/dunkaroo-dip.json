@@ -1,0 +1,25 @@
+{
+    "name": "Dunkaroo Dip",
+    "category": "Miscellaneous",
+    "subcategory": "Dips",
+    "url": "recipes/dunkaroo-dip.html",
+    "ingredients": [
+        {
+            "amount": 1,
+            "item": "box Funfetti cake mix"
+        },
+        {
+            "amount": 12,
+            "unit": "oz",
+            "item": "vanilla yogurt"
+        },
+        {
+            "amount": 8,
+            "unit": "oz",
+            "item": "Cool Whip"
+        },
+        {
+            "item": "sprinkles"
+        }
+    ]
+}

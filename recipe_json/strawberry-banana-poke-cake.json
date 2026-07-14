@@ -1,0 +1,45 @@
+{
+    "name": "Strawberry Banana Poke Cake",
+    "category": "Desserts",
+    "subcategory": "Cake",
+    "url": "recipes/strawberry-banana-poke-cake.html",
+    "ingredients": [
+        {
+            "amount": 21.5,
+            "unit": "oz",
+            "item": "package all butter pound cake",
+            "note": "cubed"
+        },
+        {
+            "amount": 3,
+            "unit": "oz",
+            "item": "package strawberry Jell-o"
+        },
+        {
+            "amount": 1,
+            "item": "large container strawberries",
+            "note": "sliced"
+        },
+        {
+            "amount": 4,
+            "item": "-5 bananas",
+            "note": "sliced"
+        },
+        {
+            "amount": 3.4,
+            "unit": "oz",
+            "item": "package vanilla pudding"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "cold milk"
+        },
+        {
+            "amount": 8,
+            "unit": "oz",
+            "item": "Cool Whip",
+            "note": "thawed"
+        }
+    ]
+}

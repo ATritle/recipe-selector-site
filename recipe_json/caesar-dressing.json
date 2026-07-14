@@ -1,0 +1,52 @@
+{
+    "name": "Caesar Dressing",
+    "category": "Miscellaneous",
+    "subcategory": "Dressings",
+    "url": "recipes/caesar-dressing.html",
+    "ingredients": [
+        {
+            "amount": 2,
+            "unit": "clove",
+            "item": "garlic",
+            "note": "minced"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "salt"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "mayo"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "fresh lemon juice"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "Worcestershire sauce"
+        },
+        {
+            "amount": 3,
+            "item": "-4 anchovy fillets"
+        },
+        {
+            "item": "salt & pepper",
+            "note": "to taste"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "extra-virgin olive oil"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "shredded Parmesan cheese"
+        }
+    ]
+}

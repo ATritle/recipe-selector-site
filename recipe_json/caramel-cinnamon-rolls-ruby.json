@@ -1,0 +1,80 @@
+{
+    "name": "Caramel Cinnamon Rolls",
+    "category": "Desserts",
+    "subcategory": "Cake",
+    "url": "recipes/caramel-cinnamon-rolls-ruby.html",
+    "ingredients": [
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "sugar"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "Crisco"
+        },
+        {
+            "amount": 1.5,
+            "unit": "tsp",
+            "item": "salt"
+        },
+        {
+            "amount": 2,
+            "item": "eggs",
+            "note": "room temperature, beaten"
+        },
+        {
+            "amount": 1.25,
+            "unit": "tsp",
+            "item": "yeast"
+        },
+        {
+            "amount": 6,
+            "unit": "cup",
+            "item": "flour",
+            "note": "sifted"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "boiling water"
+        },
+        {
+            "amount": 3,
+            "item": "-4 TBSP butter",
+            "note": "melted"
+        },
+        {
+            "item": "cinnamon & sugar"
+        },
+        {
+            "item": "Caramel sauce:"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "brown sugar",
+            "note": "packed"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "water"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "butter",
+            "note": "softened"
+        },
+        {
+            "amount": 4,
+            "unit": "TBSP",
+            "item": "white Karo syrup"
+        },
+        {
+            "item": "Optional: pecan or walnuts"
+        }
+    ]
+}

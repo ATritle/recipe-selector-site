@@ -1,0 +1,86 @@
+{
+    "name": "Thai Chicken Lettuce Wrap",
+    "category": "Dinner",
+    "subcategory": "Asian Meals",
+    "url": "recipes/thai-chicken-lettuce-wrap.html",
+    "ingredients": [
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "sesame oil"
+        },
+        {
+            "amount": 2,
+            "unit": "clove",
+            "item": "garlic",
+            "note": "minced"
+        },
+        {
+            "amount": 1,
+            "item": "Large onion",
+            "note": "diced"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "carrot",
+            "note": "shredded"
+        },
+        {
+            "amount": 1,
+            "unit": "LB",
+            "item": "chicken",
+            "note": "ground or cubed"
+        },
+        {
+            "amount": 3,
+            "unit": "TBSP",
+            "item": "liquid aminos"
+        },
+        {
+            "amount": 2,
+            "unit": "tsp",
+            "item": "rice vinegar"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "brown sugar"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "natural peanut butter"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "chili paste"
+        },
+        {
+            "amount": 2,
+            "unit": "tsp",
+            "item": "cornstarch"
+        },
+        {
+            "amount": 2,
+            "unit": "tsp",
+            "item": "water"
+        },
+        {
+            "amount": 12,
+            "item": "leaves romaine or butter lettuce"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "peanuts",
+            "note": "chopped"
+        },
+        {
+            "amount": 3,
+            "item": "-4 green onions",
+            "note": "chopped"
+        }
+    ]
+}

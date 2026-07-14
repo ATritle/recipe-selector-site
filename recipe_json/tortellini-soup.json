@@ -1,0 +1,96 @@
+{
+    "name": "Tortellini Soup",
+    "category": "Dinner",
+    "subcategory": "Soups",
+    "url": "recipes/tortellini-soup.html",
+    "ingredients": [
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "unsalted butter"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "olive oil"
+        },
+        {
+            "amount": 1,
+            "item": "medium onion",
+            "note": "diced"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "celery",
+            "note": "finely chopped"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "carrots",
+            "note": "finely chopped"
+        },
+        {
+            "amount": 6,
+            "item": "-8 cloves garlic",
+            "note": "minced"
+        },
+        {
+            "amount": 1,
+            "item": "-2 tsp Italian seasoning"
+        },
+        {
+            "item": "salt & pepper"
+        },
+        {
+            "amount": 1,
+            "unit": "LB",
+            "item": "ground Italian sausage"
+        },
+        {
+            "amount": 3,
+            "unit": "TBSP",
+            "item": "tomato paste"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "dry white wine"
+        },
+        {
+            "amount": 28,
+            "unit": "oz",
+            "item": "diced tomatoes",
+            "note": "drained"
+        },
+        {
+            "amount": 6,
+            "unit": "cup",
+            "item": "chicken broth"
+        },
+        {
+            "amount": 1,
+            "item": "bay leaf"
+        },
+        {
+            "amount": 1,
+            "item": "Parmesan rind"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "spinach"
+        },
+        {
+            "amount": 18,
+            "unit": "oz",
+            "item": "package four cheese tortellini pasta"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "heavy whipping cream"
+        }
+    ]
+}

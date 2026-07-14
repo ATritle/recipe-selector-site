@@ -1,0 +1,39 @@
+{
+    "name": "Bagel Dip",
+    "category": "Miscellaneous",
+    "subcategory": "Dips",
+    "url": "recipes/bagel-dip.html",
+    "ingredients": [
+        {
+            "amount": 3,
+            "unit": "slice",
+            "item": "dried beef",
+            "note": "chopped"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "mayo"
+        },
+        {
+            "amount": 16,
+            "unit": "oz",
+            "item": "sour cream"
+        },
+        {
+            "amount": 2,
+            "unit": "tsp",
+            "item": "dried dill"
+        },
+        {
+            "amount": 2,
+            "unit": "tsp",
+            "item": "dried parsley"
+        },
+        {
+            "amount": 4,
+            "item": "green onions",
+            "note": "chopped"
+        }
+    ]
+}

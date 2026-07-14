@@ -1,0 +1,24 @@
+{
+    "name": "Cream Cheese Fluff - Keto",
+    "category": "Desserts",
+    "subcategory": "Misc.",
+    "url": "recipes/cream-cheese-fluff-keto.html",
+    "ingredients": [
+        {
+            "amount": 3,
+            "unit": "oz",
+            "item": "cream cheese",
+            "note": "softened"
+        },
+        {
+            "amount": 3,
+            "unit": "TBSP",
+            "item": "Swerve confectioners' sugar"
+        },
+        {
+            "amount": 3,
+            "unit": "TBSP",
+            "item": "heavy whipping cream"
+        }
+    ]
+}

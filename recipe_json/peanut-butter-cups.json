@@ -1,0 +1,39 @@
+{
+    "name": "Peanut Butter Cups",
+    "category": "Desserts",
+    "subcategory": "Misc.",
+    "url": "recipes/peanut-butter-cups.html",
+    "ingredients": [
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "chocolate chips"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "coconut oil",
+            "note": "melted"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "peanut butter"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "honey"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "coconut oil",
+            "note": "melted"
+        },
+        {
+            "item": "pinch of sea salt",
+            "note": "optional"
+        }
+    ]
+}

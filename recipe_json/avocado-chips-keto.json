@@ -1,0 +1,34 @@
+{
+    "name": "Avocado Chips - Keto",
+    "category": "Miscellaneous",
+    "subcategory": "Sides",
+    "url": "recipes/avocado-chips-keto.html",
+    "ingredients": [
+        {
+            "amount": 1,
+            "item": "avocado",
+            "note": "mashed"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "Parmesan cheese",
+            "note": "finely grated"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "mozzarella cheese",
+            "note": "finely grated"
+        },
+        {
+            "amount": 2,
+            "unit": "tsp",
+            "item": "garlic powder"
+        },
+        {
+            "amount": 2,
+            "item": "dashes everything bagel seasoning"
+        }
+    ]
+}

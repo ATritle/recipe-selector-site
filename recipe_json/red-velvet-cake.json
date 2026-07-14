@@ -1,0 +1,110 @@
+{
+    "name": "Red Velvet Cake",
+    "category": "Desserts",
+    "subcategory": "Cake",
+    "url": "recipes/red-velvet-cake.html",
+    "ingredients": [
+        {
+            "item": "Cake:"
+        },
+        {
+            "amount": 1.5,
+            "unit": "cup",
+            "item": "sugar"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "Crisco"
+        },
+        {
+            "amount": 2,
+            "unit": "oz",
+            "item": "red food coloring"
+        },
+        {
+            "amount": 2,
+            "item": "eggs",
+            "note": "room temperature"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "flour",
+            "note": "sifted"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "salt"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "unsweetened cocoa powder"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "buttermilk"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "baking soda"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "vanilla extract"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "white vinegar"
+        },
+        {
+            "item": "Frosting:"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "milk"
+        },
+        {
+            "amount": 1.5,
+            "unit": "TBSP",
+            "item": "cornstarch"
+        },
+        {
+            "item": "pinch salt"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "Crisco"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "butter",
+            "note": "softened"
+        },
+        {
+            "amount": 0.6666666666666666,
+            "unit": "cup",
+            "item": "sugar"
+        },
+        {
+            "amount": 1.6666666666666665,
+            "unit": "cup",
+            "item": "powdered sugar",
+            "note": "divided"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "vanilla extract"
+        }
+    ]
+}

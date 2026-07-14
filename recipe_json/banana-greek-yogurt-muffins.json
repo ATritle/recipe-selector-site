@@ -1,0 +1,47 @@
+{
+    "name": "Banana Greek Yogurt Muffins",
+    "category": "Desserts",
+    "subcategory": "Cake",
+    "url": "recipes/banana-greek-yogurt-muffins.html",
+    "ingredients": [
+        {
+            "amount": 2,
+            "item": "ripe bananas",
+            "note": "mashed"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "Greek yogurt"
+        },
+        {
+            "amount": 2,
+            "item": "eggs",
+            "note": "room temp"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "rolled quick oats"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "brown sugar"
+        },
+        {
+            "amount": 1,
+            "item": "½ tsp baking powder"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "baking soda"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "mini chocolate chips"
+        }
+    ]
+}

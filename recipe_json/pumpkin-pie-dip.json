@@ -1,0 +1,37 @@
+{
+    "name": "Pumpkin Pie Dip",
+    "category": "Miscellaneous",
+    "subcategory": "Dips",
+    "url": "recipes/pumpkin-pie-dip.html",
+    "ingredients": [
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "cottage cheese"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "pumpkin puree"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "vanilla extract"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "pumpkin pie spice"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "maple syrup"
+        },
+        {
+            "item": "pinch of salt",
+            "note": "optional"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "name": "Crockpot Meatballs",
+    "category": "Dinner",
+    "subcategory": "Italian Meals",
+    "url": "recipes/crockpot-meatballs.html",
+    "ingredients": [
+        {
+            "amount": 2,
+            "item": "",
+            "note": "22 oz packages frozen meatballs"
+        },
+        {
+            "amount": 2,
+            "item": "",
+            "note": "28 oz bottles Cookies BBQ Sauce"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "unsalted butter",
+            "note": "melted"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "garlic salt"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "Mrs. Dash"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "light brown sugar"
+        },
+        {
+            "amount": 1,
+            "unit": "can",
+            "item": "beer",
+            "note": "gluten-free lager or pilsner"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "Tabasco sauce"
+        },
+        {
+            "amount": 1,
+            "item": "shot whiskey"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "habanero Tabasco sauce"
+        }
+    ]
+}

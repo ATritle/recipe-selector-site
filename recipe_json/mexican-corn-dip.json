@@ -1,0 +1,44 @@
+{
+    "name": "Mexican Corn Dip",
+    "category": "Miscellaneous",
+    "subcategory": "Dips",
+    "url": "recipes/mexican-corn-dip.html",
+    "ingredients": [
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "mayo"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "sour cream"
+        },
+        {
+            "amount": 2,
+            "item": "",
+            "note": "11oz or 15.25oz cans Mexican or Southwest sweet corn - drained"
+        },
+        {
+            "amount": 10,
+            "unit": "oz",
+            "item": "can Rotel"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "shredded cheddar cheese"
+        },
+        {
+            "amount": 8,
+            "item": "green onions",
+            "note": "sliced"
+        },
+        {
+            "amount": 1,
+            "unit": "bunch",
+            "item": "of cilantro",
+            "note": "chopped"
+        }
+    ]
+}

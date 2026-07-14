@@ -1,0 +1,47 @@
+{
+    "name": "Sweet and Sour Sauce",
+    "category": "Miscellaneous",
+    "subcategory": "Sauces",
+    "url": "recipes/sweet-and-sour-sauce.html",
+    "ingredients": [
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "pineapple juice"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "brown sugar",
+            "note": "packed"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "rice vinegar"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "ketchup"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "liquid aminos or soy sauce"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "cornstarch"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "water"
+        },
+        {
+            "item": "Optional: 3 drops red food coloring"
+        }
+    ]
+}

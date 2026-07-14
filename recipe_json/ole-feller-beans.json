@@ -1,0 +1,88 @@
+{
+    "name": "Ole Feller Beans",
+    "category": "Miscellaneous",
+    "subcategory": "Sides",
+    "url": "recipes/ole-feller-beans.html",
+    "ingredients": [
+        {
+            "amount": 1,
+            "unit": "LB",
+            "item": "ground beef"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "salt"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "onion",
+            "note": "diced"
+        },
+        {
+            "amount": 0.3333333333333333,
+            "unit": "cup",
+            "item": "light brown sugar",
+            "note": "packed"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "chili powder"
+        },
+        {
+            "amount": 0.5,
+            "unit": "LB",
+            "item": "bacon",
+            "note": "diced"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "white corn syrup"
+        },
+        {
+            "amount": 15,
+            "unit": "oz",
+            "item": "can kidney beans",
+            "note": "rinsed and drained"
+        },
+        {
+            "amount": 15,
+            "unit": "oz",
+            "item": "can butter beans",
+            "note": "rinsed and drained"
+        },
+        {
+            "amount": 15,
+            "unit": "oz",
+            "item": "can pork and beans"
+        },
+        {
+            "amount": 0.3333333333333333,
+            "unit": "cup",
+            "item": "sugar"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "ketchup"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "BBQ sauce"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "mustard"
+        },
+        {
+            "amount": 0.25,
+            "unit": "tsp",
+            "item": "ground black pepper"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "name": "Bourbon Butter",
+    "category": "Miscellaneous",
+    "subcategory": "Misc.",
+    "url": "recipes/bourbon-butter.html",
+    "ingredients": [
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "unsalted butter",
+            "note": "room temp"
+        },
+        {
+            "amount": 2,
+            "unit": "clove",
+            "item": "garlic",
+            "note": "finely minced"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "Maker's Mark or bourbon of choice"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "green onion",
+            "note": "finely chopped"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "parsley",
+            "note": "chopped"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "salt"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "pepper"
+        }
+    ]
+}

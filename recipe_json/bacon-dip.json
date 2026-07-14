@@ -1,0 +1,53 @@
+{
+    "name": "Bacon Dip",
+    "category": "Miscellaneous",
+    "subcategory": "Dips",
+    "url": "recipes/bacon-dip.html",
+    "ingredients": [
+        {
+            "amount": 8,
+            "unit": "slice",
+            "item": "bacon",
+            "note": "cooked crispy & crumbled"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "mayo"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "sour cream"
+        },
+        {
+            "amount": 4,
+            "item": "dashes hot sauce"
+        },
+        {
+            "amount": 4,
+            "item": "green onions",
+            "note": "chopped"
+        },
+        {
+            "amount": 4,
+            "item": "TSBP fresh parsley",
+            "note": "finely chopped"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "mustard powder"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "garlic powder"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "shredded cheddar cheese"
+        }
+    ]
+}

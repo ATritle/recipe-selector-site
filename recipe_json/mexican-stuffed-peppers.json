@@ -1,0 +1,67 @@
+{
+    "name": "Mexican Stuffed Peppers",
+    "category": "Dinner",
+    "subcategory": "Mexican Meals",
+    "url": "recipes/mexican-stuffed-peppers.html",
+    "ingredients": [
+        {
+            "amount": 1,
+            "item": "red bell pepper"
+        },
+        {
+            "amount": 1,
+            "item": "orange bell pepper"
+        },
+        {
+            "amount": 1,
+            "item": "yellow bell pepper"
+        },
+        {
+            "amount": 2,
+            "item": "green bell peppers"
+        },
+        {
+            "amount": 2,
+            "unit": "LB",
+            "item": "ground beef"
+        },
+        {
+            "item": "salt & pepper",
+            "note": "to taste"
+        },
+        {
+            "amount": 1,
+            "item": "small onion",
+            "note": "diced"
+        },
+        {
+            "amount": 4,
+            "item": "-5 cloves garlic",
+            "note": "minced"
+        },
+        {
+            "amount": 4,
+            "unit": "TBSP",
+            "item": "taco seasoning"
+        },
+        {
+            "amount": 0.6666666666666666,
+            "unit": "cup",
+            "item": "beef broth"
+        },
+        {
+            "amount": 1,
+            "item": "bag frozen cauliflower rice"
+        },
+        {
+            "amount": 10,
+            "unit": "oz",
+            "item": "can Rotel"
+        },
+        {
+            "amount": 1,
+            "item": "-2 cups Colby cheese",
+            "note": "shredded"
+        }
+    ]
+}

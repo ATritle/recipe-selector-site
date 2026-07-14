@@ -1,0 +1,54 @@
+{
+    "name": "Taco Seasoning",
+    "category": "Miscellaneous",
+    "subcategory": "Misc.",
+    "url": "recipes/taco-seasoning.html",
+    "ingredients": [
+        {
+            "amount": 4,
+            "unit": "TBSP",
+            "item": "chili powder"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "garlic powder"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "onion powder"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "red pepper flakes",
+            "note": "optional"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "dried oregano"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "paprika"
+        },
+        {
+            "amount": 4,
+            "unit": "tsp",
+            "item": "cumin"
+        },
+        {
+            "amount": 4,
+            "unit": "tsp",
+            "item": "salt"
+        },
+        {
+            "amount": 4,
+            "unit": "tsp",
+            "item": "black pepper"
+        }
+    ]
+}

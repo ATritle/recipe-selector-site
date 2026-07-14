@@ -1,0 +1,63 @@
+{
+    "name": "Baked Boursin Spaghetti Squash",
+    "category": "Miscellaneous",
+    "subcategory": "Sides",
+    "url": "recipes/baked-boursin-spaghetti-squash.html",
+    "ingredients": [
+        {
+            "amount": 1,
+            "item": "large spaghetti squash",
+            "note": "halved lengthwise and deseeded"
+        },
+        {
+            "item": "avocado or olive oil"
+        },
+        {
+            "item": "salt & pepper"
+        },
+        {
+            "amount": 10,
+            "item": "-12 sun-dried tomatoes"
+        },
+        {
+            "amount": 3,
+            "unit": "cup",
+            "item": "spinach",
+            "note": "chopped"
+        },
+        {
+            "amount": 3,
+            "unit": "TBSP",
+            "item": "fresh basil",
+            "note": "chopped and divided"
+        },
+        {
+            "amount": 1,
+            "item": "-2 cloves garlic",
+            "note": "finely minced"
+        },
+        {
+            "amount": 10.6,
+            "unit": "oz",
+            "item": "package Boursin garlic & fine herbs"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "heavy whipping cream"
+        },
+        {
+            "item": "Optional: red pepper flakes or balsamic glaze"
+        },
+        {
+            "amount": 2,
+            "unit": "LB",
+            "item": "chicken",
+            "note": "ground, grilled, air fried, or rotisserie and diced"
+        },
+        {
+            "amount": 1,
+            "item": "-2 TBSP Italian seasoning"
+        }
+    ]
+}

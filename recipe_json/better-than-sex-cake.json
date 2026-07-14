@@ -1,0 +1,32 @@
+{
+    "name": "Better Than Sex Cake",
+    "category": "Desserts",
+    "subcategory": "Cake",
+    "url": "recipes/better-than-sex-cake.html",
+    "ingredients": [
+        {
+            "amount": 1,
+            "item": "box Devil's food cake"
+        },
+        {
+            "amount": 7,
+            "unit": "oz",
+            "item": "can sweetened condensed milk"
+        },
+        {
+            "amount": 6,
+            "unit": "oz",
+            "item": "caramel ice cream topping"
+        },
+        {
+            "amount": 3,
+            "item": "Heath bars",
+            "note": "crushed"
+        },
+        {
+            "amount": 8,
+            "unit": "oz",
+            "item": "container Cool Whip"
+        }
+    ]
+}

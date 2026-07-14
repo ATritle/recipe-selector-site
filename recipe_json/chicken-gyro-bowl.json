@@ -1,0 +1,83 @@
+{
+    "name": "Chicken Gryo Bowl",
+    "category": "Dinner",
+    "subcategory": "Mediterranean Meals",
+    "url": "recipes/chicken-gyro-bowl.html",
+    "ingredients": [
+        {
+            "amount": 16,
+            "unit": "oz",
+            "item": "chicken"
+        },
+        {
+            "amount": 0.5,
+            "item": "red onion",
+            "note": "diced"
+        },
+        {
+            "amount": 1,
+            "item": "each English cucumber",
+            "note": "diced"
+        },
+        {
+            "amount": 1,
+            "item": "-2 Roma tomatoes",
+            "note": "diced"
+        },
+        {
+            "amount": 3,
+            "item": "-4 Kalamata olives",
+            "note": "diced"
+        },
+        {
+            "amount": 8,
+            "unit": "oz",
+            "item": "feta cheese"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "tzatziki sauce",
+            "note": "see tzatziki sauce receipe"
+        },
+        {
+            "item": "MARINADE:"
+        },
+        {
+            "amount": 2,
+            "unit": "clove",
+            "item": "garlic",
+            "note": "finely minced"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "red wine vinegar"
+        },
+        {
+            "amount": 0.5,
+            "item": "lemon",
+            "note": "juiced"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "extra-virgin oil"
+        },
+        {
+            "amount": 3,
+            "unit": "TBSP",
+            "item": "greek yogurt"
+        },
+        {
+            "amount": 2,
+            "unit": "tsp",
+            "item": "dried oregano"
+        },
+        {
+            "amount": 0.75,
+            "unit": "tsp",
+            "item": "salt"
+        }
+    ]
+}

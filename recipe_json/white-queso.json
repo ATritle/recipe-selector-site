@@ -1,0 +1,48 @@
+{
+    "name": "White Queso",
+    "category": "Miscellaneous",
+    "subcategory": "Dips",
+    "url": "recipes/white-queso.html",
+    "ingredients": [
+        {
+            "amount": 1,
+            "unit": "LB",
+            "item": "white American cheese"
+        },
+        {
+            "amount": 5,
+            "unit": "oz",
+            "item": "evaporated milk"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "unsalted butter"
+        },
+        {
+            "amount": 4,
+            "unit": "oz",
+            "item": "green chiles"
+        },
+        {
+            "amount": 0.25,
+            "unit": "tsp",
+            "item": "cumin"
+        },
+        {
+            "amount": 0.25,
+            "unit": "tsp",
+            "item": "garlic powder"
+        },
+        {
+            "amount": 0.125,
+            "unit": "tsp",
+            "item": "paprika"
+        },
+        {
+            "amount": 0.125,
+            "unit": "tsp",
+            "item": "cayenne pepper"
+        }
+    ]
+}

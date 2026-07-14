@@ -1,0 +1,54 @@
+{
+    "name": "Potato Salad",
+    "category": "Miscellaneous",
+    "subcategory": "Sides",
+    "url": "recipes/potato-salad.html",
+    "ingredients": [
+        {
+            "amount": 8,
+            "item": "-10 eggs",
+            "note": "cooked, peeled, chopped"
+        },
+        {
+            "amount": 4,
+            "unit": "LB",
+            "item": "potatoes",
+            "note": "peeled and diced"
+        },
+        {
+            "amount": 1,
+            "item": "medium onion",
+            "note": "finely chopped"
+        },
+        {
+            "amount": 0.5,
+            "unit": "TBSP",
+            "item": "salt"
+        },
+        {
+            "amount": 0.5,
+            "unit": "TBSP",
+            "item": "black pepper"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "mayo (not Miracle Whip)"
+        },
+        {
+            "amount": 3,
+            "unit": "TBSP",
+            "item": "mustard"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "vinegar"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "sugar"
+        }
+    ]
+}

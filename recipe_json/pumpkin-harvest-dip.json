@@ -1,0 +1,42 @@
+{
+    "name": "Pumpkin Harvest Dip",
+    "category": "Miscellaneous",
+    "subcategory": "Dips",
+    "url": "recipes/pumpkin-harvest-dip.html",
+    "ingredients": [
+        {
+            "amount": 8,
+            "unit": "oz",
+            "item": "cream cheese",
+            "note": "softened"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "powdered sugar"
+        },
+        {
+            "amount": 15,
+            "unit": "oz",
+            "item": "can pumpkin puree"
+        },
+        {
+            "amount": 3,
+            "unit": "TBSP",
+            "item": "pumpkin pie spice"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "vanilla extract"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "ground ginger"
+        },
+        {
+            "item": "apples, graham crackers, or ginger snaps"
+        }
+    ]
+}

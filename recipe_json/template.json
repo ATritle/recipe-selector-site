@@ -1,0 +1,32 @@
+{
+    "name": "RECIPE TITLE",
+    "category": "",
+    "subcategory": "",
+    "url": "recipes/template.html",
+    "ingredients": [
+        {
+            "item": "INGREDIENTS"
+        },
+        {
+            "item": "INGREDIENTS"
+        },
+        {
+            "item": "INGREDIENTS"
+        },
+        {
+            "item": "INGREDIENTS"
+        },
+        {
+            "item": "INGREDIENTS"
+        },
+        {
+            "item": "INGREDIENTS"
+        },
+        {
+            "item": "INGREDIENTS"
+        },
+        {
+            "item": "INGREDIENTS"
+        }
+    ]
+}

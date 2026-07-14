@@ -1,0 +1,60 @@
+{
+    "name": "Rhubarb Butter Crunch",
+    "category": "Desserts",
+    "subcategory": "Layered Dish",
+    "url": "recipes/rhubarb-butter-crunch.html",
+    "ingredients": [
+        {
+            "amount": 6,
+            "unit": "cup",
+            "item": "rhubarb",
+            "note": "diced"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "sugar"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "flour"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "nutmeg"
+        },
+        {
+            "amount": 4,
+            "unit": "tsp",
+            "item": "cinnamon"
+        },
+        {
+            "item": "Crumble:"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "brown sugar",
+            "note": "packed"
+        },
+        {
+            "amount": 1.25,
+            "unit": "cup",
+            "item": "flour",
+            "note": "sifted"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "old-fashioned oats"
+        },
+        {
+            "amount": 0.75,
+            "unit": "cup",
+            "item": "butter",
+            "note": "melted"
+        }
+    ]
+}

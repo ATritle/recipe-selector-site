@@ -1,0 +1,63 @@
+{
+    "name": "Potato Soup",
+    "category": "Dinner",
+    "subcategory": "Soups",
+    "url": "recipes/potato-soup.html",
+    "ingredients": [
+        {
+            "amount": 3,
+            "item": "large russet potatoes",
+            "note": "peeled & diced"
+        },
+        {
+            "amount": 0.5,
+            "item": "onion",
+            "note": "diced"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "chicken broth"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "milk"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "heavy whipping cream"
+        },
+        {
+            "item": "salt & pepper",
+            "note": "to taste"
+        },
+        {
+            "amount": 0.25,
+            "unit": "tsp",
+            "item": "garlic powder"
+        },
+        {
+            "amount": 0.25,
+            "unit": "tsp",
+            "item": "paprika"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "shredded cheddar cheese"
+        },
+        {
+            "amount": 0.3333333333333333,
+            "unit": "cup",
+            "item": "sour cream"
+        },
+        {
+            "amount": 0.5,
+            "unit": "LB",
+            "item": "bacon",
+            "note": "cooked & crumbled"
+        }
+    ]
+}

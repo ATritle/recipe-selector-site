@@ -1,0 +1,60 @@
+{
+    "name": "Monster Cookie Bars",
+    "category": "Desserts",
+    "subcategory": "Bars",
+    "url": "recipes/monster-cookie-bars.html",
+    "ingredients": [
+        {
+            "amount": 1,
+            "unit": "stick",
+            "item": "unsalted butter",
+            "note": "softened"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "light brown sugar",
+            "note": "packed"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "sugar"
+        },
+        {
+            "amount": 3,
+            "item": "eggs",
+            "note": "room temperature"
+        },
+        {
+            "amount": 1.5,
+            "unit": "cup",
+            "item": "creamy peanut butter"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "vanilla extract"
+        },
+        {
+            "amount": 2,
+            "unit": "tsp",
+            "item": "baking soda"
+        },
+        {
+            "amount": 4.5,
+            "unit": "cup",
+            "item": "quick oats"
+        },
+        {
+            "amount": 1.5,
+            "unit": "cup",
+            "item": "semi-sweet mini chocolate chips"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "M&M's"
+        }
+    ]
+}

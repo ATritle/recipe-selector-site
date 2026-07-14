@@ -1,0 +1,50 @@
+{
+    "name": "Pinto Beans",
+    "category": "Miscellaneous",
+    "subcategory": "Sides",
+    "url": "recipes/pinto-beans.html",
+    "ingredients": [
+        {
+            "amount": 50,
+            "unit": "oz",
+            "item": "can pinto beans",
+            "note": "drained and rinsed"
+        },
+        {
+            "amount": 1,
+            "unit": "LB",
+            "item": "bacon",
+            "note": "chopped"
+        },
+        {
+            "amount": 1,
+            "item": "large onion",
+            "note": "diced"
+        },
+        {
+            "amount": 3,
+            "item": "Roma tomatoes",
+            "note": "diced"
+        },
+        {
+            "amount": 1,
+            "item": "jalapeño",
+            "note": "deseeded and diced"
+        },
+        {
+            "amount": 1,
+            "unit": "bunch",
+            "item": "cilantro",
+            "note": "chopped"
+        },
+        {
+            "amount": 25,
+            "unit": "oz",
+            "item": "water"
+        },
+        {
+            "item": "queso fresco",
+            "note": "for topping"
+        }
+    ]
+}

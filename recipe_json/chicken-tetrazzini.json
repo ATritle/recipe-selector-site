@@ -1,0 +1,51 @@
+{
+    "name": "Chicken Tetrazzini",
+    "category": "Dinner",
+    "subcategory": "Italian Meals",
+    "url": "recipes/chicken-tetrazzini.html",
+    "ingredients": [
+        {
+            "amount": 16,
+            "unit": "oz",
+            "item": "angel hair spaghetti"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "butter",
+            "note": "softened"
+        },
+        {
+            "amount": 1,
+            "item": "-2 LBS chicken breasts",
+            "note": "cooked & diced or 3-4 large cans of chicken"
+        },
+        {
+            "amount": 2,
+            "item": "-10.5oz cans cream of chicken soup"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "sour cream"
+        },
+        {
+            "item": "salt & pepper to taste"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "chicken broth"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "shredded mozzarella cheese"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "Parmasean cheese"
+        }
+    ]
+}

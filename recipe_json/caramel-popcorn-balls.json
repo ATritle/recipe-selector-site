@@ -1,0 +1,48 @@
+{
+    "name": "Caramel Popcorn Balls",
+    "category": "Miscellaneous",
+    "subcategory": "Misc.",
+    "url": "recipes/caramel-popcorn-balls.html",
+    "ingredients": [
+        {
+            "amount": 14,
+            "unit": "oz",
+            "item": "can sweetened condensed milk"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "brown sugar",
+            "note": "packed"
+        },
+        {
+            "amount": 0.75,
+            "unit": "cup",
+            "item": "light corn syrup"
+        },
+        {
+            "amount": 0.125,
+            "unit": "tsp",
+            "item": "salt"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "butter"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "vanilla extract"
+        },
+        {
+            "amount": 16,
+            "unit": "cup",
+            "item": "popped popcorn"
+        },
+        {
+            "item": "Optional: M&M's, nuts, sea salt, or melted chocolate",
+            "note": "drizzle"
+        }
+    ]
+}

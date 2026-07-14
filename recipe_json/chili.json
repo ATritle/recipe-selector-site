@@ -1,0 +1,43 @@
+{
+    "name": "Chili",
+    "category": "Dinner",
+    "subcategory": "Soups",
+    "url": "recipes/chili.html",
+    "ingredients": [
+        {
+            "amount": 2,
+            "unit": "LB",
+            "item": "ground beef or pork"
+        },
+        {
+            "amount": 1,
+            "item": "onion",
+            "note": "diced"
+        },
+        {
+            "amount": 3,
+            "item": "",
+            "note": "15 oz cans rotel"
+        },
+        {
+            "amount": 15,
+            "unit": "oz",
+            "item": "can black beans"
+        },
+        {
+            "amount": 15,
+            "unit": "oz",
+            "item": "can kidney beans"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "chili powder"
+        },
+        {
+            "amount": 4,
+            "unit": "cup",
+            "item": "beef stock"
+        }
+    ]
+}

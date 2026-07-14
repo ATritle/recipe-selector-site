@@ -1,0 +1,83 @@
+{
+    "name": "White Chicken Chili",
+    "category": "Dinner",
+    "subcategory": "Soups",
+    "url": "recipes/white-chicken-chili.html",
+    "ingredients": [
+        {
+            "amount": 2,
+            "unit": "LB",
+            "item": "chicken",
+            "note": "diced"
+        },
+        {
+            "amount": 1,
+            "item": "medium onion"
+        },
+        {
+            "amount": 1.5,
+            "unit": "tsp",
+            "item": "garlic powder"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "olive oil"
+        },
+        {
+            "amount": 31,
+            "unit": "oz",
+            "item": "cans great northern beans",
+            "note": "drained and rinsed"
+        },
+        {
+            "amount": 14.5,
+            "unit": "oz",
+            "item": "can chicken broth"
+        },
+        {
+            "amount": 8,
+            "unit": "oz",
+            "item": "can green chilies"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "salt"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "cumin"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "dried oregano"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "black pepper"
+        },
+        {
+            "amount": 0.25,
+            "unit": "tsp",
+            "item": "cayenne pepper"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "sour cream"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "heavy whipping cream"
+        },
+        {
+            "item": "Optional: shredded white cheddar cheese, cilantro, tortilla chips, avocado or sliced jalapeños",
+            "note": "for garnish."
+        }
+    ]
+}

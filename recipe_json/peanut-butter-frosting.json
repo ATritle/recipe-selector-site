@@ -1,0 +1,34 @@
+{
+    "name": "Peanut Butter Frosting",
+    "category": "Desserts",
+    "subcategory": "Misc.",
+    "url": "recipes/peanut-butter-frosting.html",
+    "ingredients": [
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "chunky or creamy peanut butter"
+        },
+        {
+            "amount": 3,
+            "unit": "TBSP",
+            "item": "butter",
+            "note": "softened"
+        },
+        {
+            "amount": 2.5,
+            "unit": "cup",
+            "item": "powdered sugar"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "milk"
+        },
+        {
+            "amount": 2,
+            "unit": "tsp",
+            "item": "vanilla extract"
+        }
+    ]
+}

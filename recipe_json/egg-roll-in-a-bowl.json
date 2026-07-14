@@ -1,0 +1,45 @@
+{
+    "name": "Egg Roll in a Bowl",
+    "category": "Dinner",
+    "subcategory": "Asian Meals",
+    "url": "recipes/egg-roll-in-a-bowl.html",
+    "ingredients": [
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "toasted sesame oil"
+        },
+        {
+            "amount": 1,
+            "unit": "LB",
+            "item": "ground chicken, turkey, beef, or pork"
+        },
+        {
+            "amount": 2,
+            "item": "bags coleslaw mix"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "liquid aminos"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "ground ginger"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "garlic powder"
+        },
+        {
+            "amount": 4,
+            "item": "-5 green onions",
+            "note": "sliced"
+        },
+        {
+            "item": "Optional: 1-2 tsp red pepper flakes"
+        }
+    ]
+}

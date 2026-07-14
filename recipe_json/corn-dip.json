@@ -1,0 +1,40 @@
+{
+    "name": "Corn Dip",
+    "category": "Miscellaneous",
+    "subcategory": "Dips",
+    "url": "recipes/corn-dip.html",
+    "ingredients": [
+        {
+            "amount": 4,
+            "item": "",
+            "note": "11 oz white shoepeg corn - drained"
+        },
+        {
+            "amount": 11,
+            "unit": "oz",
+            "item": "jar jalapenos",
+            "note": "chopped reserve some juice"
+        },
+        {
+            "amount": 1,
+            "item": "small red onion",
+            "note": "diced"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "mayo"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "shredded cheddar cheese"
+        },
+        {
+            "item": "salt & pepper to taste"
+        },
+        {
+            "item": "dash of garlic powder"
+        }
+    ]
+}

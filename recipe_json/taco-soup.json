@@ -1,0 +1,51 @@
+{
+    "name": "Taco Soup",
+    "category": "Dinner",
+    "subcategory": "Soups",
+    "url": "recipes/taco-soup.html",
+    "ingredients": [
+        {
+            "amount": 2,
+            "unit": "LB",
+            "item": "ground beef"
+        },
+        {
+            "amount": 16,
+            "unit": "oz",
+            "item": "cream cheese"
+        },
+        {
+            "amount": 20,
+            "unit": "oz",
+            "item": "Rotel"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "taco seasoning"
+        },
+        {
+            "amount": 4,
+            "unit": "cup",
+            "item": "chicken broth"
+        },
+        {
+            "amount": 4,
+            "unit": "oz",
+            "item": "diced jalapeños or poblanos"
+        },
+        {
+            "amount": 15,
+            "unit": "oz",
+            "item": "can black beans"
+        },
+        {
+            "item": "shredded cheddar cheese",
+            "note": "to garnish"
+        },
+        {
+            "item": "cilantro",
+            "note": "chopped to garnish"
+        }
+    ]
+}

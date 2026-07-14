@@ -1,0 +1,66 @@
+{
+    "name": "Chunky Blonde Brownies",
+    "category": "Desserts",
+    "subcategory": "Bars",
+    "url": "recipes/chunky-blonde-brownies.html",
+    "ingredients": [
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "unsalted butter",
+            "note": "softened"
+        },
+        {
+            "amount": 0.75,
+            "unit": "cup",
+            "item": "sugar"
+        },
+        {
+            "amount": 0.75,
+            "unit": "cup",
+            "item": "brown sugar",
+            "note": "packed"
+        },
+        {
+            "amount": 2,
+            "item": "eggs",
+            "note": "room temperature"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "vanilla extract"
+        },
+        {
+            "amount": 1.5,
+            "unit": "cup",
+            "item": "flour",
+            "note": "sifted"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "baking powder"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "salt"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "white chocolate or vanilla chips"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "chocolate chips"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "macadamia nuts"
+        }
+    ]
+}

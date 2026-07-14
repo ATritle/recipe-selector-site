@@ -1,0 +1,43 @@
+{
+    "name": "Sweet Potatoes",
+    "category": "Miscellaneous",
+    "subcategory": "Sides",
+    "url": "recipes/sweet-potatoes.html",
+    "ingredients": [
+        {
+            "amount": 2,
+            "item": "-3 sweet potatoes",
+            "note": "peeled and diced"
+        },
+        {
+            "amount": 2,
+            "item": "-3 TBSP olive oil or avocado oil"
+        },
+        {
+            "item": "salt & pepper",
+            "note": "to taste"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "bell peppers",
+            "note": "diced"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "onion",
+            "note": "diced"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "cinnamon sugar"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "brown sugar"
+        }
+    ]
+}

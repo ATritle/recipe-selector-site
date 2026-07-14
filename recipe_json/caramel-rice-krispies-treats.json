@@ -1,0 +1,41 @@
+{
+    "name": "Caramel Rice Krispies Treats",
+    "category": "Desserts",
+    "subcategory": "Bars",
+    "url": "recipes/caramel-rice-krispies-treats.html",
+    "ingredients": [
+        {
+            "amount": 2,
+            "item": "bags marshmallows"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "unsalted butter"
+        },
+        {
+            "amount": 12,
+            "unit": "cup",
+            "item": "Rice Krispies"
+        },
+        {
+            "item": "Caramel sauce:"
+        },
+        {
+            "amount": 1.25,
+            "unit": "stick",
+            "item": "unsalted butter"
+        },
+        {
+            "amount": 14,
+            "unit": "oz",
+            "item": "Kraft caramels",
+            "note": "unwrapped"
+        },
+        {
+            "amount": 13,
+            "unit": "oz",
+            "item": "can sweetened condensed milk"
+        }
+    ]
+}

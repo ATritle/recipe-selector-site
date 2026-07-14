@@ -1,0 +1,52 @@
+{
+    "name": "Turkey Tender Marinade",
+    "category": "Miscellaneous",
+    "subcategory": "Misc.",
+    "url": "recipes/turkey-tender-marinade.html",
+    "ingredients": [
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "liquid aminos"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "cooking sherry"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "olive or avocado oil"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "lemon juice"
+        },
+        {
+            "amount": 0.25,
+            "unit": "tsp",
+            "item": "black pepper"
+        },
+        {
+            "amount": 0.125,
+            "unit": "tsp",
+            "item": "garlic powder"
+        },
+        {
+            "amount": 1,
+            "item": "small onion",
+            "note": "diced"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "Sierra Mist, 7UP or Sprite"
+        },
+        {
+            "amount": 2,
+            "item": "-3 LBS turkey tendererloins"
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "name": "Quinoa Black Bean Salad",
+    "category": "Miscellaneous",
+    "subcategory": "Sides",
+    "url": "recipes/quinoa-black-bean-salad.html",
+    "ingredients": [
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "quinoa",
+            "note": "rinsed"
+        },
+        {
+            "amount": 4,
+            "unit": "cup",
+            "item": "water"
+        },
+        {
+            "amount": 3,
+            "item": "medium limes",
+            "note": "juiced"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "cumin"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "sea salt"
+        },
+        {
+            "amount": 0.3333333333333333,
+            "unit": "cup",
+            "item": "olive oil"
+        },
+        {
+            "amount": 30,
+            "unit": "oz",
+            "item": "can black beans",
+            "note": "drained and rinsed"
+        },
+        {
+            "amount": 4.5,
+            "unit": "tsp",
+            "item": "red wine vinegar"
+        },
+        {
+            "item": "black pepper",
+            "note": "to taste"
+        },
+        {
+            "amount": 1,
+            "item": "red bell pepper",
+            "note": "deseeded and chopped"
+        },
+        {
+            "amount": 1,
+            "item": "yellow bell pepper",
+            "note": "deseeded and chopped"
+        },
+        {
+            "amount": 1,
+            "item": "orange bell pepper",
+            "note": "deseeded and chopped"
+        },
+        {
+            "amount": 10,
+            "unit": "oz",
+            "item": "bag frozen sweet corn"
+        },
+        {
+            "amount": 1,
+            "unit": "bunch",
+            "item": "cilantro",
+            "note": "chopped"
+        }
+    ]
+}

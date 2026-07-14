@@ -1,0 +1,35 @@
+{
+    "name": "Monkey Bread",
+    "category": "Desserts",
+    "subcategory": "Misc.",
+    "url": "recipes/monkey-bread.html",
+    "ingredients": [
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "sugar"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "cinnamon"
+        },
+        {
+            "amount": 2,
+            "unit": "can",
+            "item": "Pilsbury Grands Homestyle Buttermilk Biscuits"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "light brown sugar",
+            "note": "packed"
+        },
+        {
+            "amount": 0.75,
+            "unit": "cup",
+            "item": "unsalted butter",
+            "note": "melted"
+        }
+    ]
+}

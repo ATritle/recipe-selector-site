@@ -1,0 +1,39 @@
+{
+    "name": "Chocolate Pudding Shots",
+    "category": "Drinks",
+    "subcategory": "Shots",
+    "url": "recipes/chocolate-pudding-shots.html",
+    "ingredients": [
+        {
+            "amount": 3.9,
+            "unit": "oz",
+            "item": "package chocolate pudding"
+        },
+        {
+            "amount": 0.75,
+            "unit": "cup",
+            "item": "milk"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "cake vodka"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "Irish cream"
+        },
+        {
+            "amount": 8,
+            "unit": "oz",
+            "item": "Cool Whip",
+            "note": "thawed"
+        },
+        {
+            "amount": 2,
+            "unit": "oz",
+            "item": "plastic cups with lids"
+        }
+    ]
+}

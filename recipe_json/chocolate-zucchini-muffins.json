@@ -1,0 +1,91 @@
+{
+    "name": "Chocolate Zucchini Muffins",
+    "category": "Desserts",
+    "subcategory": "Cake",
+    "url": "recipes/chocolate-zucchini-muffins.html",
+    "ingredients": [
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "flaxseed meal"
+        },
+        {
+            "amount": 5,
+            "unit": "TBSP",
+            "item": "water"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "applesauce"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "maple or agave syrup"
+        },
+        {
+            "amount": 0.3333333333333333,
+            "unit": "cup",
+            "item": "coconut sugar"
+        },
+        {
+            "amount": 1.5,
+            "unit": "tsp",
+            "item": "baking soda"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "baking powder"
+        },
+        {
+            "amount": 0.25,
+            "unit": "tsp",
+            "item": "sea salt"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "unsweetened cocoa powder"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "coconut oil",
+            "note": "melted"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "unsweetened almond milk"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "zucchini",
+            "note": "finely shredded and squeezed"
+        },
+        {
+            "amount": 0.75,
+            "unit": "cup",
+            "item": "flour",
+            "note": "sifted"
+        },
+        {
+            "amount": 0.3333333333333333,
+            "unit": "cup",
+            "item": "oat flour"
+        },
+        {
+            "amount": 0.3333333333333333,
+            "unit": "cup",
+            "item": "almond flour"
+        },
+        {
+            "amount": 0.3333333333333333,
+            "unit": "cup",
+            "item": "semi-sweet chocolate chips"
+        }
+    ]
+}

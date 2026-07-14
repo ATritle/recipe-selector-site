@@ -1,0 +1,43 @@
+{
+    "name": "Banana Chessman Dessert",
+    "category": "Desserts",
+    "subcategory": "Layered Dish",
+    "url": "recipes/banana-chessmen-dessert.html",
+    "ingredients": [
+        {
+            "amount": 12,
+            "unit": "oz",
+            "item": "container Cool Whip",
+            "note": "thawed"
+        },
+        {
+            "amount": 14,
+            "unit": "oz",
+            "item": "sweetend condensed milk"
+        },
+        {
+            "amount": 8,
+            "unit": "oz",
+            "item": "cream cheese",
+            "note": "softened"
+        },
+        {
+            "amount": 2,
+            "item": "c milk"
+        },
+        {
+            "amount": 5,
+            "unit": "oz",
+            "item": "French vanilla pudding mix"
+        },
+        {
+            "amount": 6,
+            "item": "-8 bananas",
+            "note": "sliced"
+        },
+        {
+            "amount": 48,
+            "item": "Chessmen cookies"
+        }
+    ]
+}

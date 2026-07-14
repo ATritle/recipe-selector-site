@@ -1,0 +1,75 @@
+{
+    "name": "Vegan Zucchini Muffins",
+    "category": "Desserts",
+    "subcategory": "Cake",
+    "url": "recipes/vegan-zucchini-muffins.html",
+    "ingredients": [
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "avocado oil"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "unsweetened almond milk"
+        },
+        {
+            "amount": 0.6666666666666666,
+            "unit": "cup",
+            "item": "coconut sugar"
+        },
+        {
+            "amount": 0.6666666666666666,
+            "unit": "cup",
+            "item": "maple or agave syrup"
+        },
+        {
+            "amount": 2,
+            "unit": "tsp",
+            "item": "vanilla extract"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "zucchini",
+            "note": "shredded and squeezed"
+        },
+        {
+            "amount": 3,
+            "unit": "cup",
+            "item": "almond flour"
+        },
+        {
+            "amount": 1.3333333333333333,
+            "unit": "cup",
+            "item": "+ 1/2 cup flour",
+            "note": "sifted"
+        },
+        {
+            "amount": 4,
+            "unit": "TBSP",
+            "item": "flaxseed meal"
+        },
+        {
+            "amount": 5,
+            "unit": "tsp",
+            "item": "baking powder"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "baking soda"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "cinnamon"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "sea salt"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Almond Flour",
+    "category": "Miscellaneous",
+    "subcategory": "Misc.",
+    "url": "recipes/almond-flour.html",
+    "ingredients": [
+        {
+            "item": "pulp from almond milk"
+        }
+    ]
+}

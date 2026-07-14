@@ -1,0 +1,103 @@
+{
+    "name": "Birria Tacos",
+    "category": "Dinner",
+    "subcategory": "Mexican Meals",
+    "url": "recipes/birria-tacos.html",
+    "ingredients": [
+        {
+            "amount": 3,
+            "item": "-4 LBS chuck roast",
+            "note": "2\" x 2\" cubes"
+        },
+        {
+            "amount": 3,
+            "item": "large onions",
+            "note": "1 cut in half & 2 sliced"
+        },
+        {
+            "amount": 4,
+            "item": "Roma tomatoes",
+            "note": "cut in half"
+        },
+        {
+            "amount": 5,
+            "unit": "clove",
+            "item": "garlic",
+            "note": "mashed"
+        },
+        {
+            "amount": 2,
+            "item": "dried ancho chile peppers",
+            "note": "seeds removed"
+        },
+        {
+            "amount": 2,
+            "item": "dried guajillo chile peppers",
+            "note": "seeds removed"
+        },
+        {
+            "amount": 1,
+            "item": "bay leaf"
+        },
+        {
+            "amount": 2,
+            "item": "dashes ground cinnamon"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "whole black peppercorns"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "apple cider vinegar"
+        },
+        {
+            "item": "water"
+        },
+        {
+            "item": "salt",
+            "note": "to taste"
+        },
+        {
+            "amount": 1,
+            "item": "-2 TBSP cumin"
+        },
+        {
+            "amount": 1,
+            "item": "& 1/2 TBSP Better Than Bouillon Beef"
+        },
+        {
+            "amount": 1,
+            "item": "-2 TBSP taco seasoning"
+        },
+        {
+            "amount": 1,
+            "item": "-2 tsp dried oregano"
+        },
+        {
+            "amount": 1,
+            "item": "-2 tsp garlic powder"
+        },
+        {
+            "amount": 1,
+            "item": "red onion",
+            "note": "diced"
+        },
+        {
+            "item": "cilantro",
+            "note": "chopped"
+        },
+        {
+            "item": "flour tortillas"
+        },
+        {
+            "item": "Chinuahua cheese"
+        },
+        {
+            "amount": 1,
+            "item": "-2 limes"
+        }
+    ]
+}

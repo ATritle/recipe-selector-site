@@ -1,0 +1,35 @@
+{
+    "name": "Pickle Wrap Dip",
+    "category": "Miscellaneous",
+    "subcategory": "Dips",
+    "url": "recipes/pickle-wrap-dip.html",
+    "ingredients": [
+        {
+            "amount": 1,
+            "unit": "LB",
+            "item": "dried beef",
+            "note": "diced"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "sour cream"
+        },
+        {
+            "amount": 16,
+            "unit": "oz",
+            "item": "cream cheese",
+            "note": "softened"
+        },
+        {
+            "amount": 48,
+            "unit": "oz",
+            "item": "jar pickles",
+            "note": "diced, reserve some juice"
+        },
+        {
+            "item": "crackers or chips",
+            "note": "for dipping"
+        }
+    ]
+}

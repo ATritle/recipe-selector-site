@@ -1,0 +1,33 @@
+{
+    "name": "Puppy Chow",
+    "category": "Miscellaneous",
+    "subcategory": "Misc.",
+    "url": "recipes/puppy-chow.html",
+    "ingredients": [
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "creamy peanut butter"
+        },
+        {
+            "amount": 12,
+            "unit": "oz",
+            "item": "chocolate chips"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "unsalted butter"
+        },
+        {
+            "amount": 10,
+            "unit": "oz",
+            "item": "box Crispix or Rice Chex"
+        },
+        {
+            "amount": 1,
+            "unit": "LB",
+            "item": "powdered sugar"
+        }
+    ]
+}

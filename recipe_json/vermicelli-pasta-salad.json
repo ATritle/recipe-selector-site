@@ -1,0 +1,68 @@
+{
+    "name": "Vermicelli Pasta Salad",
+    "category": "Miscellaneous",
+    "subcategory": "Sides",
+    "url": "recipes/vermicelli-pasta-salad.html",
+    "ingredients": [
+        {
+            "amount": 16,
+            "unit": "oz",
+            "item": "angel hair spaghetti"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "Ac'cent flavor enhancer"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "Lawry's"
+        },
+        {
+            "amount": 3,
+            "unit": "TBSP",
+            "item": "lemon juice"
+        },
+        {
+            "amount": 4,
+            "unit": "TBSP",
+            "item": "olive or avocado oil"
+        },
+        {
+            "amount": 4,
+            "unit": "oz",
+            "item": "pimentos",
+            "note": "diced"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "green bell peppers",
+            "note": "diced"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "red onion",
+            "note": "diced"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "celery",
+            "note": "finely diced"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "black olives",
+            "note": "chopped"
+        },
+        {
+            "amount": 1.5,
+            "unit": "cup",
+            "item": "mayo (not Miracle Whip)"
+        }
+    ]
+}

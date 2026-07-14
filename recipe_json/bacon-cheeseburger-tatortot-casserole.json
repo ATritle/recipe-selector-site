@@ -1,0 +1,37 @@
+{
+    "name": "Bacon Cheeseburger Tator Tot Casserole",
+    "category": "Dinner",
+    "subcategory": "American Meals",
+    "url": "recipes/bacon-cheeseburger-tatortot-casserole.html",
+    "ingredients": [
+        {
+            "amount": 1,
+            "item": "½ lbs ground beef"
+        },
+        {
+            "amount": 3,
+            "unit": "oz",
+            "item": "package real bacon bits (Black Label)"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "shredded cheddar cheese"
+        },
+        {
+            "amount": 32,
+            "unit": "oz",
+            "item": "frozen tater tots"
+        },
+        {
+            "amount": 10.75,
+            "unit": "oz",
+            "item": "can condensed cream of chicken or cheddar cheese soup"
+        },
+        {
+            "amount": 16,
+            "unit": "oz",
+            "item": "sour cream"
+        }
+    ]
+}

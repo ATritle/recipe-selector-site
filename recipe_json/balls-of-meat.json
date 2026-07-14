@@ -1,0 +1,39 @@
+{
+    "name": "Balls of Meat",
+    "category": "Dinner",
+    "subcategory": "Italian Meals",
+    "url": "recipes/balls-of-meat.html",
+    "ingredients": [
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "ketchup"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "brown sugar"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "onion",
+            "note": "chopped"
+        },
+        {
+            "amount": 2,
+            "unit": "tsp",
+            "item": "liquid smoke"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "garlic powder"
+        },
+        {
+            "amount": 32,
+            "unit": "oz",
+            "item": "frozen meatballs"
+        }
+    ]
+}

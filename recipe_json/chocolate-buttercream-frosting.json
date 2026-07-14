@@ -1,0 +1,37 @@
+{
+    "name": "Chocolate Buttercream Frosting",
+    "category": "Desserts",
+    "subcategory": "Misc.",
+    "url": "recipes/chocolate-buttercream-frosting.html",
+    "ingredients": [
+        {
+            "amount": 1.25,
+            "unit": "cup",
+            "item": "unsalted butter",
+            "note": "room temperature"
+        },
+        {
+            "amount": 3.5,
+            "unit": "cup",
+            "item": "powdered sugar"
+        },
+        {
+            "amount": 3,
+            "item": "-5 TBSP heavy whipping cream or milk",
+            "note": "room temperature"
+        },
+        {
+            "amount": 0.25,
+            "unit": "tsp",
+            "item": "salt"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "vanilla extract"
+        },
+        {
+            "item": "Optional: semi-sweet chocolate chips for decoration"
+        }
+    ]
+}

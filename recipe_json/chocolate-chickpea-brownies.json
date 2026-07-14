@@ -1,0 +1,66 @@
+{
+    "name": "Chocolate Chickpea Brownies",
+    "category": "Desserts",
+    "subcategory": "Bars",
+    "url": "recipes/chocolate-chickpea-brownies.html",
+    "ingredients": [
+        {
+            "amount": 15,
+            "unit": "oz",
+            "item": "can chickpeas",
+            "note": "drained & rinsed"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "almond or peanut butter"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "agave syrup"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "coconut oil",
+            "note": "melted"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "vanilla extract"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "almond flour"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "Hershey's 100% unsweetened cocoa powder"
+        },
+        {
+            "amount": 0.25,
+            "unit": "tsp",
+            "item": "baking soda"
+        },
+        {
+            "amount": 0.25,
+            "unit": "tsp",
+            "item": "baking powder"
+        },
+        {
+            "amount": 0.25,
+            "unit": "tsp",
+            "item": "salt"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "chocolate chips",
+            "note": "divided"
+        }
+    ]
+}

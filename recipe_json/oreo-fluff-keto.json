@@ -1,0 +1,24 @@
+{
+    "name": "Oreo Fluff - Keto",
+    "category": "Desserts",
+    "subcategory": "Misc.",
+    "url": "recipes/oreo-fluff-keto.html",
+    "ingredients": [
+        {
+            "amount": 8,
+            "unit": "oz",
+            "item": "sugar-free Cool Whip"
+        },
+        {
+            "amount": 4,
+            "unit": "oz",
+            "item": "sugar-free instant vanilla pudding"
+        },
+        {
+            "amount": 2,
+            "unit": "oz",
+            "item": "HighKey Double Chocolate Brownie Cookies",
+            "note": "chopped"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "name": "Apple Cider Honey Whiskey",
+    "category": "Drinks",
+    "subcategory": "Alcoholic",
+    "url": "recipes/apple-cider-honey-whiskey.html",
+    "ingredients": [
+        {
+            "amount": 6,
+            "unit": "cup",
+            "item": "apple cider"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "honey whiskey"
+        },
+        {
+            "amount": 3,
+            "item": "cinnamon sticks"
+        },
+        {
+            "amount": 2,
+            "item": "lemons",
+            "note": "juiced"
+        },
+        {
+            "amount": 1,
+            "item": "-2 TBSP honey"
+        },
+        {
+            "amount": 2,
+            "item": "apples",
+            "note": "sliced thick"
+        }
+    ]
+}

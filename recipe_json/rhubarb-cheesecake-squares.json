@@ -1,0 +1,73 @@
+{
+    "name": "Rhubarb Cheesecake Squares",
+    "category": "Desserts",
+    "subcategory": "Bars",
+    "url": "recipes/rhubarb-cheesecake-squares.html",
+    "ingredients": [
+        {
+            "amount": 1.25,
+            "unit": "cup",
+            "item": "flour",
+            "note": "sifted"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "old-fashioned oats"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "brown sugar",
+            "note": "packed"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "butter",
+            "note": "cold and cubed"
+        },
+        {
+            "amount": 8,
+            "unit": "oz",
+            "item": "package cream cheese",
+            "note": "softened"
+        },
+        {
+            "amount": 0.75,
+            "unit": "cup",
+            "item": "sugar"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "salt"
+        },
+        {
+            "amount": 0.25,
+            "unit": "tsp",
+            "item": "cinnamon"
+        },
+        {
+            "amount": 0.125,
+            "unit": "tsp",
+            "item": "nutmeg"
+        },
+        {
+            "amount": 1,
+            "item": "LG egg",
+            "note": "room temperature and lightly beaten"
+        },
+        {
+            "amount": 1.5,
+            "unit": "cup",
+            "item": "rhubarb",
+            "note": "diced"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "vanilla extract"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "name": "Blueberry Oat Bars",
+    "category": "Desserts",
+    "subcategory": "Bars",
+    "url": "recipes/blueberry-oat-bars.html",
+    "ingredients": [
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "rolled oats",
+            "note": "divided"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "almonds or almond butter"
+        },
+        {
+            "amount": 2,
+            "item": "scoops vanilla protein powder"
+        },
+        {
+            "amount": 10,
+            "item": "dates",
+            "note": "pitted & chopped"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "agave or maple syrup"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "vanilla extract"
+        },
+        {
+            "item": "pinch of salt"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "blueberries"
+        }
+    ]
+}

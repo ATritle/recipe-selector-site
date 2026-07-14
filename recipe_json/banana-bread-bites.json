@@ -1,0 +1,67 @@
+{
+    "name": "Banana Bread Bites",
+    "category": "Miscellaneous",
+    "subcategory": "Breads",
+    "url": "recipes/banana-bread-bites.html",
+    "ingredients": [
+        {
+            "amount": 2,
+            "item": "ripe bananas",
+            "note": "mashed"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "baking soda"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "baking powder"
+        },
+        {
+            "item": "pinch of salt"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "milled flaxseed"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "vanilla extract"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "almond butter"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "agave syrup, maple syrup or honey"
+        },
+        {
+            "amount": 2,
+            "unit": "TBSP",
+            "item": "avocado oil or extra-virgin olive oil"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "flour",
+            "note": "sifted"
+        },
+        {
+            "amount": 0.75,
+            "unit": "cup",
+            "item": "rolled quick oats"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "mini chocolate chips"
+        }
+    ]
+}

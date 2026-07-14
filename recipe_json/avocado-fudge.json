@@ -1,0 +1,44 @@
+{
+    "name": "Avocado Fudge",
+    "category": "Desserts",
+    "subcategory": "Bars",
+    "url": "recipes/avocado-fudge.html",
+    "ingredients": [
+        {
+            "amount": 2,
+            "item": "medium avocados",
+            "note": "cubed"
+        },
+        {
+            "amount": 1,
+            "item": "ripe banana"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "honey"
+        },
+        {
+            "amount": 0.6666666666666666,
+            "unit": "cup",
+            "item": "coconut oil",
+            "note": "melted"
+        },
+        {
+            "amount": 1,
+            "item": "lemon",
+            "note": "juiced"
+        },
+        {
+            "item": "pinch of salt"
+        },
+        {
+            "item": "walnuts",
+            "note": "to taste"
+        },
+        {
+            "item": "coconut flakes",
+            "note": "to taste"
+        }
+    ]
+}

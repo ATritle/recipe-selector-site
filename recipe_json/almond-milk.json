@@ -1,0 +1,44 @@
+{
+    "name": "Almond Milk",
+    "category": "Miscellaneous",
+    "subcategory": "Misc.",
+    "url": "recipes/almond-milk.html",
+    "ingredients": [
+        {
+            "amount": 3,
+            "unit": "cup",
+            "item": "raw organic almonds"
+        },
+        {
+            "item": "filtered water"
+        },
+        {
+            "amount": 3,
+            "unit": "TBSP",
+            "item": "stevia"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "white Dominican vanilla"
+        },
+        {
+            "item": "Optional:"
+        },
+        {
+            "item": "vanilla bean paste"
+        },
+        {
+            "item": "honey"
+        },
+        {
+            "item": "cinnamon"
+        },
+        {
+            "item": "cardamom"
+        },
+        {
+            "item": "cocoa"
+        }
+    ]
+}

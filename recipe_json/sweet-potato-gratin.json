@@ -1,0 +1,75 @@
+{
+    "name": "Sweet Potatoes Gratin",
+    "category": "Miscellaneous",
+    "subcategory": "Sides",
+    "url": "recipes/sweet-potato-gratin.html",
+    "ingredients": [
+        {
+            "amount": 0.75,
+            "unit": "cup",
+            "item": "heavy whipping cream"
+        },
+        {
+            "amount": 0.75,
+            "unit": "cup",
+            "item": "milk"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "unsalted butter"
+        },
+        {
+            "amount": 2,
+            "unit": "clove",
+            "item": "garlic",
+            "note": "finely minced"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "fresh parsley",
+            "note": "finely chopped"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "fresh thyme",
+            "note": "finely chopped"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "fresh sage",
+            "note": "finely chopped"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "fresh rosemary",
+            "note": "finely chopped"
+        },
+        {
+            "amount": 1.5,
+            "unit": "tsp",
+            "item": "salt"
+        },
+        {
+            "amount": 0.75,
+            "unit": "tsp",
+            "item": "black pepper"
+        },
+        {
+            "amount": 3,
+            "unit": "LB",
+            "item": "sweet potatoes",
+            "note": "peeled and thinly sliced"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "Gruyere cheese",
+            "note": "shredded"
+        }
+    ]
+}
