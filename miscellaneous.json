@@ -1,7 +1,7 @@
 {
     "Breads": [
         {
-            "name": "Banana Bread - Grandma Peggy",
+            "name": "⭐ Banana Bread - Grandma Peggy",
             "url": "recipes/banana-bread-grandma-peggy.html",
             "ingredients": [
                 {
@@ -610,7 +610,7 @@
             ]
         },
         {
-            "name": "White Queso",
+            "name": "⭐ White Queso",
             "url": "recipes/white-queso.html",
             "ingredients": [
                 {
@@ -915,7 +915,7 @@
             ]
         },
         {
-            "name": "Protein Balls",
+            "name": "⭐ Protein Balls",
             "url": "recipes/protein-balls.html",
             "ingredients": [
                 {
@@ -1132,7 +1132,7 @@
             ]
         },
         {
-            "name": "Honey Mustard",
+            "name": "⭐ Honey Mustard",
             "url": "recipes/honey-mustard.html",
             "ingredients": [
                 {
@@ -1712,7 +1712,7 @@
             "ingredients": [
                 {
                     "amount": 3,
-                    "item": "-4 large sweet potatoes"
+                    "item": "large sweet potatoes"
                 },
                 {
                     "amount": 1,
@@ -1777,13 +1777,14 @@
             "url": "recipes/sweet-potatoes.html",
             "ingredients": [
                 {
-                    "amount": 2,
-                    "item": "-3 sweet potatoes",
+                    "amount": 3,
+                    "item": "sweet potatoes",
                     "note": "peeled and diced"
                 },
                 {
-                    "amount": 2,
-                    "item": "-3 TBSP olive oil or avocado oil"
+                    "amount": 3,
+                    "unit": "TBSP",
+                    "item": "olive oil or avocado oil"
                 },
                 {
                     "item": "salt & pepper",
