@@ -1,0 +1,37 @@
+{
+    "name": "Jalapeño Popper Dip",
+    "category": "Miscellaneous",
+    "subcategory": "Dips",
+    "url": "recipes/jalapeno-popper-dip.html",
+    "ingredients": [
+        {
+            "amount": 16,
+            "unit": "oz",
+            "item": "cream cheese",
+            "note": "softened"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "mayo"
+        },
+        {
+            "amount": 4,
+            "unit": "oz",
+            "item": "can green chilies",
+            "note": "chopped"
+        },
+        {
+            "amount": 2,
+            "unit": "oz",
+            "item": "can jalapeños",
+            "note": "drained and diced"
+        },
+        {
+            "amount": 1,
+            "unit": "cup",
+            "item": "Parmesan cheese",
+            "note": "grated"
+        }
+    ]
+}

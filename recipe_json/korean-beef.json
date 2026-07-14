@@ -1,0 +1,65 @@
+{
+    "name": "Korean Beef",
+    "category": "Dinner",
+    "subcategory": "Asian Meals",
+    "url": "recipes/korean-beef.html",
+    "ingredients": [
+        {
+            "amount": 1.5,
+            "unit": "LB",
+            "item": "flank steak",
+            "note": "cut into 1/4\" strips"
+        },
+        {
+            "amount": 0.25,
+            "unit": "cup",
+            "item": "cornstarch"
+        },
+        {
+            "amount": 1,
+            "item": "& 1/2 TBSP sesame oil"
+        },
+        {
+            "amount": 2,
+            "unit": "tsp",
+            "item": "garlic",
+            "note": "minced"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "fresh ginger",
+            "note": "grated"
+        },
+        {
+            "amount": 2,
+            "unit": "tsp",
+            "item": "rice vinegar"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "liquid aminos"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "beef broth"
+        },
+        {
+            "amount": 0.75,
+            "unit": "cup",
+            "item": "brown sugar"
+        },
+        {
+            "amount": 0.25,
+            "unit": "tsp",
+            "item": "red pepper flakes"
+        },
+        {
+            "amount": 3,
+            "item": "-4 green onions",
+            "note": "chopped"
+        }
+    ]
+}

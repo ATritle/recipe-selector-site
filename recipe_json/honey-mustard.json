@@ -1,0 +1,51 @@
+{
+    "name": "Honey Mustard",
+    "category": "Miscellaneous",
+    "subcategory": "Sauces",
+    "url": "recipes/honey-mustard.html",
+    "ingredients": [
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "mayo"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "Dijon mustard"
+        },
+        {
+            "amount": 1,
+            "unit": "TBSP",
+            "item": "yellow mustard"
+        },
+        {
+            "amount": 3,
+            "unit": "TBSP",
+            "item": "honey"
+        },
+        {
+            "amount": 1,
+            "unit": "tsp",
+            "item": "apple cider vinegar"
+        },
+        {
+            "amount": 0.125,
+            "unit": "tsp",
+            "item": "garlic powder"
+        },
+        {
+            "amount": 0.125,
+            "unit": "tsp",
+            "item": "paprika"
+        },
+        {
+            "amount": 0.125,
+            "unit": "tsp",
+            "item": "salt"
+        },
+        {
+            "item": "dash black pepper"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "name": "Jalapeno Corn Dip",
+    "category": "Miscellaneous",
+    "subcategory": "Dips",
+    "url": "recipes/jalapeno-corn-dip.html",
+    "ingredients": [
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "sour cream"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "mayo"
+        },
+        {
+            "amount": 0.5,
+            "unit": "cup",
+            "item": "salsa"
+        },
+        {
+            "amount": 0.25,
+            "unit": "tsp",
+            "item": "ground black pepper"
+        },
+        {
+            "amount": 0.5,
+            "unit": "tsp",
+            "item": "garlic powder"
+        },
+        {
+            "amount": 14.5,
+            "unit": "oz",
+            "item": "can sweet corn",
+            "note": "drained"
+        },
+        {
+            "amount": 2,
+            "item": "jalapenos",
+            "note": "deseeded and diced"
+        },
+        {
+            "amount": 2,
+            "unit": "cup",
+            "item": "shredded sharp cheddar cheese"
+        }
+    ]
+}
